@@ -1,0 +1,165 @@
+WARNING at the command-line "--args":1:249: Build argument has no effect.
+is_debug=true use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
+                                                                                                                                                                                                                                                        ^---
+The variable "enable_ios_corruption_hardening" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 15 targets from 9 files in 5ms
+ninja: Entering directory `out/debug'
+[1/73] ACTION //src/partition_alloc:debugging_buildflags(//gn/toolchain:clang)
+[2/73] ACTION //src/partition_alloc:chromeos_buildflags(//gn/toolchain:clang)
+[3/73] ACTION //src/partition_alloc:partition_alloc_buildflags(//gn/toolchain:clang)
+[4/73] ACTION //src/partition_alloc:raw_ptr_buildflags(//gn/toolchain:clang)
+[5/73] ACTION //src/partition_alloc:chromecast_buildflags(//gn/toolchain:clang)
+[6/73] CXX ../../src/partition_alloc/partition_alloc_base/debug/alias.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.alias.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.alias.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/debug/alias.cc -o obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.alias.o
+In file included from ../../src/partition_alloc/partition_alloc_base/debug/alias.cc:7:
+In file included from ../../src/partition_alloc/partition_alloc_base/compiler_specific.h:8:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[7/73] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/files/liballocator_base.file_util_posix.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/files/liballocator_base.file_util_posix.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc -o obj/src/partition_alloc/partition_alloc_base/files/liballocator_base.file_util_posix.o
+In file included from ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/files/file_util.h:15:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[8/73] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
+[9/73] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
+[10/73] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/liballocator_base.check.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/liballocator_base.check.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/check.cc -o obj/src/partition_alloc/partition_alloc_base/liballocator_base.check.o
+In file included from ../../src/partition_alloc/partition_alloc_base/check.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/check.h:10:
+In file included from ../../src/partition_alloc/partition_alloc_base/compiler_specific.h:8:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[11/73] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.stack_trace_posix.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.stack_trace_posix.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc -o obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.stack_trace_posix.o
+In file included from ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.h:11:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[12/73] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.safe_sprintf.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.safe_sprintf.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc -o obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.safe_sprintf.o
+In file included from ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.h:12:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[13/73] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.cstring_builder.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.cstring_builder.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc -o obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.cstring_builder.o
+In file included from ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.h:10:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[14/73] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/liballocator_base.logging.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/liballocator_base.logging.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/logging.cc -o obj/src/partition_alloc/partition_alloc_base/liballocator_base.logging.o
+In file included from ../../src/partition_alloc/partition_alloc_base/logging.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/logging.h:12:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[15/73] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/liballocator_base.rand_util.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/liballocator_base.rand_util.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/rand_util.cc -o obj/src/partition_alloc/partition_alloc_base/liballocator_base.rand_util.o
+In file included from ../../src/partition_alloc/partition_alloc_base/rand_util.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/rand_util.h:11:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[16/73] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/liballocator_base.log_message.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/liballocator_base.log_message.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/log_message.cc -o obj/src/partition_alloc/partition_alloc_base/liballocator_base.log_message.o
+In file included from ../../src/partition_alloc/partition_alloc_base/log_message.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/log_message.h:10:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[17/73] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.stringprintf.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.stringprintf.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc -o obj/src/partition_alloc/partition_alloc_base/strings/liballocator_base.stringprintf.o
+In file included from ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.h:11:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[18/73] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/memory/liballocator_base.ref_counted.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/memory/liballocator_base.ref_counted.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc -o obj/src/partition_alloc/partition_alloc_base/memory/liballocator_base.ref_counted.o
+In file included from ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.h:8:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[19/73] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/time/liballocator_base.time_override.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/time/liballocator_base.time_override.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/time/time_override.cc -o obj/src/partition_alloc/partition_alloc_base/time/liballocator_base.time_override.o
+In file included from ../../src/partition_alloc/partition_alloc_base/time/time_override.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/time/time_override.h:10:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[20/73] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/threading/liballocator_base.platform_thread.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/threading/liballocator_base.platform_thread.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc -o obj/src/partition_alloc/partition_alloc_base/threading/liballocator_base.platform_thread.o
+In file included from ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.h:15:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[21/73] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/liballocator_base.cpu.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/liballocator_base.cpu.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/cpu.cc -o obj/src/partition_alloc/partition_alloc_base/liballocator_base.cpu.o
+In file included from ../../src/partition_alloc/partition_alloc_base/cpu.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/cpu.h:8:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[22/73] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/time/liballocator_base.time.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/time/liballocator_base.time.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/time/time.cc -o obj/src/partition_alloc/partition_alloc_base/time/liballocator_base.time.o
+In file included from ../../src/partition_alloc/partition_alloc_base/time/time.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/time/time.h:70:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[23/73] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
+FAILED: obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.stack_trace.o 
+clang++ -MD -MF obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.stack_trace.o.d -DIS_PARTITION_ALLOC_BASE_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -Wexit-time-destructors -std=c++20 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc -o obj/src/partition_alloc/partition_alloc_base/debug/liballocator_base.stack_trace.o
+In file included from ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.h:11:
+../../src/partition_alloc/build_config.h:8:10: fatal error: 'build/build_config.h' file not found
+    8 | #include "build/build_config.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

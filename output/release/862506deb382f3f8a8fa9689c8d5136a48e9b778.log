@@ -1,0 +1,7 @@
+ERROR at //src/partition_alloc/BUILD.gn:180:17: Undefined identifier in string expansion.
+    "IS_HWASAN=$is_hwasan",
+                ^--------
+"is_hwasan" is not currently in scope.
+See //BUILD.gn:7:19: which caused the file to be included.
+  public_deps = [ "src/partition_alloc:raw_ptr" ]
+                  ^----------------------------
