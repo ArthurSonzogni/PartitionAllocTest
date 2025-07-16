@@ -190,8 +190,8 @@ def update_readme(commits, configurations):
                 else:
                     status = "✅"
             
-            if len(commit_title) > 57:
-                commit_title = commit_title[:54] + "..."
+            if len(commit_title) > 54:
+                commit_title = commit_title[:51] + "..."
 
             commit_email = commit_email.split('@')[0]
             log_path = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
