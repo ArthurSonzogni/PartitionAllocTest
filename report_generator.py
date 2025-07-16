@@ -55,8 +55,8 @@ def update_readme(commits, configurations):
         else:
             monthly_summary[month].append("⬜")
 
-    for month, statuses in sorted(monthly_summary.items()):
-        summary_line += f"**{month}**: {''.join(statuses)}<br>\n"
+    for month, statuses in reversed(sorted(monthly_summary.items())):
+        summary_line += f"**{month}**: {''.join(reversed(statuses))}<br>\n"
     
     full_content += summary_line + "\n"
 
