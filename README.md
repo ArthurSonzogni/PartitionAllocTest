@@ -301,6 +301,7 @@ Mostly Generated with `gemini-cli` tool.
 | lizeb | 2024-05-31 | [[PartitionAlloc] Do less work in fast MemoryReclaim...](./output/debug/4e54cefb1472e8fa0e4e120266c57b716c7f4cbc.log) | ❌ |
 | arthursonzogni | 2024-05-30 | [partition_alloc: remove -Wl,--start-group, --end-group](./output/debug/f941becc7efa75971aa4e83d0cd3217f4f1ef57f.log) | ❌ |
 | lizeb | 2024-05-30 | [[PartitionAlloc] Add a feature capping memory recla...](./output/debug/e9b1e467c32d80a904df8efddb8ed542aaf8171d.log) | ❌ |
+| arthursonzogni | 2024-05-30 | [Define partition_alloc standalone GN config.](./output/debug/087911ce77bce70f277fda09e10db56fe577ed53.log) | ❌ |
 
 </details>
 
@@ -599,6 +600,7 @@ Mostly Generated with `gemini-cli` tool.
 | lizeb | 2024-05-31 | [[PartitionAlloc] Do less work in fast MemoryReclaim...](./output/release/4e54cefb1472e8fa0e4e120266c57b716c7f4cbc.log) | ❌ |
 | arthursonzogni | 2024-05-30 | [partition_alloc: remove -Wl,--start-group, --end-group](./output/release/f941becc7efa75971aa4e83d0cd3217f4f1ef57f.log) | ❌ |
 | lizeb | 2024-05-30 | [[PartitionAlloc] Add a feature capping memory recla...](./output/release/e9b1e467c32d80a904df8efddb8ed542aaf8171d.log) | ❌ |
+| arthursonzogni | 2024-05-30 | [Define partition_alloc standalone GN config.](./output/release/087911ce77bce70f277fda09e10db56fe577ed53.log) | ❌ |
 
 </details>
 
