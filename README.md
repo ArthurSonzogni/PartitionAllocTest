@@ -1,8 +1,29 @@
-# PartitionAlloc standalone CI
+# PartitionAlloc Standalone CI
 
-Unofficial CI for the [PartitionAlloc](https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator.git) **standalone** project, which is a memory allocator used in Chromium, Pdfium, Dawn, V8, Skia (WIP), Angle(Soon), ...
+This repository provides an unofficial Continuous Integration (CI) setup for the
+[PartitionAlloc](https://chromium.googlesource.com/chromium/src/base/allocator/partition_allocator.git)
+project when built in its **standalone** configuration.
 
-Mostly Generated with `gemini-cli` tool.
+## What is PartitionAlloc?
+
+PartitionAlloc is a high-performance memory allocator developed for the Chromium
+browser. It's designed for security and efficiency and is used by many other
+projects, including:
+
+- Pdfium
+- Dawn
+- V8
+- Skia (pending)
+- Angle (soon)
+
+## Why this CI?
+
+The official PartitionAlloc CI is part of the larger Chromium build
+infrastructure. This is often good enough, but it can let incompatible changes
+slip through. For instance, a build dependency on Chromium or breaking C++17
+compatibility that is still required for Skia.
+
+This project is fully generated using [`gemini-cli`](https://github.com/google-gemini/gemini-cli)
 
 ## Build Results
 
