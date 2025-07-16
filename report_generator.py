@@ -37,20 +37,28 @@ def update_readme(commits, configurations):
 
     # Generate the summary line
     summary_line = ""
-    for commit_hash, _, _, _ in reversed_commits:
+    monthly_summary = {}
+    for commit_hash, _, commit_date, _ in reversed_commits:
+        month = commit_date[:7]
+        if month not in monthly_summary:
+            monthly_summary[month] = []
+        
         commit_statuses = []
         for config_name, _ in configurations:
             log_file = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
             commit_statuses.append(_get_build_status_icon(log_file))
         
         if "🟥" in commit_statuses:
-            summary_line += "🟥"
+            monthly_summary[month].append("🟥")
         elif all(s == "🟩" for s in commit_statuses):
-            summary_line += "🟩"
+            monthly_summary[month].append("🟩")
         else:
-            summary_line += "⬜"
+            monthly_summary[month].append("⬜")
+
+    for month, statuses in sorted(monthly_summary.items()):
+        summary_line += f"**{month}**: {''.join(statuses)}<br>\n"
     
-    full_content += summary_line + "\n\n"
+    full_content += summary_line + "\n"
 
     for config_name, _ in configurations:
         latest_commit_hash = reversed_commits[0][0] if reversed_commits else None
