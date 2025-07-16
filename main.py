@@ -175,8 +175,9 @@ def update_readme(commits, configurations):
 
         full_table += "<details>\n"
         full_table += f"<summary>{icon} Configuration: `{config_name}`</summary>\n\n"
-        full_table += "| Email | Date | Title | ? | Log |\n"
-        full_table += "|---|---|---|---|---|\n"
+        full_table += "| Email | Date | Title | ? |\n"
+        full_table += "|---|---|---|---|\n"
+
 
         for commit_hash, commit_email, commit_date, commit_title, in reversed_commits:
             log_file = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
@@ -195,7 +196,7 @@ def update_readme(commits, configurations):
 
             commit_email = commit_email.split('@')[0]
             log_path = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
-            full_table += f"| {commit_email} | {commit_date} | {commit_title} | {status} | [log](./{log_path}) |\n"
+            full_table += f"| {commit_email} | {commit_date} | [{commit_title}](./{log_path}) | {status} |\n"
         full_table += "\n</details>\n\n"
 
     with open(readme_path, "w") as f:
