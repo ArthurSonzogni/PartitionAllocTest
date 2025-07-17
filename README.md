@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-07**: 🟥🟥🟥🟩<br>
+**2025-07**: 🟥🟥🟥🟩🟥<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-04**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -44,10 +44,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 **2024-05**: 🟥🟥🟥🟥<br>
 
 <details>
-<summary>🟩 Configuration: `debug`</summary>
+<summary>🟥 Configuration: `debug`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/debug/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟥 |
 | arthursonzogni | 2025-07-15 | [partition_alloc: Resolve C++20 compile errors.](./output/debug/328d516729e7e9edc833244c73cc9013828e5a1a.log) | 🟩 |
 | thakis | 2025-07-14 | [Remove remaining __pnacl__ and __native_client__ in...](./output/debug/7b2807165fad397df23f5f749b15e9e43269ccf5.log) | 🟥 |
 | tikuta | 2025-07-09 | [base: Remove references to BUILDFLAG(IS_NACL)](./output/debug/a54ac8d0dd78019fb41d2e376726d45b287e856b.log) | 🟥 |
@@ -343,10 +344,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 </details>
 
 <details>
-<summary>🟩 Configuration: `release`</summary>
+<summary>🟥 Configuration: `release`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/release/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟥 |
 | arthursonzogni | 2025-07-15 | [partition_alloc: Resolve C++20 compile errors.](./output/release/328d516729e7e9edc833244c73cc9013828e5a1a.log) | 🟩 |
 | thakis | 2025-07-14 | [Remove remaining __pnacl__ and __native_client__ in...](./output/release/7b2807165fad397df23f5f749b15e9e43269ccf5.log) | 🟥 |
 | tikuta | 2025-07-09 | [base: Remove references to BUILDFLAG(IS_NACL)](./output/release/a54ac8d0dd78019fb41d2e376726d45b287e856b.log) | 🟥 |
