@@ -1,0 +1,42 @@
+HEAD is now at f5822de8 partition_alloc: Fix missing include on Windows.
+Done. Made 15 targets from 8 files in 5ms
+ninja: Entering directory `out/release'
+[1/76] ACTION //src/partition_alloc:buildflags(//gn/toolchain:clang)
+[2/76] CXX ../../src/partition_alloc/partition_alloc_base/debug/alias.cc
+[3/76] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
+[4/76] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
+[5/76] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
+[6/76] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
+[7/76] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
+[8/76] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
+[9/76] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
+[10/76] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
+[11/76] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
+[12/76] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
+[13/76] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
+[14/76] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+[15/76] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
+[16/76] CXX ../../src/partition_alloc/partition_alloc_base/process/process_handle_posix.cc
+[17/76] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
+[18/76] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
+[19/76] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
+[20/76] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
+[21/76] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
+[22/76] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
+[23/76] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
+[24/76] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
+[25/76] CXX ../../src/partition_alloc/allocation_guard.cc
+[26/76] CXX ../../src/partition_alloc/address_space_randomization.cc
+[27/76] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
+[28/76] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
+[29/76] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
+[30/76] LINK (static) liballocator_base.a
+FAILED: [code=127] liballocator_base.a 
+python3 "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/gn/rm.py" "liballocator_base.a" && llvm-ar rcs liballocator_base.a @liballocator_base.a.rsp
+/bin/sh: 1: llvm-ar: not found
+[31/76] CXX ../../src/partition_alloc/compressed_pointer.cc
+[32/76] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[33/76] CXX ../../src/partition_alloc/address_pool_manager.cc
+[34/76] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[35/76] CXX ../../src/partition_alloc/gwp_asan_support.cc
+ninja: build stopped: subcommand failed.

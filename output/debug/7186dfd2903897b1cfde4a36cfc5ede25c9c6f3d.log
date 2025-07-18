@@ -1,0 +1,30 @@
+Note: switching to '7186dfd2903897b1cfde4a36cfc5ede25c9c6f3d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7186dfd2 [exit-time-destructors] Exclude target with warnings
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/debug'
+[1/41] LINK (static) liballocator_base.a
+FAILED: [code=127] liballocator_base.a 
+python3 "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/gn/rm.py" "liballocator_base.a" && llvm-ar rcs liballocator_base.a @liballocator_base.a.rsp
+/bin/sh: 1: llvm-ar: not found
+[2/41] CXX ../../src/partition_alloc/oom_callback.cc
+[3/41] CXX ../../src/partition_alloc/oom.cc
+[4/41] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[5/41] CXX ../../src/partition_alloc/page_allocator.cc
+[6/41] CXX ../../src/partition_alloc/partition_address_space.cc
+ninja: build stopped: subcommand failed.
