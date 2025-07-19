@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-07**: 🟥🟥🟥🟩🟥🟥<br>
+**2025-07**: 🟥🟥🟥🟩🟥🟥🟥🟥🟥<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-04**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -48,6 +48,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-07-18 | [[PA] Add pa_check.md](./output/debug/b7aff97e9add16d7a0f04c9eb2e752d6f7dff85d.log) | 🟥 |
+| tasak | 2025-07-18 | [[PA] Move Metadata outside of GigaCage (2/5)](./output/debug/75b1cb38a7826527337da4ba4b3b6926bba29675.log) | 🟥 |
+| tasak | 2025-07-17 | [[PA] Move Metadata outside of GigaCage (1/5)](./output/debug/369c817c900ed3796da34b973b4b95391a836941.log) | 🟥 |
 | cdesouza | 2025-07-17 | [[exit-time-destructors] Exclude target with warnings](./output/debug/7186dfd2903897b1cfde4a36cfc5ede25c9c6f3d.log) | 🟥 |
 | arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/debug/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟥 |
 | arthursonzogni | 2025-07-15 | [partition_alloc: Resolve C++20 compile errors.](./output/debug/328d516729e7e9edc833244c73cc9013828e5a1a.log) | 🟩 |
@@ -349,6 +352,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-07-18 | [[PA] Add pa_check.md](./output/release/b7aff97e9add16d7a0f04c9eb2e752d6f7dff85d.log) | 🟥 |
+| tasak | 2025-07-18 | [[PA] Move Metadata outside of GigaCage (2/5)](./output/release/75b1cb38a7826527337da4ba4b3b6926bba29675.log) | 🟥 |
+| tasak | 2025-07-17 | [[PA] Move Metadata outside of GigaCage (1/5)](./output/release/369c817c900ed3796da34b973b4b95391a836941.log) | 🟥 |
 | cdesouza | 2025-07-17 | [[exit-time-destructors] Exclude target with warnings](./output/release/7186dfd2903897b1cfde4a36cfc5ede25c9c6f3d.log) | 🟥 |
 | arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/release/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟥 |
 | arthursonzogni | 2025-07-15 | [partition_alloc: Resolve C++20 compile errors.](./output/release/328d516729e7e9edc833244c73cc9013828e5a1a.log) | 🟩 |
