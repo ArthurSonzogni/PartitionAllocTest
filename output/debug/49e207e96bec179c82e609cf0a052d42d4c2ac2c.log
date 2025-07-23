@@ -1,0 +1,33 @@
+Note: switching to '49e207e96bec179c82e609cf0a052d42d4c2ac2c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 49e207e9 partition_allocator: Disable libcxx module for allocator_core
+ERROR at //src/partition_alloc/BUILD.gn:592:30: Assignment had no effect.
+        use_libcxx_modules = false
+                             ^----
+You set the variable "use_libcxx_modules" here and it was unused before it went
+out of scope.
+
+Via these template invocations:
+  component("allocator_core")  //src/partition_alloc/BUILD.gn:378
+
+See //src/partition_alloc/BUILD.gn:378:3: whence it was called.
+  component("allocator_core") {
+  ^----------------------------
+See //BUILD.gn:7:19: which caused the file to be included.
+  public_deps = [ "src/partition_alloc:raw_ptr" ]
+                  ^----------------------------

@@ -1,0 +1,13 @@
+HEAD is now at 39ba710d [PA] Move Metadata outside of GigaCage (3/5)
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/release'
+[1/47] LINK (static) liballocator_base.a
+FAILED: [code=127] liballocator_base.a 
+python3 "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/gn/rm.py" "liballocator_base.a" && llvm-ar rcs liballocator_base.a @liballocator_base.a.rsp
+/bin/sh: 1: llvm-ar: not found
+[2/47] CXX ../../src/partition_alloc/compressed_pointer.cc
+[3/47] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[4/47] CXX ../../src/partition_alloc/address_pool_manager.cc
+[5/47] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[6/47] CXX ../../src/partition_alloc/gwp_asan_support.cc
+ninja: build stopped: subcommand failed.
