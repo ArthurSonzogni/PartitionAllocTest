@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-07**: 🟥🟥🟥🟩🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2025-07**: 🟥🟥🟥🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-04**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -48,6 +48,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-07-23 | [[PA] Move Metadata outside of GigaCage (4/6)](./output/debug/1e3b00f0a40be8ea75dd4709821b71b2c079912b.log) | 🟥 |
+| chrdavis | 2025-07-23 | [ThreadTicks GetForThread should include kernel time...](./output/debug/d7ae27f0e2a0c03b9f80ca1195b04fedcdf1193c.log) | 🟥 |
 | tasak | 2025-07-22 | [[PA] Move Metadata outside of GigaCage (3/5)](./output/debug/39ba710d71b750335e1438d30ba62b1c0736e73e.log) | 🟥 |
 | mikt | 2025-07-22 | [[PA] Allow to ensure ThreadCache without PartitionR...](./output/debug/833fe8d5e0a9d775255cc8a09fdb71183c5f587f.log) | 🟥 |
 | tikuta | 2025-07-21 | [partition_allocator: Disable libcxx module for allo...](./output/debug/49e207e96bec179c82e609cf0a052d42d4c2ac2c.log) | 🟥 |
@@ -355,6 +357,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-07-23 | [[PA] Move Metadata outside of GigaCage (4/6)](./output/release/1e3b00f0a40be8ea75dd4709821b71b2c079912b.log) | 🟥 |
+| chrdavis | 2025-07-23 | [ThreadTicks GetForThread should include kernel time...](./output/release/d7ae27f0e2a0c03b9f80ca1195b04fedcdf1193c.log) | 🟥 |
 | tasak | 2025-07-22 | [[PA] Move Metadata outside of GigaCage (3/5)](./output/release/39ba710d71b750335e1438d30ba62b1c0736e73e.log) | 🟥 |
 | mikt | 2025-07-22 | [[PA] Allow to ensure ThreadCache without PartitionR...](./output/release/833fe8d5e0a9d775255cc8a09fdb71183c5f587f.log) | 🟥 |
 | tikuta | 2025-07-21 | [partition_allocator: Disable libcxx module for allo...](./output/release/49e207e96bec179c82e609cf0a052d42d4c2ac2c.log) | 🟥 |
