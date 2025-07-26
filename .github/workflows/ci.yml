@@ -22,6 +22,20 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y ninja-build clang llvm
 
+    - name: Install llvm-ar
+      run: |
+        # The 'llvm' package doesn't include llvm-ar. We need to install the
+        # tools package. To do this robustly, we first find the major version of
+        # the installed llvm package.
+        LLVM_VERSION=$(llvm-config --version | cut -d'.' -f1)
+        echo "Detected LLVM version: $LLVM_VERSION"
+
+        # Now, install the corresponding version-specific tools package.
+        sudo apt-get install -y "llvm-$LLVM_VERSION-tools"
+
+        # Verify that llvm-ar is now available
+        which llvm-ar
+
     - name: Run the build script
       run: python main.py
 
