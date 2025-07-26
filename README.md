@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-07**: 🟥🟥🟥🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2025-07**: 🟥🟥🟥🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-04**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -48,6 +48,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tikuta | 2025-07-24 | [partition_allocator: Disable libcxx module for unit...](./output/debug/0df75035937ddb4efd66639f25b08d53d7b4f8ec.log) | 🟥 |
+| thestig | 2025-07-24 | [Auto-format //base GN files](./output/debug/fd0128b7cc4a5ee2e1d9f6eec022b6bf73694fe6.log) | 🟥 |
 | tasak | 2025-07-23 | [[PA] Move Metadata outside of GigaCage (4/6)](./output/debug/1e3b00f0a40be8ea75dd4709821b71b2c079912b.log) | 🟥 |
 | chrdavis | 2025-07-23 | [ThreadTicks GetForThread should include kernel time...](./output/debug/d7ae27f0e2a0c03b9f80ca1195b04fedcdf1193c.log) | 🟥 |
 | tasak | 2025-07-22 | [[PA] Move Metadata outside of GigaCage (3/5)](./output/debug/39ba710d71b750335e1438d30ba62b1c0736e73e.log) | 🟥 |
@@ -357,6 +359,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tikuta | 2025-07-24 | [partition_allocator: Disable libcxx module for unit...](./output/release/0df75035937ddb4efd66639f25b08d53d7b4f8ec.log) | 🟥 |
+| thestig | 2025-07-24 | [Auto-format //base GN files](./output/release/fd0128b7cc4a5ee2e1d9f6eec022b6bf73694fe6.log) | 🟥 |
 | tasak | 2025-07-23 | [[PA] Move Metadata outside of GigaCage (4/6)](./output/release/1e3b00f0a40be8ea75dd4709821b71b2c079912b.log) | 🟥 |
 | chrdavis | 2025-07-23 | [ThreadTicks GetForThread should include kernel time...](./output/release/d7ae27f0e2a0c03b9f80ca1195b04fedcdf1193c.log) | 🟥 |
 | tasak | 2025-07-22 | [[PA] Move Metadata outside of GigaCage (3/5)](./output/release/39ba710d71b750335e1438d30ba62b1c0736e73e.log) | 🟥 |
