@@ -1,3 +1,4 @@
+HEAD is now at 4b0f1930 Forward declare base::NoDestructor in headers when missing
 ERROR at //src/partition_alloc/BUILD.gn:179:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

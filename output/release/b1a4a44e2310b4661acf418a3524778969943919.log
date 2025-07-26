@@ -1,3 +1,4 @@
+HEAD is now at b1a4a44e [PA] Replace usable_size with slot_size in Scheduler-Loop Quarantine
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

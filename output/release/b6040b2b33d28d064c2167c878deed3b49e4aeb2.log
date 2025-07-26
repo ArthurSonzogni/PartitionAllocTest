@@ -1,3 +1,4 @@
+HEAD is now at b6040b2b [PA] Remove ghost of alternate bucket distribution
 ERROR at //src/partition_alloc/BUILD.gn:180:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

@@ -1,3 +1,4 @@
+HEAD is now at 2b1d9301 Remove <ostream> from PA's safe_conversions.h
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

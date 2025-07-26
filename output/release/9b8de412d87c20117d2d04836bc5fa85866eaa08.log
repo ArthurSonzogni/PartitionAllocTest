@@ -1,3 +1,4 @@
+HEAD is now at 9b8de412 base: remove NaCl from BUILD.gn, as well as NaCl-only source files
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

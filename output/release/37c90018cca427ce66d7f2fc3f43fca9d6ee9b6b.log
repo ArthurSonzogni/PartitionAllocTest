@@ -1,3 +1,4 @@
+HEAD is now at 37c90018 [PA] Use PA_LOG() instead of LOG()
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

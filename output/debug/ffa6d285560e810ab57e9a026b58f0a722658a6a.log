@@ -1,3 +1,21 @@
+Note: switching to 'ffa6d285560e810ab57e9a026b58f0a722658a6a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at ffa6d285 [PA] Add option not to crash on Double-Free or Corrupton
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

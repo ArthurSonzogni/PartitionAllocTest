@@ -1,3 +1,4 @@
+HEAD is now at 4ac2023e Remove bartekn@ as OWNER.
 WARNING at the command-line "--args":1:250: Build argument has no effect.
 is_debug=false use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
                                                                                                                                                                                                                                                          ^---
@@ -8,49 +9,50 @@ To view all possible args, run "gn args --list <out_dir>"
 
 The build continued as if that argument was unspecified.
 
-Done. Made 14 targets from 8 files in 6ms
+Done. Made 14 targets from 8 files in 10ms
 ninja: Entering directory `out/release'
 [1/70] CXX ../../src/partition_alloc/partition_alloc_base/debug/alias.cc
-[2/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
-[3/70] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
-[4/70] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
-[5/70] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
+[2/70] CXX ../../src/partition_alloc/allocation_guard.cc
+[3/70] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
+[4/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
+[5/70] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
 [6/70] CXX ../../src/partition_alloc/partition_alloc_base/process/process_handle_posix.cc
-[7/70] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
-[8/70] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
-[9/70] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
-[10/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
-[11/70] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
-[12/70] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
-[13/70] CXX ../../src/partition_alloc/address_space_randomization.cc
-[14/70] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
-[15/70] CXX ../../src/partition_alloc/allocation_guard.cc
-[16/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
-[17/70] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
-[18/70] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
-[19/70] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
-[20/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
-[21/70] CXX ../../src/partition_alloc/oom.cc
-[22/70] CXX ../../src/partition_alloc/compressed_pointer.cc
-[23/70] CXX ../../src/partition_alloc/oom_callback.cc
-[24/70] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
-[25/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
-[26/70] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
-[27/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
-[28/70] CXX ../../src/partition_alloc/partition_oom.cc
-[29/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
-[30/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
-[31/70] CXX ../../src/partition_alloc/address_pool_manager.cc
-[32/70] CXX ../../src/partition_alloc/partition_stats.cc
-[33/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
-[34/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
-[35/70] CXX ../../src/partition_alloc/partition_address_space.cc
-[36/70] LINK (static) liballocator_base.a
-[37/70] CXX ../../src/partition_alloc/spinning_mutex.cc
-[38/70] CXX ../../src/partition_alloc/tagging.cc
-[39/70] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
-[40/70] CXX ../../src/partition_alloc/page_allocator.cc
-[41/70] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[7/70] CXX ../../src/partition_alloc/oom.cc
+[8/70] CXX ../../src/partition_alloc/partition_oom.cc
+[9/70] CXX ../../src/partition_alloc/oom_callback.cc
+[10/70] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
+[11/70] CXX ../../src/partition_alloc/address_space_randomization.cc
+[12/70] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
+[13/70] CXX ../../src/partition_alloc/tagging.cc
+[14/70] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+[15/70] CXX ../../src/partition_alloc/page_allocator_internals_posix.cc
+[16/70] CXX ../../src/partition_alloc/thread_isolation/pkey.cc
+[17/70] CXX ../../src/partition_alloc/compressed_pointer.cc
+[18/70] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
+[19/70] CXX ../../src/partition_alloc/spinning_mutex.cc
+[20/70] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
+[21/70] CXX ../../src/partition_alloc/partition_stats.cc
+[22/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
+[23/70] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
+[24/70] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
+[25/70] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[26/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
+[27/70] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
+[28/70] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
+[29/70] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
+[30/70] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
+[31/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
+[32/70] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
+[33/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
+[34/70] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
+[35/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
+[36/70] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[37/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
+[38/70] CXX ../../src/partition_alloc/partition_address_space.cc
+[39/70] CXX ../../src/partition_alloc/random.cc
+[40/70] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
+[41/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
+[42/70] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
 In file included from ../../src/partition_alloc/partition_dcheck_helper.cc:11:
 ../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
    90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
@@ -74,35 +76,15 @@ In file included from ../../src/partition_alloc/partition_dcheck_helper.cc:11:
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[42/70] CXX ../../src/partition_alloc/thread_isolation/pkey.cc
-[43/70] CXX ../../src/partition_alloc/page_allocator_internals_posix.cc
-[44/70] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
-[45/70] CXX ../../src/partition_alloc/gwp_asan_support.cc
-In file included from ../../src/partition_alloc/gwp_asan_support.cc:17:
-../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
-      |                                                                              ^
-../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
-      |                                  ^
-../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
-      |                                               ^
-../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
-      |                                          ^
-../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
-      |                                                       ^
-../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
-      |                                                   ^
-../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
-      |                                                                       ^
-7 warnings generated.
-[46/70] CXX ../../src/partition_alloc/partition_freelist_entry.cc
-[47/70] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[43/70] CXX ../../src/partition_alloc/page_allocator.cc
+[44/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_linux_for_testing.cc
+[45/70] CXX ../../src/partition_alloc/reservation_offset_table.cc
+[46/70] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
+[47/70] CXX ../../src/partition_alloc/address_pool_manager.cc
+[48/70] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
+[49/70] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+[50/70] LINK (static) liballocator_base.a
+[51/70] CXX ../../src/partition_alloc/memory_reclaimer.cc
 In file included from ../../src/partition_alloc/memory_reclaimer.cc:8:
 In file included from ../../src/partition_alloc/partition_alloc.h:12:
 In file included from ../../src/partition_alloc/partition_root.h:69:
@@ -129,9 +111,55 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[48/70] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
-[49/70] CXX ../../src/partition_alloc/random.cc
-[50/70] CXX ../../src/partition_alloc/partition_alloc.cc
+[52/70] CXX ../../src/partition_alloc/partition_page.cc
+In file included from ../../src/partition_alloc/partition_page.cc:5:
+../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
+      |                                                                              ^
+../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
+      |                                  ^
+../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
+      |                                               ^
+../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
+      |                                          ^
+../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
+      |                                                       ^
+../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
+      |                                                   ^
+../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
+      |                                                                       ^
+7 warnings generated.
+[53/70] CXX ../../src/partition_alloc/gwp_asan_support.cc
+In file included from ../../src/partition_alloc/gwp_asan_support.cc:17:
+../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
+      |                                                                              ^
+../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
+      |                                  ^
+../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
+      |                                               ^
+../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
+      |                                          ^
+../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
+      |                                                       ^
+../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
+      |                                                   ^
+../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
+      |                                                                       ^
+7 warnings generated.
+[54/70] CXX ../../src/partition_alloc/partition_alloc.cc
 In file included from ../../src/partition_alloc/partition_alloc.cc:5:
 In file included from ../../src/partition_alloc/partition_alloc.h:12:
 In file included from ../../src/partition_alloc/partition_root.h:69:
@@ -158,9 +186,9 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[51/70] CXX ../../src/partition_alloc/internal_allocator.cc
-In file included from ../../src/partition_alloc/internal_allocator.cc:5:
-In file included from ../../src/partition_alloc/internal_allocator.h:13:
+[55/70] CXX ../../src/partition_alloc/extended_api.cc
+In file included from ../../src/partition_alloc/extended_api.cc:5:
+In file included from ../../src/partition_alloc/extended_api.h:9:
 In file included from ../../src/partition_alloc/partition_root.h:69:
 In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
 ../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
@@ -185,9 +213,8 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[52/70] CXX ../../src/partition_alloc/lightweight_quarantine.cc
-In file included from ../../src/partition_alloc/lightweight_quarantine.cc:7:
-In file included from ../../src/partition_alloc/internal_allocator.h:13:
+[56/70] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+In file included from ../../src/partition_alloc/pointers/instance_tracer.cc:15:
 In file included from ../../src/partition_alloc/partition_root.h:69:
 In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
 ../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
@@ -212,62 +239,7 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[53/70] CXX ../../src/partition_alloc/reservation_offset_table.cc
-[54/70] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
-[55/70] CXX ../../src/partition_alloc/shim/allocator_shim.cc
-In file included from ../../src/partition_alloc/shim/allocator_shim.cc:13:
-In file included from ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.h:11:
-In file included from ../../src/partition_alloc/partition_alloc.h:12:
-In file included from ../../src/partition_alloc/partition_root.h:69:
-In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
-../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
-      |                                                                              ^
-../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
-      |                                  ^
-../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
-      |                                               ^
-../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
-      |                                          ^
-../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
-      |                                                       ^
-../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
-      |                                                   ^
-../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
-      |                                                                       ^
-7 warnings generated.
-[56/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_linux_for_testing.cc
-[57/70] CXX ../../src/partition_alloc/partition_page.cc
-In file included from ../../src/partition_alloc/partition_page.cc:5:
-../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
-      |                                                                              ^
-../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
-      |                                  ^
-../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
-      |                                               ^
-../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
-      |                                          ^
-../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
-      |                                                       ^
-../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
-      |                                                   ^
-../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
-      |                                                                       ^
-7 warnings generated.
-[58/70] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_with_advanced_checks.cc
+[57/70] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_with_advanced_checks.cc
 In file included from ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_with_advanced_checks.cc:12:
 In file included from ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_internal.h:11:
 In file included from ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.h:11:
@@ -296,8 +268,9 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[59/70] CXX ../../src/partition_alloc/partition_bucket.cc
-In file included from ../../src/partition_alloc/partition_bucket.cc:20:
+[58/70] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+In file included from ../../src/partition_alloc/shim/allocator_shim.cc:13:
+In file included from ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.h:11:
 In file included from ../../src/partition_alloc/partition_alloc.h:12:
 In file included from ../../src/partition_alloc/partition_root.h:69:
 In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
@@ -323,62 +296,8 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[60/70] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
-In file included from ../../src/partition_alloc/pointers/instance_tracer.cc:15:
-In file included from ../../src/partition_alloc/partition_root.h:69:
-In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
-../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
-      |                                                                              ^
-../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
-      |                                  ^
-../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
-      |                                               ^
-../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
-      |                                          ^
-../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
-      |                                                       ^
-../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
-      |                                                   ^
-../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
-      |                                                                       ^
-7 warnings generated.
-[61/70] CXX ../../src/partition_alloc/extended_api.cc
-In file included from ../../src/partition_alloc/extended_api.cc:5:
-In file included from ../../src/partition_alloc/extended_api.h:9:
-In file included from ../../src/partition_alloc/partition_root.h:69:
-In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
-../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
-      |                                                                              ^
-../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
-      |                                  ^
-../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
-      |                                               ^
-../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
-      |                                          ^
-../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
-      |                                                       ^
-../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
-      |                                                   ^
-../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
-  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
-      |                                                                       ^
-7 warnings generated.
-[62/70] CXX ../../src/partition_alloc/stack/stack.cc
-In file included from ../../src/partition_alloc/stack/stack.cc:5:
-In file included from ../../src/partition_alloc/stack/stack.h:14:
+[59/70] CXX ../../src/partition_alloc/internal_allocator.cc
+In file included from ../../src/partition_alloc/internal_allocator.cc:5:
 In file included from ../../src/partition_alloc/internal_allocator.h:13:
 In file included from ../../src/partition_alloc/partition_root.h:69:
 In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
@@ -404,7 +323,7 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[63/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[60/70] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
 In file included from ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc:30:
 In file included from ../../src/partition_alloc/stack/stack.h:14:
 In file included from ../../src/partition_alloc/internal_allocator.h:13:
@@ -432,8 +351,90 @@ In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11
   109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
       |                                                                       ^
 7 warnings generated.
-[64/70] CXX ../../src/partition_alloc/thread_cache.cc
+[61/70] CXX ../../src/partition_alloc/thread_cache.cc
 In file included from ../../src/partition_alloc/thread_cache.cc:15:
+In file included from ../../src/partition_alloc/internal_allocator.h:13:
+In file included from ../../src/partition_alloc/partition_root.h:69:
+In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
+../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
+      |                                                                              ^
+../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
+      |                                  ^
+../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
+      |                                               ^
+../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
+      |                                          ^
+../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
+      |                                                       ^
+../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
+      |                                                   ^
+../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
+      |                                                                       ^
+7 warnings generated.
+[62/70] CXX ../../src/partition_alloc/partition_bucket.cc
+In file included from ../../src/partition_alloc/partition_bucket.cc:20:
+In file included from ../../src/partition_alloc/partition_alloc.h:12:
+In file included from ../../src/partition_alloc/partition_root.h:69:
+In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
+../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
+      |                                                                              ^
+../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
+      |                                  ^
+../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
+      |                                               ^
+../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
+      |                                          ^
+../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
+      |                                                       ^
+../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
+      |                                                   ^
+../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
+      |                                                                       ^
+7 warnings generated.
+[63/70] CXX ../../src/partition_alloc/stack/stack.cc
+In file included from ../../src/partition_alloc/stack/stack.cc:5:
+In file included from ../../src/partition_alloc/stack/stack.h:14:
+In file included from ../../src/partition_alloc/internal_allocator.h:13:
+In file included from ../../src/partition_alloc/partition_root.h:69:
+In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:
+../../src/partition_alloc/partition_page.h:90:78: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   90 |   MaybeConstT<kind, uint32_t> num_allocated_slots : kMaxSlotsPerSlotSpanBits =
+      |                                                                              ^
+../../src/partition_alloc/partition_page.h:93:34: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   93 |       : kMaxSlotsPerSlotSpanBits = 0u;
+      |                                  ^
+../../src/partition_alloc/partition_page.h:97:47: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+   97 |   MaybeConstT<kind, uint32_t> marked_full : 1 = 0u;
+      |                                               ^
+../../src/partition_alloc/partition_page.h:100:42: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  100 |   const uint32_t can_store_raw_size_ : 1 = 0u;
+      |                                          ^
+../../src/partition_alloc/partition_page.h:101:55: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  101 |   MaybeConstT<kind, uint16_t> freelist_is_sorted_ : 1 = 1u;
+      |                                                       ^
+../../src/partition_alloc/partition_page.h:104:51: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  104 |   MaybeConstT<kind, uint16_t> in_empty_cache_ : 1 = 0u;
+      |                                                   ^
+../../src/partition_alloc/partition_page.h:109:71: warning: default member initializer for bit-field is a C++20 extension [-Wc++20-extensions]
+  109 |       : internal::base::bits::BitWidth(kMaxEmptySlotSpanRingSize - 1) = 0u;
+      |                                                                       ^
+7 warnings generated.
+[64/70] CXX ../../src/partition_alloc/lightweight_quarantine.cc
+In file included from ../../src/partition_alloc/lightweight_quarantine.cc:7:
 In file included from ../../src/partition_alloc/internal_allocator.h:13:
 In file included from ../../src/partition_alloc/partition_root.h:69:
 In file included from ../../src/partition_alloc/partition_direct_map_extent.h:11:

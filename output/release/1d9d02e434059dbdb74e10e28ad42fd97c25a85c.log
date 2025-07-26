@@ -1,3 +1,4 @@
+HEAD is now at 1d9d02e4 base: Disable libc++ modules build in partition allocator
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

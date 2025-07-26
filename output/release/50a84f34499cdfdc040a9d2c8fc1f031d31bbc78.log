@@ -1,3 +1,4 @@
+HEAD is now at 50a84f34 [partition_alloc] Add threading annotations
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

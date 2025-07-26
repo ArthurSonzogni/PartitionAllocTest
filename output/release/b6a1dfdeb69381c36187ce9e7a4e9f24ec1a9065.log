@@ -1,3 +1,4 @@
+HEAD is now at b6a1dfde [PA] Add stack scan supported for loongarch64.
 ERROR at //src/partition_alloc/BUILD.gn:180:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

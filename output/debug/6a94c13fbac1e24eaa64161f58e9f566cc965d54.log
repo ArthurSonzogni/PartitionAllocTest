@@ -1,3 +1,21 @@
+Note: switching to '6a94c13fbac1e24eaa64161f58e9f566cc965d54'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6a94c13f partition_alloc: Cleanup never called functions.
 WARNING at the command-line "--args":1:249: Build argument has no effect.
 is_debug=true use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
                                                                                                                                                                                                                                                         ^---
@@ -8,74 +26,74 @@ To view all possible args, run "gn args --list <out_dir>"
 
 The build continued as if that argument was unspecified.
 
-Done. Made 14 targets from 8 files in 4ms
+Done. Made 14 targets from 8 files in 11ms
 ninja: Entering directory `out/debug'
-[1/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
-[2/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
-[3/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/alias.cc
-[4/69] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
-[5/69] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
-[6/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
-[7/69] CXX ../../src/partition_alloc/partition_alloc_base/process/process_handle_posix.cc
-[8/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
-[9/69] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
-[10/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
-[11/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
-[12/69] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
-[13/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
-[14/69] CXX ../../src/partition_alloc/address_space_randomization.cc
-[15/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
-[16/69] CXX ../../src/partition_alloc/allocation_guard.cc
-[17/69] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
-[18/69] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
-[19/69] CXX ../../src/partition_alloc/oom.cc
+[1/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/alias.cc
+[2/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
+[3/69] CXX ../../src/partition_alloc/allocation_guard.cc
+[4/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
+[5/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
+[6/69] CXX ../../src/partition_alloc/partition_alloc_base/process/process_handle_posix.cc
+[7/69] CXX ../../src/partition_alloc/oom.cc
+[8/69] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
+[9/69] CXX ../../src/partition_alloc/partition_oom.cc
+[10/69] CXX ../../src/partition_alloc/page_allocator_internals_posix.cc
+[11/69] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
+[12/69] CXX ../../src/partition_alloc/address_space_randomization.cc
+[13/69] CXX ../../src/partition_alloc/thread_isolation/pkey.cc
+[14/69] CXX ../../src/partition_alloc/tagging.cc
+[15/69] CXX ../../src/partition_alloc/oom_callback.cc
+[16/69] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+[17/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
+[18/69] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
+[19/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
 [20/69] CXX ../../src/partition_alloc/compressed_pointer.cc
-[21/69] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
-[22/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
-[23/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
-[24/69] CXX ../../src/partition_alloc/oom_callback.cc
-[25/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
-[26/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
-[27/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
-[28/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
-[29/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
-[30/69] CXX ../../src/partition_alloc/partition_oom.cc
-[31/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
-[32/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
-[33/69] LINK (static) liballocator_base.a
-[34/69] CXX ../../src/partition_alloc/address_pool_manager.cc
-[35/69] CXX ../../src/partition_alloc/partition_stats.cc
-[36/69] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
-[37/69] CXX ../../src/partition_alloc/tagging.cc
-[38/69] CXX ../../src/partition_alloc/partition_address_space.cc
-[39/69] CXX ../../src/partition_alloc/spinning_mutex.cc
-[40/69] CXX ../../src/partition_alloc/page_allocator.cc
-[41/69] CXX ../../src/partition_alloc/thread_isolation/pkey.cc
-[42/69] CXX ../../src/partition_alloc/page_allocator_internals_posix.cc
-[43/69] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
-[44/69] CXX ../../src/partition_alloc/internal_allocator.cc
-[45/69] CXX ../../src/partition_alloc/gwp_asan_support.cc
-[46/69] CXX ../../src/partition_alloc/memory_reclaimer.cc
-[47/69] CXX ../../src/partition_alloc/lightweight_quarantine.cc
-[48/69] CXX ../../src/partition_alloc/partition_freelist_entry.cc
-[49/69] CXX ../../src/partition_alloc/random.cc
+[21/69] CXX ../../src/partition_alloc/partition_stats.cc
+[22/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
+[23/69] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[24/69] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
+[25/69] CXX ../../src/partition_alloc/spinning_mutex.cc
+[26/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
+[27/69] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
+[28/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
+[29/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
+[30/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
+[31/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
+[32/69] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
+[33/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
+[34/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_linux_for_testing.cc
+[35/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
+[36/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
+[37/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
+[38/69] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
+[39/69] CXX ../../src/partition_alloc/page_allocator.cc
+[40/69] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+[41/69] CXX ../../src/partition_alloc/random.cc
+[42/69] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
+[43/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
+[44/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
+[45/69] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[46/69] CXX ../../src/partition_alloc/reservation_offset_table.cc
+[47/69] LINK (static) liballocator_base.a
+[48/69] CXX ../../src/partition_alloc/address_pool_manager.cc
+[49/69] CXX ../../src/partition_alloc/partition_address_space.cc
 [50/69] CXX ../../src/partition_alloc/partition_alloc.cc
-[51/69] CXX ../../src/partition_alloc/partition_bucket.cc
-[52/69] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
-[53/69] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
-[54/69] CXX ../../src/partition_alloc/reservation_offset_table.cc
-[55/69] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
-[56/69] CXX ../../src/partition_alloc/partition_page.cc
-[57/69] CXX ../../src/partition_alloc/partition_root.cc
-[58/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_linux_for_testing.cc
-[59/69] CXX ../../src/partition_alloc/thread_cache.cc
-[60/69] CXX ../../src/partition_alloc/shim/allocator_shim.cc
-[61/69] CXX ../../src/partition_alloc/stack/stack.cc
-[62/69] LINK (static) liballocator_core.a
-[63/69] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
-[64/69] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
-[65/69] CXX ../../src/partition_alloc/extended_api.cc
-[66/69] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.cc
-[67/69] LINK (static) liballocator_shim.a
-[68/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[51/69] CXX ../../src/partition_alloc/internal_allocator.cc
+[52/69] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[53/69] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+[54/69] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[55/69] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+[56/69] CXX ../../src/partition_alloc/extended_api.cc
+[57/69] CXX ../../src/partition_alloc/partition_bucket.cc
+[58/69] CXX ../../src/partition_alloc/thread_cache.cc
+[59/69] CXX ../../src/partition_alloc/gwp_asan_support.cc
+[60/69] CXX ../../src/partition_alloc/partition_page.cc
+[61/69] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[62/69] CXX ../../src/partition_alloc/lightweight_quarantine.cc
+[63/69] CXX ../../src/partition_alloc/partition_root.cc
+[64/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[65/69] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.cc
+[66/69] CXX ../../src/partition_alloc/stack/stack.cc
+[67/69] LINK (static) liballocator_core.a
+[68/69] LINK (static) liballocator_shim.a
 [69/69] LINK (static) libraw_ptr.a

@@ -1,3 +1,4 @@
+HEAD is now at 13a351f4 [PA] Fix compile failure in PartitionRoot::CheckMetadataIntegrity
 ERROR at //src/partition_alloc/BUILD.gn:179:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

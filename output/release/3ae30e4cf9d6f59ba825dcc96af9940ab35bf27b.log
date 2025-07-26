@@ -1,3 +1,4 @@
+HEAD is now at 3ae30e4c Remove the macOS 11 malloc size hack from PartitionAlloc
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

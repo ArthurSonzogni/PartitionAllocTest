@@ -1,3 +1,4 @@
+HEAD is now at 01d2444a Revert "[PA] Add base::CheckHeapIntegrity to investigate corruption"
 ERROR at //src/partition_alloc/BUILD.gn:179:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

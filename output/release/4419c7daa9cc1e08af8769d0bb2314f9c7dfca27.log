@@ -1,3 +1,4 @@
+HEAD is now at 4419c7da Switch from `ALIGNAS()` to `alignas()`.
 WARNING at the command-line "--args":1:250: Build argument has no effect.
 is_debug=false use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
                                                                                                                                                                                                                                                          ^---
@@ -8,29 +9,37 @@ To view all possible args, run "gn args --list <out_dir>"
 
 The build continued as if that argument was unspecified.
 
-Done. Made 14 targets from 8 files in 4ms
+Done. Made 14 targets from 8 files in 10ms
 ninja: Entering directory `out/release'
 [1/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/alias.cc
 [2/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
-[3/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
-[4/69] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
-[5/69] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+[3/69] CXX ../../src/partition_alloc/allocation_guard.cc
+[4/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
+[5/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
 [6/69] CXX ../../src/partition_alloc/partition_alloc_base/process/process_handle_posix.cc
-[7/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
-[8/69] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
-[9/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
-[10/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
-[11/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
-[12/69] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
-[13/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
-[14/69] CXX ../../src/partition_alloc/allocation_guard.cc
-[15/69] CXX ../../src/partition_alloc/address_space_randomization.cc
-[16/69] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
-[17/69] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
-[18/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
-[19/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
-[20/69] CXX ../../src/partition_alloc/oom.cc
-[21/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
+[7/69] CXX ../../src/partition_alloc/oom.cc
+[8/69] CXX ../../src/partition_alloc/partition_oom.cc
+[9/69] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
+[10/69] CXX ../../src/partition_alloc/oom_callback.cc
+[11/69] CXX ../../src/partition_alloc/tagging.cc
+[12/69] CXX ../../src/partition_alloc/address_space_randomization.cc
+[13/69] CXX ../../src/partition_alloc/page_allocator_internals_posix.cc
+[14/69] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
+[15/69] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+[16/69] CXX ../../src/partition_alloc/thread_isolation/pkey.cc
+[17/69] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
+[18/69] CXX ../../src/partition_alloc/partition_stats.cc
+In file included from ../../src/partition_alloc/partition_stats.cc:5:
+In file included from ../../src/partition_alloc/partition_stats.h:14:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[19/69] CXX ../../src/partition_alloc/spinning_mutex.cc
+[20/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
+[21/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
 [22/69] CXX ../../src/partition_alloc/compressed_pointer.cc
 In file included from ../../src/partition_alloc/compressed_pointer.cc:5:
 In file included from ../../src/partition_alloc/compressed_pointer.h:12:
@@ -41,47 +50,18 @@ In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
       |                     ^
       |                     typename 
 1 warning generated.
-[23/69] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
-[24/69] CXX ../../src/partition_alloc/oom_callback.cc
-[25/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
-[26/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
-[27/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
-[28/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
-[29/69] CXX ../../src/partition_alloc/partition_oom.cc
-[30/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
-[31/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
-[32/69] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
-In file included from ../../src/partition_alloc/address_pool_manager_bitmap.cc:5:
-In file included from ../../src/partition_alloc/address_pool_manager_bitmap.h:18:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[33/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
-[34/69] LINK (static) liballocator_base.a
-[35/69] CXX ../../src/partition_alloc/partition_stats.cc
-In file included from ../../src/partition_alloc/partition_stats.cc:5:
-In file included from ../../src/partition_alloc/partition_stats.h:14:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[36/69] CXX ../../src/partition_alloc/address_pool_manager.cc
-In file included from ../../src/partition_alloc/address_pool_manager.cc:5:
-In file included from ../../src/partition_alloc/address_pool_manager.h:14:
-In file included from ../../src/partition_alloc/partition_address_space.h:21:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[37/69] CXX ../../src/partition_alloc/tagging.cc
-[38/69] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
+[23/69] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
+[24/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
+[25/69] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
+[26/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
+[27/69] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
+[28/69] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
+[29/69] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[30/69] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
+[31/69] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
+[32/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
+[33/69] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
+[34/69] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
 In file included from ../../src/partition_alloc/partition_alloc_hooks.cc:5:
 In file included from ../../src/partition_alloc/partition_alloc_hooks.h:13:
 In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
@@ -90,64 +70,10 @@ In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
       |                     ^
       |                     typename 
 1 warning generated.
-[39/69] CXX ../../src/partition_alloc/partition_address_space.cc
-In file included from ../../src/partition_alloc/partition_address_space.cc:5:
-In file included from ../../src/partition_alloc/partition_address_space.h:21:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[40/69] CXX ../../src/partition_alloc/spinning_mutex.cc
-[41/69] CXX ../../src/partition_alloc/thread_isolation/pkey.cc
-[42/69] CXX ../../src/partition_alloc/page_allocator_internals_posix.cc
-[43/69] CXX ../../src/partition_alloc/page_allocator.cc
-[44/69] CXX ../../src/partition_alloc/partition_alloc.cc
-In file included from ../../src/partition_alloc/partition_alloc.cc:5:
-In file included from ../../src/partition_alloc/partition_alloc.h:10:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[45/69] CXX ../../src/partition_alloc/partition_freelist_entry.cc
-In file included from ../../src/partition_alloc/partition_freelist_entry.cc:5:
-In file included from ../../src/partition_alloc/partition_freelist_entry.h:14:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[46/69] CXX ../../src/partition_alloc/gwp_asan_support.cc
-In file included from ../../src/partition_alloc/gwp_asan_support.cc:10:
-In file included from ../../src/partition_alloc/freeslot_bitmap_constants.h:13:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[47/69] CXX ../../src/partition_alloc/memory_reclaimer.cc
-In file included from ../../src/partition_alloc/memory_reclaimer.cc:5:
-In file included from ../../src/partition_alloc/memory_reclaimer.h:15:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[48/69] CXX ../../src/partition_alloc/random.cc
-[49/69] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
-[50/69] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
-In file included from ../../src/partition_alloc/partition_dcheck_helper.cc:5:
-In file included from ../../src/partition_alloc/partition_dcheck_helper.h:10:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[51/69] CXX ../../src/partition_alloc/reservation_offset_table.cc
+[35/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
+[36/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_linux_for_testing.cc
+[37/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
+[38/69] CXX ../../src/partition_alloc/reservation_offset_table.cc
 In file included from ../../src/partition_alloc/reservation_offset_table.cc:5:
 In file included from ../../src/partition_alloc/reservation_offset_table.h:13:
 In file included from ../../src/partition_alloc/address_pool_manager.h:14:
@@ -158,16 +84,39 @@ In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
       |                     ^
       |                     typename 
 1 warning generated.
-[52/69] CXX ../../src/partition_alloc/lightweight_quarantine.cc
-In file included from ../../src/partition_alloc/lightweight_quarantine.cc:5:
-In file included from ../../src/partition_alloc/lightweight_quarantine.h:44:
-In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
+[39/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
+[40/69] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+In file included from ../../src/partition_alloc/partition_freelist_entry.cc:5:
+In file included from ../../src/partition_alloc/partition_freelist_entry.h:14:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
 ../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
    57 | using MaybeConstT = MaybeConst<kind, T>::Type;
       |                     ^
       |                     typename 
 1 warning generated.
-[53/69] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
+[41/69] CXX ../../src/partition_alloc/random.cc
+[42/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
+[43/69] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+In file included from ../../src/partition_alloc/address_pool_manager_bitmap.cc:5:
+In file included from ../../src/partition_alloc/address_pool_manager_bitmap.h:18:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[44/69] CXX ../../src/partition_alloc/partition_address_space.cc
+In file included from ../../src/partition_alloc/partition_address_space.cc:5:
+In file included from ../../src/partition_alloc/partition_address_space.h:21:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[45/69] CXX ../../src/partition_alloc/page_allocator.cc
+[46/69] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
+[47/69] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
 In file included from ../../src/partition_alloc/thread_isolation/thread_isolation.cc:9:
 In file included from ../../src/partition_alloc/address_pool_manager.h:14:
 In file included from ../../src/partition_alloc/partition_address_space.h:21:
@@ -177,7 +126,71 @@ In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
       |                     ^
       |                     typename 
 1 warning generated.
-[54/69] CXX ../../src/partition_alloc/partition_page.cc
+[48/69] LINK (static) liballocator_base.a
+[49/69] CXX ../../src/partition_alloc/memory_reclaimer.cc
+In file included from ../../src/partition_alloc/memory_reclaimer.cc:5:
+In file included from ../../src/partition_alloc/memory_reclaimer.h:15:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[50/69] CXX ../../src/partition_alloc/address_pool_manager.cc
+In file included from ../../src/partition_alloc/address_pool_manager.cc:5:
+In file included from ../../src/partition_alloc/address_pool_manager.h:14:
+In file included from ../../src/partition_alloc/partition_address_space.h:21:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[51/69] CXX ../../src/partition_alloc/gwp_asan_support.cc
+In file included from ../../src/partition_alloc/gwp_asan_support.cc:10:
+In file included from ../../src/partition_alloc/freeslot_bitmap_constants.h:13:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[52/69] CXX ../../src/partition_alloc/partition_alloc.cc
+In file included from ../../src/partition_alloc/partition_alloc.cc:5:
+In file included from ../../src/partition_alloc/partition_alloc.h:10:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[53/69] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+In file included from ../../src/partition_alloc/pointers/instance_tracer.cc:15:
+In file included from ../../src/partition_alloc/partition_root.h:45:
+In file included from ../../src/partition_alloc/freeslot_bitmap.h:13:
+In file included from ../../src/partition_alloc/freeslot_bitmap_constants.h:13:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[54/69] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+In file included from ../../src/partition_alloc/partition_dcheck_helper.cc:5:
+In file included from ../../src/partition_alloc/partition_dcheck_helper.h:10:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[55/69] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+In file included from ../../src/partition_alloc/shim/allocator_shim.cc:13:
+In file included from ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.h:11:
+In file included from ../../src/partition_alloc/partition_alloc.h:10:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[56/69] CXX ../../src/partition_alloc/partition_page.cc
 In file included from ../../src/partition_alloc/partition_page.cc:5:
 In file included from ../../src/partition_alloc/partition_page.h:10:
 In file included from ../../src/partition_alloc/address_pool_manager.h:14:
@@ -188,26 +201,7 @@ In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
       |                     ^
       |                     typename 
 1 warning generated.
-[55/69] CXX ../../src/partition_alloc/internal_allocator.cc
-In file included from ../../src/partition_alloc/internal_allocator.cc:5:
-In file included from ../../src/partition_alloc/internal_allocator.h:11:
-In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[56/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_linux_for_testing.cc
-[57/69] CXX ../../src/partition_alloc/shim/allocator_shim.cc
-In file included from ../../src/partition_alloc/shim/allocator_shim.cc:13:
-In file included from ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.h:11:
-In file included from ../../src/partition_alloc/partition_alloc.h:10:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[58/69] CXX ../../src/partition_alloc/extended_api.cc
+[57/69] CXX ../../src/partition_alloc/extended_api.cc
 In file included from ../../src/partition_alloc/extended_api.cc:5:
 In file included from ../../src/partition_alloc/extended_api.h:9:
 In file included from ../../src/partition_alloc/partition_root.h:45:
@@ -219,37 +213,7 @@ In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
       |                     ^
       |                     typename 
 1 warning generated.
-[59/69] CXX ../../src/partition_alloc/stack/stack.cc
-In file included from ../../src/partition_alloc/stack/stack.cc:5:
-In file included from ../../src/partition_alloc/stack/stack.h:14:
-In file included from ../../src/partition_alloc/internal_allocator.h:11:
-In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[60/69] CXX ../../src/partition_alloc/partition_bucket.cc
-In file included from ../../src/partition_alloc/partition_bucket.cc:5:
-In file included from ../../src/partition_alloc/partition_bucket.h:15:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[61/69] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
-In file included from ../../src/partition_alloc/pointers/instance_tracer.cc:15:
-In file included from ../../src/partition_alloc/partition_root.h:45:
-In file included from ../../src/partition_alloc/freeslot_bitmap.h:13:
-In file included from ../../src/partition_alloc/freeslot_bitmap_constants.h:13:
-In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
-../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
-   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
-      |                     ^
-      |                     typename 
-1 warning generated.
-[62/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[58/69] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
 In file included from ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc:30:
 In file included from ../../src/partition_alloc/stack/stack.h:14:
 In file included from ../../src/partition_alloc/internal_allocator.h:11:
@@ -259,11 +223,48 @@ In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
       |                     ^
       |                     typename 
 1 warning generated.
-[63/69] CXX ../../src/partition_alloc/thread_cache.cc
+[59/69] CXX ../../src/partition_alloc/internal_allocator.cc
+In file included from ../../src/partition_alloc/internal_allocator.cc:5:
+In file included from ../../src/partition_alloc/internal_allocator.h:11:
+In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[60/69] CXX ../../src/partition_alloc/stack/stack.cc
+In file included from ../../src/partition_alloc/stack/stack.cc:5:
+In file included from ../../src/partition_alloc/stack/stack.h:14:
+In file included from ../../src/partition_alloc/internal_allocator.h:11:
+In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[61/69] CXX ../../src/partition_alloc/thread_cache.cc
 In file included from ../../src/partition_alloc/thread_cache.cc:5:
 In file included from ../../src/partition_alloc/thread_cache.h:16:
 In file included from ../../src/partition_alloc/lightweight_quarantine.h:44:
 In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[62/69] CXX ../../src/partition_alloc/lightweight_quarantine.cc
+In file included from ../../src/partition_alloc/lightweight_quarantine.cc:5:
+In file included from ../../src/partition_alloc/lightweight_quarantine.h:44:
+In file included from ../../src/partition_alloc/internal_allocator_forward.h:12:
+../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
+   57 | using MaybeConstT = MaybeConst<kind, T>::Type;
+      |                     ^
+      |                     typename 
+1 warning generated.
+[63/69] CXX ../../src/partition_alloc/partition_bucket.cc
+In file included from ../../src/partition_alloc/partition_bucket.cc:5:
+In file included from ../../src/partition_alloc/partition_bucket.h:15:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:20:
 ../../src/partition_alloc/partition_alloc_forward.h:57:21: warning: missing 'typename' prior to dependent type name MaybeConst<kind, T>::Type; implicit 'typename' is a C++20 extension [-Wc++20-extensions]
    57 | using MaybeConstT = MaybeConst<kind, T>::Type;
       |                     ^

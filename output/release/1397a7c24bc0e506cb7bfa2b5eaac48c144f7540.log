@@ -1,3 +1,4 @@
+HEAD is now at 1397a7c2 [PA] Simplify bucket lookup
 ERROR at //src/partition_alloc/BUILD.gn:180:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

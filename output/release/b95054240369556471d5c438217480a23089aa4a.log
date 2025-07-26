@@ -1,3 +1,4 @@
+HEAD is now at b9505424 [PA] Do Scheduler-Loop Quarantine after BRP Quarantine, not before.
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

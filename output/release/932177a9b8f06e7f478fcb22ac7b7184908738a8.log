@@ -1,3 +1,4 @@
+HEAD is now at 932177a9 [base/allocator] Add aligned_alloc to shims on Android
 ERROR at //src/partition_alloc/BUILD.gn:179:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

@@ -1,3 +1,4 @@
+HEAD is now at ffb61465 [PA/E-LUD] Refactor: Fork LightweightQuarantine
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

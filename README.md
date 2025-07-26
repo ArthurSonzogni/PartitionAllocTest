@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-07**: 🟥🟥🟥🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2025-07**: 🟥🟥🟥🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-04**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -44,22 +44,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 **2024-05**: 🟥🟥🟥🟥<br>
 
 <details>
-<summary>🟥 Configuration: `debug`</summary>
+<summary>🟩 Configuration: `debug`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
-| tikuta | 2025-07-24 | [partition_allocator: Disable libcxx module for unit...](./output/debug/0df75035937ddb4efd66639f25b08d53d7b4f8ec.log) | 🟥 |
-| thestig | 2025-07-24 | [Auto-format //base GN files](./output/debug/fd0128b7cc4a5ee2e1d9f6eec022b6bf73694fe6.log) | 🟥 |
-| tasak | 2025-07-23 | [[PA] Move Metadata outside of GigaCage (4/6)](./output/debug/1e3b00f0a40be8ea75dd4709821b71b2c079912b.log) | 🟥 |
-| chrdavis | 2025-07-23 | [ThreadTicks GetForThread should include kernel time...](./output/debug/d7ae27f0e2a0c03b9f80ca1195b04fedcdf1193c.log) | 🟥 |
-| tasak | 2025-07-22 | [[PA] Move Metadata outside of GigaCage (3/5)](./output/debug/39ba710d71b750335e1438d30ba62b1c0736e73e.log) | 🟥 |
-| mikt | 2025-07-22 | [[PA] Allow to ensure ThreadCache without PartitionR...](./output/debug/833fe8d5e0a9d775255cc8a09fdb71183c5f587f.log) | 🟥 |
-| tikuta | 2025-07-21 | [partition_allocator: Disable libcxx module for allo...](./output/debug/49e207e96bec179c82e609cf0a052d42d4c2ac2c.log) | 🟥 |
-| tasak | 2025-07-18 | [[PA] Add pa_check.md](./output/debug/b7aff97e9add16d7a0f04c9eb2e752d6f7dff85d.log) | 🟥 |
-| tasak | 2025-07-18 | [[PA] Move Metadata outside of GigaCage (2/5)](./output/debug/75b1cb38a7826527337da4ba4b3b6926bba29675.log) | 🟥 |
-| tasak | 2025-07-17 | [[PA] Move Metadata outside of GigaCage (1/5)](./output/debug/369c817c900ed3796da34b973b4b95391a836941.log) | 🟥 |
-| cdesouza | 2025-07-17 | [[exit-time-destructors] Exclude target with warnings](./output/debug/7186dfd2903897b1cfde4a36cfc5ede25c9c6f3d.log) | 🟥 |
-| arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/debug/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟥 |
+| arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/debug/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟩 |
 | arthursonzogni | 2025-07-15 | [partition_alloc: Resolve C++20 compile errors.](./output/debug/328d516729e7e9edc833244c73cc9013828e5a1a.log) | 🟩 |
 | thakis | 2025-07-14 | [Remove remaining __pnacl__ and __native_client__ in...](./output/debug/7b2807165fad397df23f5f749b15e9e43269ccf5.log) | 🟥 |
 | tikuta | 2025-07-09 | [base: Remove references to BUILDFLAG(IS_NACL)](./output/debug/a54ac8d0dd78019fb41d2e376726d45b287e856b.log) | 🟥 |
@@ -355,22 +344,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 </details>
 
 <details>
-<summary>🟥 Configuration: `release`</summary>
+<summary>🟩 Configuration: `release`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
-| tikuta | 2025-07-24 | [partition_allocator: Disable libcxx module for unit...](./output/release/0df75035937ddb4efd66639f25b08d53d7b4f8ec.log) | 🟥 |
-| thestig | 2025-07-24 | [Auto-format //base GN files](./output/release/fd0128b7cc4a5ee2e1d9f6eec022b6bf73694fe6.log) | 🟥 |
-| tasak | 2025-07-23 | [[PA] Move Metadata outside of GigaCage (4/6)](./output/release/1e3b00f0a40be8ea75dd4709821b71b2c079912b.log) | 🟥 |
-| chrdavis | 2025-07-23 | [ThreadTicks GetForThread should include kernel time...](./output/release/d7ae27f0e2a0c03b9f80ca1195b04fedcdf1193c.log) | 🟥 |
-| tasak | 2025-07-22 | [[PA] Move Metadata outside of GigaCage (3/5)](./output/release/39ba710d71b750335e1438d30ba62b1c0736e73e.log) | 🟥 |
-| mikt | 2025-07-22 | [[PA] Allow to ensure ThreadCache without PartitionR...](./output/release/833fe8d5e0a9d775255cc8a09fdb71183c5f587f.log) | 🟥 |
-| tikuta | 2025-07-21 | [partition_allocator: Disable libcxx module for allo...](./output/release/49e207e96bec179c82e609cf0a052d42d4c2ac2c.log) | 🟥 |
-| tasak | 2025-07-18 | [[PA] Add pa_check.md](./output/release/b7aff97e9add16d7a0f04c9eb2e752d6f7dff85d.log) | 🟥 |
-| tasak | 2025-07-18 | [[PA] Move Metadata outside of GigaCage (2/5)](./output/release/75b1cb38a7826527337da4ba4b3b6926bba29675.log) | 🟥 |
-| tasak | 2025-07-17 | [[PA] Move Metadata outside of GigaCage (1/5)](./output/release/369c817c900ed3796da34b973b4b95391a836941.log) | 🟥 |
-| cdesouza | 2025-07-17 | [[exit-time-destructors] Exclude target with warnings](./output/release/7186dfd2903897b1cfde4a36cfc5ede25c9c6f3d.log) | 🟥 |
-| arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/release/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟥 |
+| arthursonzogni | 2025-07-16 | [partition_alloc: Fix missing include on Windows.](./output/release/f5822de8f74df009da56681cca82a3c986bbfc67.log) | 🟩 |
 | arthursonzogni | 2025-07-15 | [partition_alloc: Resolve C++20 compile errors.](./output/release/328d516729e7e9edc833244c73cc9013828e5a1a.log) | 🟩 |
 | thakis | 2025-07-14 | [Remove remaining __pnacl__ and __native_client__ in...](./output/release/7b2807165fad397df23f5f749b15e9e43269ccf5.log) | 🟥 |
 | tikuta | 2025-07-09 | [base: Remove references to BUILDFLAG(IS_NACL)](./output/release/a54ac8d0dd78019fb41d2e376726d45b287e856b.log) | 🟥 |

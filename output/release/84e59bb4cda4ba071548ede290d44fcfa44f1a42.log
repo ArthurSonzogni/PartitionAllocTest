@@ -1,3 +1,4 @@
+HEAD is now at 84e59bb4 Reland "spanification: remove `#pragma allow_unsafe_buffers` where unneeded"
 ERROR at //src/partition_alloc/BUILD.gn:180:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

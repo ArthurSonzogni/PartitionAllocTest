@@ -1,3 +1,4 @@
+HEAD is now at c858ce95 Revert "[PA] Cache ReservationOffsetTable instead of lookup by address"
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

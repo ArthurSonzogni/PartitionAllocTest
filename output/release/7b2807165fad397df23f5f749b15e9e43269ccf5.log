@@ -1,3 +1,4 @@
+HEAD is now at 7b280716 Remove remaining __pnacl__ and __native_client__ in //base
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

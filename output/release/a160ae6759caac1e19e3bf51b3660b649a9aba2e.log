@@ -1,3 +1,4 @@
+HEAD is now at a160ae67 Use std::array instead of a c style array in PurgePartitionAlloc
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

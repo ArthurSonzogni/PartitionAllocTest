@@ -1,3 +1,4 @@
+HEAD is now at 85594a84 [PA] Make PartitionAllocMemoryAllocationPerfTest human-readable.
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

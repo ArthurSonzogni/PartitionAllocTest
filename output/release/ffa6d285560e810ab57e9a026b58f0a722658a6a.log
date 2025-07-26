@@ -1,3 +1,4 @@
+HEAD is now at ffa6d285 [PA] Add option not to crash on Double-Free or Corrupton
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------

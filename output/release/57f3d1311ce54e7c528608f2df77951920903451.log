@@ -1,3 +1,4 @@
+HEAD is now at 57f3d131 [PA/shim] Fix shim test failure on mac component build
 ERROR at //src/partition_alloc/BUILD.gn:171:17: Undefined identifier in string expansion.
     "IS_HWASAN=$is_hwasan",
                 ^--------
