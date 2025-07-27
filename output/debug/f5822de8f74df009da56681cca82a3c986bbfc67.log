@@ -16,6 +16,52 @@ Or undo this operation with:
 Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at f5822de8 partition_alloc: Fix missing include on Windows.
-Done. Made 15 targets from 8 files in 11ms
+Done. Made 15 targets from 8 files in 21ms
 ninja: Entering directory `out/debug'
-ninja: no work to do.
+[1/47] CXX ../../src/partition_alloc/allocation_guard.cc
+[2/47] CXX ../../src/partition_alloc/oom.cc
+[3/47] CXX ../../src/partition_alloc/partition_oom.cc
+[4/47] CXX ../../src/partition_alloc/tagging.cc
+[5/47] CXX ../../src/partition_alloc/partition_cookie.cc
+[6/47] CXX ../../src/partition_alloc/compressed_pointer.cc
+[7/47] CXX ../../src/partition_alloc/partition_stats.cc
+[8/47] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+[9/47] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
+[10/47] CXX ../../src/partition_alloc/pointers/raw_ptr_counting_impl_for_test.cc
+[11/47] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
+[12/47] CXX ../../src/partition_alloc/random.cc
+[13/47] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
+[14/47] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_linux_for_testing.cc
+[15/47] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[16/47] CXX ../../src/partition_alloc/spinning_mutex.cc
+[17/47] CXX ../../src/partition_alloc/page_allocator.cc
+[18/47] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
+[19/47] CXX ../../src/partition_alloc/address_pool_manager.cc
+[20/47] CXX ../../src/partition_alloc/reservation_offset_table.cc
+[21/47] CXX ../../src/partition_alloc/extended_api.cc
+[22/47] CXX ../../src/partition_alloc/thread_cache.cc
+[23/47] LINK (static) liballocator_base.a
+[24/47] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+[25/47] CXX ../../src/partition_alloc/gwp_asan_support.cc
+[26/47] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[27/47] CXX ../../src/partition_alloc/partition_address_space.cc
+[28/47] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
+[29/47] CXX ../../src/partition_alloc/scheduler_loop_quarantine_support.cc
+[30/47] CXX ../../src/partition_alloc/internal_allocator.cc
+[31/47] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[32/47] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[33/47] CXX ../../src/partition_alloc/partition_alloc.cc
+[34/47] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.cc
+[35/47] CXX ../../src/partition_alloc/partition_bucket.cc
+[36/47] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[37/47] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[38/47] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+[39/47] CXX ../../src/partition_alloc/partition_page.cc
+[40/47] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_with_advanced_checks.cc
+[41/47] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[42/47] CXX ../../src/partition_alloc/scheduler_loop_quarantine.cc
+[43/47] CXX ../../src/partition_alloc/partition_root.cc
+[44/47] CXX ../../src/partition_alloc/stack/stack.cc
+[45/47] LINK (static) liballocator_core.a
+[46/47] LINK (static) liballocator_shim.a
+[47/47] LINK (static) libraw_ptr.a

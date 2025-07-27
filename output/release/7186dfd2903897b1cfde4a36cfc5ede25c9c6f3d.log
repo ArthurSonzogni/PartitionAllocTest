@@ -1,13 +1,45 @@
 HEAD is now at 7186dfd2 [exit-time-destructors] Exclude target with warnings
-Done. Made 15 targets from 8 files in 4ms
+Done. Made 15 targets from 8 files in 21ms
 ninja: Entering directory `out/release'
-[1/42] LINK (static) liballocator_base.a
-FAILED: [code=127] liballocator_base.a 
-python3 "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/gn/rm.py" "liballocator_base.a" && llvm-ar rcs liballocator_base.a @liballocator_base.a.rsp
-/bin/sh: 1: llvm-ar: not found
+[1/42] CXX ../../src/partition_alloc/allocation_guard.cc
 [2/42] CXX ../../src/partition_alloc/oom.cc
-[3/42] CXX ../../src/partition_alloc/oom_callback.cc
-[4/42] CXX ../../src/partition_alloc/page_allocator.cc
-[5/42] CXX ../../src/partition_alloc/memory_reclaimer.cc
-[6/42] CXX ../../src/partition_alloc/internal_allocator.cc
-ninja: build stopped: subcommand failed.
+[3/42] CXX ../../src/partition_alloc/partition_oom.cc
+[4/42] CXX ../../src/partition_alloc/tagging.cc
+[5/42] CXX ../../src/partition_alloc/compressed_pointer.cc
+[6/42] CXX ../../src/partition_alloc/partition_stats.cc
+[7/42] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+[8/42] CXX ../../src/partition_alloc/partition_cookie.cc
+[9/42] CXX ../../src/partition_alloc/pointers/raw_ptr_counting_impl_for_test.cc
+[10/42] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
+[11/42] CXX ../../src/partition_alloc/reservation_offset_table.cc
+[12/42] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[13/42] CXX ../../src/partition_alloc/page_allocator.cc
+[14/42] CXX ../../src/partition_alloc/random.cc
+[15/42] CXX ../../src/partition_alloc/spinning_mutex.cc
+[16/42] CXX ../../src/partition_alloc/address_pool_manager.cc
+[17/42] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[18/42] CXX ../../src/partition_alloc/partition_address_space.cc
+[19/42] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[20/42] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[21/42] CXX ../../src/partition_alloc/gwp_asan_support.cc
+[22/42] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+[23/42] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[24/42] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
+[25/42] CXX ../../src/partition_alloc/partition_alloc.cc
+[26/42] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[27/42] CXX ../../src/partition_alloc/extended_api.cc
+[28/42] CXX ../../src/partition_alloc/scheduler_loop_quarantine_support.cc
+[29/42] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[30/42] CXX ../../src/partition_alloc/partition_page.cc
+[31/42] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_with_advanced_checks.cc
+[32/42] CXX ../../src/partition_alloc/thread_cache.cc
+[33/42] CXX ../../src/partition_alloc/internal_allocator.cc
+[34/42] CXX ../../src/partition_alloc/partition_bucket.cc
+[35/42] CXX ../../src/partition_alloc/stack/stack.cc
+[36/42] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+[37/42] CXX ../../src/partition_alloc/scheduler_loop_quarantine.cc
+[38/42] CXX ../../src/partition_alloc/partition_root.cc
+[39/42] LINK (static) liballocator_core.a
+[40/42] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.cc
+[41/42] LINK (static) liballocator_shim.a
+[42/42] LINK (static) libraw_ptr.a
