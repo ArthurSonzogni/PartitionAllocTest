@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-04**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -44,10 +44,12 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 **2024-05**: 🟥🟥🟥🟥<br>
 
 <details>
-<summary>🟥 Configuration: `debug`</summary>
+<summary>🟩 Configuration: `debug`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2025-07-27 | [[PA] Fix unused `use_libcxx_modules`.](./output/debug/aee60823002b0e80d96e76e56951446ce0eb58b2.log) | 🟩 |
+| tasak | 2025-07-27 | [[PA] Move Metadata outside of GigaCage (6/7)](./output/debug/5ab2ac91deaf53dbbd612e779b3f51253bf02243.log) | 🟥 |
 | tasak | 2025-07-27 | [[PA] Move Metadata outside of GigaCage (5/7)](./output/debug/828b52630e80e619f057deba245c83644a4066c6.log) | 🟥 |
 | tikuta | 2025-07-24 | [partition_allocator: Disable libcxx module for unit...](./output/debug/0df75035937ddb4efd66639f25b08d53d7b4f8ec.log) | 🟥 |
 | thestig | 2025-07-24 | [Auto-format //base GN files](./output/debug/fd0128b7cc4a5ee2e1d9f6eec022b6bf73694fe6.log) | 🟥 |
@@ -360,6 +362,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2025-07-27 | [[PA] Fix unused `use_libcxx_modules`.](./output/release/aee60823002b0e80d96e76e56951446ce0eb58b2.log) | 🟩 |
+| tasak | 2025-07-27 | [[PA] Move Metadata outside of GigaCage (6/7)](./output/release/5ab2ac91deaf53dbbd612e779b3f51253bf02243.log) | 🟩 |
 | tasak | 2025-07-27 | [[PA] Move Metadata outside of GigaCage (5/7)](./output/release/828b52630e80e619f057deba245c83644a4066c6.log) | 🟩 |
 | tikuta | 2025-07-24 | [partition_allocator: Disable libcxx module for unit...](./output/release/0df75035937ddb4efd66639f25b08d53d7b4f8ec.log) | 🟩 |
 | thestig | 2025-07-24 | [Auto-format //base GN files](./output/release/fd0128b7cc4a5ee2e1d9f6eec022b6bf73694fe6.log) | 🟩 |
