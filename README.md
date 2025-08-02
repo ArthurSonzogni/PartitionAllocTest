@@ -27,7 +27,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩<br>
+**2025-08**: 🟩🟩<br>
+**2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-04**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -48,6 +49,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tsepez | 2025-08-01 | [Remove base/allocator from unsafe_buffers_paths.txt...](./output/debug/57104f156773d81ca03b0c41d118821475646bf5.log) | 🟩 |
+| tsepez | 2025-08-01 | [Add PA_UNSAFE_BUFFER_USAGE macro to partition alloc.](./output/debug/f5d9c0b9bfccf8b0e7716f9c70623ce6129fea9b.log) | 🟩 |
+| tasak | 2025-07-31 | [[PA] Propose "ExternalMetadata" synthetic finch tri...](./output/debug/ec5fa718c5470c1f4840f50f72b2815545ee09e8.log) | 🟩 |
 | dsanders11 | 2025-07-29 | [Remove unused include in partition_address_space.h](./output/debug/f5c8626fa2949908146d00fdc3a182b16e5c32b5.log) | 🟩 |
 | arthursonzogni | 2025-07-27 | [[PA] Fix unused `use_libcxx_modules`.](./output/debug/aee60823002b0e80d96e76e56951446ce0eb58b2.log) | 🟩 |
 | tasak | 2025-07-27 | [[PA] Move Metadata outside of GigaCage (6/7)](./output/debug/5ab2ac91deaf53dbbd612e779b3f51253bf02243.log) | 🟥 |
@@ -363,6 +367,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tsepez | 2025-08-01 | [Remove base/allocator from unsafe_buffers_paths.txt...](./output/release/57104f156773d81ca03b0c41d118821475646bf5.log) | 🟩 |
+| tsepez | 2025-08-01 | [Add PA_UNSAFE_BUFFER_USAGE macro to partition alloc.](./output/release/f5d9c0b9bfccf8b0e7716f9c70623ce6129fea9b.log) | 🟩 |
+| tasak | 2025-07-31 | [[PA] Propose "ExternalMetadata" synthetic finch tri...](./output/release/ec5fa718c5470c1f4840f50f72b2815545ee09e8.log) | 🟩 |
 | dsanders11 | 2025-07-29 | [Remove unused include in partition_address_space.h](./output/release/f5c8626fa2949908146d00fdc3a182b16e5c32b5.log) | 🟩 |
 | arthursonzogni | 2025-07-27 | [[PA] Fix unused `use_libcxx_modules`.](./output/release/aee60823002b0e80d96e76e56951446ce0eb58b2.log) | 🟩 |
 | tasak | 2025-07-27 | [[PA] Move Metadata outside of GigaCage (6/7)](./output/release/5ab2ac91deaf53dbbd612e779b3f51253bf02243.log) | 🟩 |
