@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-08**: 🟩🟩<br>
+**2025-08**: 🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -49,6 +49,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tsepez | 2025-08-04 | [Remove file-wide unsafe buffer pragamas in partitio...](./output/debug/218e32d7878cfa006a9e90df6dc16a377cffbdb3.log) | 🟩 |
+| tsepez | 2025-08-04 | [Propagate UNSAFETY through partition alloc raw poin...](./output/debug/a25ec884fd1dd0d9f50f7baf1883982e8db46b41.log) | 🟩 |
+| tsepez | 2025-08-04 | [Mark unsafe raw_ptr<T> operations as unsafe.](./output/debug/4e92c91bb300e840f586f504e6fc6ea2adb329b2.log) | 🟩 |
+| mikt | 2025-08-04 | [[PA] Scheduler-Loop Quarantine is configured via JSON](./output/debug/f79cd042e21bc40da52829e883813b4f3f093ff2.log) | 🟩 |
+| mikt | 2025-08-03 | [[PA] Purge Scheduler-Loop Quarantine on UI Thread T...](./output/debug/22ea4eaebb2458920d56eb68a1db74028375303e.log) | 🟩 |
 | tsepez | 2025-08-01 | [Remove base/allocator from unsafe_buffers_paths.txt...](./output/debug/57104f156773d81ca03b0c41d118821475646bf5.log) | 🟩 |
 | tsepez | 2025-08-01 | [Add PA_UNSAFE_BUFFER_USAGE macro to partition alloc.](./output/debug/f5d9c0b9bfccf8b0e7716f9c70623ce6129fea9b.log) | 🟩 |
 | tasak | 2025-07-31 | [[PA] Propose "ExternalMetadata" synthetic finch tri...](./output/debug/ec5fa718c5470c1f4840f50f72b2815545ee09e8.log) | 🟩 |
@@ -367,6 +372,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tsepez | 2025-08-04 | [Remove file-wide unsafe buffer pragamas in partitio...](./output/release/218e32d7878cfa006a9e90df6dc16a377cffbdb3.log) | 🟩 |
+| tsepez | 2025-08-04 | [Propagate UNSAFETY through partition alloc raw poin...](./output/release/a25ec884fd1dd0d9f50f7baf1883982e8db46b41.log) | 🟩 |
+| tsepez | 2025-08-04 | [Mark unsafe raw_ptr<T> operations as unsafe.](./output/release/4e92c91bb300e840f586f504e6fc6ea2adb329b2.log) | 🟩 |
+| mikt | 2025-08-04 | [[PA] Scheduler-Loop Quarantine is configured via JSON](./output/release/f79cd042e21bc40da52829e883813b4f3f093ff2.log) | 🟩 |
+| mikt | 2025-08-03 | [[PA] Purge Scheduler-Loop Quarantine on UI Thread T...](./output/release/22ea4eaebb2458920d56eb68a1db74028375303e.log) | 🟩 |
 | tsepez | 2025-08-01 | [Remove base/allocator from unsafe_buffers_paths.txt...](./output/release/57104f156773d81ca03b0c41d118821475646bf5.log) | 🟩 |
 | tsepez | 2025-08-01 | [Add PA_UNSAFE_BUFFER_USAGE macro to partition alloc.](./output/release/f5d9c0b9bfccf8b0e7716f9c70623ce6129fea9b.log) | 🟩 |
 | tasak | 2025-07-31 | [[PA] Propose "ExternalMetadata" synthetic finch tri...](./output/release/ec5fa718c5470c1f4840f50f72b2815545ee09e8.log) | 🟩 |
