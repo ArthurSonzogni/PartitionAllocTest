@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-08**: 🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -49,6 +49,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-08-05 | [[PA] Fix PartitionRoot::CheckMetadataIntegrity](./output/debug/356065b030e6194a732705e86a11248db2728786.log) | 🟩 |
+| rulongchen | 2025-08-05 | [[PartitionAlloc] Fix crash when nullptr is passed t...](./output/debug/659d300ab723b5ea128984dda1d0e94d456ab665.log) | 🟩 |
 | tsepez | 2025-08-04 | [Remove file-wide unsafe buffer pragamas in partitio...](./output/debug/218e32d7878cfa006a9e90df6dc16a377cffbdb3.log) | 🟩 |
 | tsepez | 2025-08-04 | [Propagate UNSAFETY through partition alloc raw poin...](./output/debug/a25ec884fd1dd0d9f50f7baf1883982e8db46b41.log) | 🟩 |
 | tsepez | 2025-08-04 | [Mark unsafe raw_ptr<T> operations as unsafe.](./output/debug/4e92c91bb300e840f586f504e6fc6ea2adb329b2.log) | 🟩 |
@@ -372,6 +374,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-08-05 | [[PA] Fix PartitionRoot::CheckMetadataIntegrity](./output/release/356065b030e6194a732705e86a11248db2728786.log) | 🟩 |
+| rulongchen | 2025-08-05 | [[PartitionAlloc] Fix crash when nullptr is passed t...](./output/release/659d300ab723b5ea128984dda1d0e94d456ab665.log) | 🟩 |
 | tsepez | 2025-08-04 | [Remove file-wide unsafe buffer pragamas in partitio...](./output/release/218e32d7878cfa006a9e90df6dc16a377cffbdb3.log) | 🟩 |
 | tsepez | 2025-08-04 | [Propagate UNSAFETY through partition alloc raw poin...](./output/release/a25ec884fd1dd0d9f50f7baf1883982e8db46b41.log) | 🟩 |
 | tsepez | 2025-08-04 | [Mark unsafe raw_ptr<T> operations as unsafe.](./output/release/4e92c91bb300e840f586f504e6fc6ea2adb329b2.log) | 🟩 |

@@ -1,0 +1,5 @@
+HEAD is now at 356065b0 [PA] Fix PartitionRoot::CheckMetadataIntegrity
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/release'
+[1/2] CXX ../../src/partition_alloc/partition_root.cc
+[2/2] LINK (static) liballocator_core.a

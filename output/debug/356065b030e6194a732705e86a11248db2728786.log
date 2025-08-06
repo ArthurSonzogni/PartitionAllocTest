@@ -1,0 +1,22 @@
+Note: switching to '356065b030e6194a732705e86a11248db2728786'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 356065b0 [PA] Fix PartitionRoot::CheckMetadataIntegrity
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/debug'
+[1/2] CXX ../../src/partition_alloc/partition_root.cc
+[2/2] LINK (static) liballocator_core.a
