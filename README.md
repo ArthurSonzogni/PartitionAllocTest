@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -49,6 +49,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-08-07 | [Revert "[PA] Enable ExternalMetadata feature on can...](./output/debug/4a3b2fb6d953a9ad17e7da948645fa7e180926b0.log) | 🟩 |
+| tasak | 2025-08-06 | [[PA] Enable ExternalMetadata feature on canary Enab...](./output/debug/69da7baf768c4edb1cd77a5be1538ce4283b7736.log) | 🟩 |
 | arthursonzogni | 2025-08-06 | [PA: Suppress REALLOC_GROWTH_FACTOR_MITIGATION limit.](./output/debug/5c2d24bfafe63e10a61ec335509d5d83acd7db11.log) | 🟩 |
 | mikt | 2025-08-05 | [[PA] Fix PartitionRoot::CheckMetadataIntegrity](./output/debug/356065b030e6194a732705e86a11248db2728786.log) | 🟩 |
 | rulongchen | 2025-08-05 | [[PartitionAlloc] Fix crash when nullptr is passed t...](./output/debug/659d300ab723b5ea128984dda1d0e94d456ab665.log) | 🟩 |
@@ -375,6 +377,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-08-07 | [Revert "[PA] Enable ExternalMetadata feature on can...](./output/release/4a3b2fb6d953a9ad17e7da948645fa7e180926b0.log) | 🟩 |
+| tasak | 2025-08-06 | [[PA] Enable ExternalMetadata feature on canary Enab...](./output/release/69da7baf768c4edb1cd77a5be1538ce4283b7736.log) | 🟩 |
 | arthursonzogni | 2025-08-06 | [PA: Suppress REALLOC_GROWTH_FACTOR_MITIGATION limit.](./output/release/5c2d24bfafe63e10a61ec335509d5d83acd7db11.log) | 🟩 |
 | mikt | 2025-08-05 | [[PA] Fix PartitionRoot::CheckMetadataIntegrity](./output/release/356065b030e6194a732705e86a11248db2728786.log) | 🟩 |
 | rulongchen | 2025-08-05 | [[PartitionAlloc] Fix crash when nullptr is passed t...](./output/release/659d300ab723b5ea128984dda1d0e94d456ab665.log) | 🟩 |
