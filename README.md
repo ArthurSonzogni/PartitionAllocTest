@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -49,6 +49,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-08-18 | [[PA] Enable External Metadata on canary.](./output/release/1a0ba72ed0a07107cf2398a93561f44c855c58b0.log) | 🟩 |
+| tkent | 2025-08-18 | [Remove `WTF::` in base/](./output/release/902c2e234fc94d82df3eab27070600db88e9f63e.log) | 🟩 |
 | tasak | 2025-08-17 | [[PA] Skip HardeningTest.(PoolOffset)MetadataPointer...](./output/release/f81bc9851284fe29f2a946f1dfd793b77941fd01.log) | 🟩 |
 | tasak | 2025-08-14 | [Revert "[PA] Enable external metadata on canary"](./output/release/5566f889c0c929938fb11a0c04235b3b7932a4c7.log) | 🟩 |
 | tasak | 2025-08-14 | [[PA] Enable external metadata on canary](./output/release/ecbda5f809e71d995d4002a1530c625ef848b073.log) | 🟩 |
@@ -385,6 +387,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-08-18 | [[PA] Enable External Metadata on canary.](./output/debug/1a0ba72ed0a07107cf2398a93561f44c855c58b0.log) | 🟩 |
+| tkent | 2025-08-18 | [Remove `WTF::` in base/](./output/debug/902c2e234fc94d82df3eab27070600db88e9f63e.log) | 🟩 |
 | tasak | 2025-08-17 | [[PA] Skip HardeningTest.(PoolOffset)MetadataPointer...](./output/debug/f81bc9851284fe29f2a946f1dfd793b77941fd01.log) | 🟩 |
 | tasak | 2025-08-14 | [Revert "[PA] Enable external metadata on canary"](./output/debug/5566f889c0c929938fb11a0c04235b3b7932a4c7.log) | 🟩 |
 | tasak | 2025-08-14 | [[PA] Enable external metadata on canary](./output/debug/ecbda5f809e71d995d4002a1530c625ef848b073.log) | 🟩 |
