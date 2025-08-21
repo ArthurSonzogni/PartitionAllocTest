@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -49,6 +49,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| dsanders11 | 2025-08-20 | [Remove unused include in scheduler_loop_quarantine_...](./output/release/180844cd9919d753d40b55409996c659f55250e2.log) | 🟩 |
 | tasak | 2025-08-18 | [[PA] Enable External Metadata on canary.](./output/release/1a0ba72ed0a07107cf2398a93561f44c855c58b0.log) | 🟩 |
 | tkent | 2025-08-18 | [Remove `WTF::` in base/](./output/release/902c2e234fc94d82df3eab27070600db88e9f63e.log) | 🟩 |
 | tasak | 2025-08-17 | [[PA] Skip HardeningTest.(PoolOffset)MetadataPointer...](./output/release/f81bc9851284fe29f2a946f1dfd793b77941fd01.log) | 🟩 |
@@ -387,6 +388,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| dsanders11 | 2025-08-20 | [Remove unused include in scheduler_loop_quarantine_...](./output/debug/180844cd9919d753d40b55409996c659f55250e2.log) | 🟩 |
 | tasak | 2025-08-18 | [[PA] Enable External Metadata on canary.](./output/debug/1a0ba72ed0a07107cf2398a93561f44c855c58b0.log) | 🟩 |
 | tkent | 2025-08-18 | [Remove `WTF::` in base/](./output/debug/902c2e234fc94d82df3eab27070600db88e9f63e.log) | 🟩 |
 | tasak | 2025-08-17 | [[PA] Skip HardeningTest.(PoolOffset)MetadataPointer...](./output/debug/f81bc9851284fe29f2a946f1dfd793b77941fd01.log) | 🟩 |
