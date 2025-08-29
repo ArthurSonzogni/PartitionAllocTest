@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -49,6 +49,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-08-28 | [[PA] Separate Scheduler-Loop quarantine branch for ...](./output/debug/b12f7b4f52f41aa7bfb690cf3b766a00c55261fd.log) | 🟩 |
+| justincohen | 2025-08-27 | [ios: Enable PartitionAlloc BackupRefPtr by default ...](./output/debug/18feb39705cfd694c878286497d6929c25b6a82d.log) | 🟩 |
 | ivan.pavlotsky | 2025-08-27 | [Disable Xclang and target-feature flags for non-Cla...](./output/debug/f35da6421e88228655ec1d5dbe1dcdc870a4741a.log) | 🟩 |
 | tasak | 2025-08-26 | [[PA] Make PartitionAlloc External Metadata 50% enab...](./output/debug/ba5e9459f6ad57cffa4800e08baa01ea6c811ffc.log) | 🟩 |
 | tasak | 2025-08-21 | [Reland "[PA] Enable External Metadata on canary."](./output/debug/ce17d3c2126ae2b3611eac90d6b54035f1e595f4.log) | 🟩 |
@@ -392,6 +394,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-08-28 | [[PA] Separate Scheduler-Loop quarantine branch for ...](./output/release/b12f7b4f52f41aa7bfb690cf3b766a00c55261fd.log) | 🟩 |
+| justincohen | 2025-08-27 | [ios: Enable PartitionAlloc BackupRefPtr by default ...](./output/release/18feb39705cfd694c878286497d6929c25b6a82d.log) | 🟩 |
 | ivan.pavlotsky | 2025-08-27 | [Disable Xclang and target-feature flags for non-Cla...](./output/release/f35da6421e88228655ec1d5dbe1dcdc870a4741a.log) | 🟩 |
 | tasak | 2025-08-26 | [[PA] Make PartitionAlloc External Metadata 50% enab...](./output/release/ba5e9459f6ad57cffa4800e08baa01ea6c811ffc.log) | 🟩 |
 | tasak | 2025-08-21 | [Reland "[PA] Enable External Metadata on canary."](./output/release/ce17d3c2126ae2b3611eac90d6b54035f1e595f4.log) | 🟩 |
