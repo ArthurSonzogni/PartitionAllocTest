@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-09**: 🟩<br>
+**2025-09**: 🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -50,6 +50,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| lizeb | 2025-09-04 | [[PartiitonAlloc] Suppress TSAN error due to constan...](./output/debug/c001374914bffb3db6ed024a521f3a38f11d0911.log) | 🟩 |
 | justincohen | 2025-09-03 | [Re-enable BRP zapping on iOS](./output/debug/7e1a38e21c908deac07090d1a8e7e49bbd0f862a.log) | 🟩 |
 | justincohen | 2025-08-29 | [Revert "[PA] Add configuration for iOS binary exper...](./output/debug/51d0a558ecdf5cac58509d08263c36764c270ca6.log) | 🟩 |
 | mikt | 2025-08-28 | [[PA] Separate Scheduler-Loop quarantine branch for ...](./output/debug/b12f7b4f52f41aa7bfb690cf3b766a00c55261fd.log) | 🟩 |
@@ -397,6 +398,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| lizeb | 2025-09-04 | [[PartiitonAlloc] Suppress TSAN error due to constan...](./output/release/c001374914bffb3db6ed024a521f3a38f11d0911.log) | 🟩 |
 | justincohen | 2025-09-03 | [Re-enable BRP zapping on iOS](./output/release/7e1a38e21c908deac07090d1a8e7e49bbd0f862a.log) | 🟩 |
 | justincohen | 2025-08-29 | [Revert "[PA] Add configuration for iOS binary exper...](./output/release/51d0a558ecdf5cac58509d08263c36764c270ca6.log) | 🟩 |
 | mikt | 2025-08-28 | [[PA] Separate Scheduler-Loop quarantine branch for ...](./output/release/b12f7b4f52f41aa7bfb690cf3b766a00c55261fd.log) | 🟩 |
