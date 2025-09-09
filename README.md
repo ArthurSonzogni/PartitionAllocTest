@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-09**: 🟩🟩🟩<br>
+**2025-09**: 🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -50,6 +50,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| rop | 2025-09-07 | [LSC Metadata fix](./output/debug/09c9e8d5f0d23bd46bfb1f7bc10a294ea7a60774.log) | 🟩 |
 | zhoumingtao | 2025-09-05 | [partition_alloc: Support dynamic page size for Loon...](./output/debug/3926658b1b5124b0c85bc9f2bac450214d3bf7a4.log) | 🟩 |
 | lizeb | 2025-09-04 | [[PartiitonAlloc] Suppress TSAN error due to constan...](./output/debug/c001374914bffb3db6ed024a521f3a38f11d0911.log) | 🟩 |
 | justincohen | 2025-09-03 | [Re-enable BRP zapping on iOS](./output/debug/7e1a38e21c908deac07090d1a8e7e49bbd0f862a.log) | 🟩 |
@@ -399,6 +400,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| rop | 2025-09-07 | [LSC Metadata fix](./output/release/09c9e8d5f0d23bd46bfb1f7bc10a294ea7a60774.log) | 🟩 |
 | zhoumingtao | 2025-09-05 | [partition_alloc: Support dynamic page size for Loon...](./output/release/3926658b1b5124b0c85bc9f2bac450214d3bf7a4.log) | 🟩 |
 | lizeb | 2025-09-04 | [[PartiitonAlloc] Suppress TSAN error due to constan...](./output/release/c001374914bffb3db6ed024a521f3a38f11d0911.log) | 🟩 |
 | justincohen | 2025-09-03 | [Re-enable BRP zapping on iOS](./output/release/7e1a38e21c908deac07090d1a8e7e49bbd0f862a.log) | 🟩 |
