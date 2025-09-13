@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-09**: 🟩🟩🟩🟩🟩<br>
+**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -50,6 +50,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| acondor | 2025-09-12 | [Implement unchecked calloc via shim](./output/debug/fae4df38cef9720a13dd55a6b1d20600919e671b.log) | 🟩 |
+| tasak | 2025-09-12 | [[PA] Deflake and re-enable PartitionAllocTest.Check...](./output/debug/cb2ed1009c4d5e310bc4ccc2bfd2d38a54e0461b.log) | 🟩 |
+| kojii | 2025-09-11 | [[icu] Disables a `PartitionAllocTest` that seems fl...](./output/debug/9d08d0ef84ae6525bac4f69cb967bed38858dce5.log) | 🟩 |
 | anandrv | 2025-09-09 | [[partition_alloc] Report acquisition time for conte...](./output/debug/dd3fc2d811574cf24220d2010bf3a7d00d644aee.log) | 🟩 |
 | rop | 2025-09-07 | [LSC Metadata fix](./output/debug/09c9e8d5f0d23bd46bfb1f7bc10a294ea7a60774.log) | 🟩 |
 | zhoumingtao | 2025-09-05 | [partition_alloc: Support dynamic page size for Loon...](./output/debug/3926658b1b5124b0c85bc9f2bac450214d3bf7a4.log) | 🟩 |
@@ -401,6 +404,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| acondor | 2025-09-12 | [Implement unchecked calloc via shim](./output/release/fae4df38cef9720a13dd55a6b1d20600919e671b.log) | 🟩 |
+| tasak | 2025-09-12 | [[PA] Deflake and re-enable PartitionAllocTest.Check...](./output/release/cb2ed1009c4d5e310bc4ccc2bfd2d38a54e0461b.log) | 🟩 |
+| kojii | 2025-09-11 | [[icu] Disables a `PartitionAllocTest` that seems fl...](./output/release/9d08d0ef84ae6525bac4f69cb967bed38858dce5.log) | 🟩 |
 | anandrv | 2025-09-09 | [[partition_alloc] Report acquisition time for conte...](./output/release/dd3fc2d811574cf24220d2010bf3a7d00d644aee.log) | 🟩 |
 | rop | 2025-09-07 | [LSC Metadata fix](./output/release/09c9e8d5f0d23bd46bfb1f7bc10a294ea7a60774.log) | 🟩 |
 | zhoumingtao | 2025-09-05 | [partition_alloc: Support dynamic page size for Loon...](./output/release/3926658b1b5124b0c85bc9f2bac450214d3bf7a4.log) | 🟩 |
