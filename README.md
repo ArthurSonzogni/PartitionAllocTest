@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -50,6 +50,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| avi | 2025-09-15 | [Remove Darwin version TODO](./output/debug/bb8643420b21841d7530b343cb247e061c0eb3b8.log) | 🟩 |
+| tasak | 2025-09-14 | [[PA] Disable PartitionAlloc External Metadata](./output/debug/ccbdeaaeb633a85f317a1d27c17a118fab789b64.log) | 🟩 |
 | acondor | 2025-09-12 | [Implement unchecked calloc via shim](./output/debug/fae4df38cef9720a13dd55a6b1d20600919e671b.log) | 🟩 |
 | tasak | 2025-09-12 | [[PA] Deflake and re-enable PartitionAllocTest.Check...](./output/debug/cb2ed1009c4d5e310bc4ccc2bfd2d38a54e0461b.log) | 🟩 |
 | kojii | 2025-09-11 | [[icu] Disables a `PartitionAllocTest` that seems fl...](./output/debug/9d08d0ef84ae6525bac4f69cb967bed38858dce5.log) | 🟩 |
@@ -404,6 +406,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| avi | 2025-09-15 | [Remove Darwin version TODO](./output/release/bb8643420b21841d7530b343cb247e061c0eb3b8.log) | 🟩 |
+| tasak | 2025-09-14 | [[PA] Disable PartitionAlloc External Metadata](./output/release/ccbdeaaeb633a85f317a1d27c17a118fab789b64.log) | 🟩 |
 | acondor | 2025-09-12 | [Implement unchecked calloc via shim](./output/release/fae4df38cef9720a13dd55a6b1d20600919e671b.log) | 🟩 |
 | tasak | 2025-09-12 | [[PA] Deflake and re-enable PartitionAllocTest.Check...](./output/release/cb2ed1009c4d5e310bc4ccc2bfd2d38a54e0461b.log) | 🟩 |
 | kojii | 2025-09-11 | [[icu] Disables a `PartitionAllocTest` that seems fl...](./output/release/9d08d0ef84ae6525bac4f69cb967bed38858dce5.log) | 🟩 |
