@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -50,6 +50,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| noemies | 2025-09-22 | [[iOS Gardener] Disable ReadExecutePages on device](./output/debug/ae5f94430c494db73fdcd2106269d3b08ea8e24f.log) | 🟩 |
+| justincohen | 2025-09-22 | [ios: Enable some disabled PartitionAlloc unittests.](./output/debug/84a41f2a2242f43d95fc8333725a89ba38b1f8f1.log) | 🟩 |
 | stefanoduo | 2025-09-19 | [Cronet: Disable PartitionAlloc via GN arg definitio...](./output/debug/e3b4f7b28213398c1891b27c23cca7581d7cec90.log) | 🟩 |
 | mikt | 2025-09-19 | [[PA] Configure default stack size for iOS](./output/debug/78467db77680f3c375dcff3ff79ed5a7578bb3e5.log) | 🟩 |
 | nuskos | 2025-09-19 | [Enable PartitionAlloc External Metadata feature at ...](./output/debug/5af527282d75750fe12450ca508fb2fe95ea0810.log) | 🟩 |
@@ -411,6 +413,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| noemies | 2025-09-22 | [[iOS Gardener] Disable ReadExecutePages on device](./output/release/ae5f94430c494db73fdcd2106269d3b08ea8e24f.log) | 🟩 |
+| justincohen | 2025-09-22 | [ios: Enable some disabled PartitionAlloc unittests.](./output/release/84a41f2a2242f43d95fc8333725a89ba38b1f8f1.log) | 🟩 |
 | stefanoduo | 2025-09-19 | [Cronet: Disable PartitionAlloc via GN arg definitio...](./output/release/e3b4f7b28213398c1891b27c23cca7581d7cec90.log) | 🟩 |
 | mikt | 2025-09-19 | [[PA] Configure default stack size for iOS](./output/release/78467db77680f3c375dcff3ff79ed5a7578bb3e5.log) | 🟩 |
 | nuskos | 2025-09-19 | [Enable PartitionAlloc External Metadata feature at ...](./output/release/5af527282d75750fe12450ca508fb2fe95ea0810.log) | 🟩 |
