@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -50,6 +50,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| lizeb | 2025-09-26 | [[PartitionAlloc] Remove launched feature for "use f...](./output/release/ee6c8d0716e9d10d1ad25de97e690ddfa54f2c4a.log) | 🟩 |
 | justincohen | 2025-09-25 | [ios:  Re-enable PA-E ReadExecutePages test on iOS 1...](./output/release/9d3ee7c25f88e6e070308f0f80f2025646278355.log) | 🟩 |
 | mikt | 2025-09-23 | [[PA/BRP] Enable BRP-ASan on iOS](./output/release/ecbbabb292b5e07a332dfdb206591aa2ee7e8f44.log) | 🟩 |
 | noemies | 2025-09-22 | [[iOS Gardener] Disable ReadExecutePages on device](./output/release/ae5f94430c494db73fdcd2106269d3b08ea8e24f.log) | 🟩 |
@@ -415,6 +416,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| lizeb | 2025-09-26 | [[PartitionAlloc] Remove launched feature for "use f...](./output/debug/ee6c8d0716e9d10d1ad25de97e690ddfa54f2c4a.log) | 🟩 |
 | justincohen | 2025-09-25 | [ios:  Re-enable PA-E ReadExecutePages test on iOS 1...](./output/debug/9d3ee7c25f88e6e070308f0f80f2025646278355.log) | 🟩 |
 | mikt | 2025-09-23 | [[PA/BRP] Enable BRP-ASan on iOS](./output/debug/ecbbabb292b5e07a332dfdb206591aa2ee7e8f44.log) | 🟩 |
 | noemies | 2025-09-22 | [[iOS Gardener] Disable ReadExecutePages on device](./output/debug/ae5f94430c494db73fdcd2106269d3b08ea8e24f.log) | 🟩 |
