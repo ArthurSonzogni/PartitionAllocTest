@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
 **2025-06**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
@@ -50,6 +50,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| lpromero | 2025-09-29 | [Revert "[PA/BRP] Enable BRP-ASan on iOS"](./output/release/e3fec0a6803f0228bad652b12645ab19574e8bc9.log) | 🟩 |
 | mikt | 2025-09-26 | [[base/PA] Add scheduler loop quarantine support to ...](./output/release/cca2b369b2f8895cb14e24740e1f9bf91d5b371e.log) | 🟩 |
 | lizeb | 2025-09-26 | [[PartitionAlloc] Remove launched feature for "use f...](./output/release/ee6c8d0716e9d10d1ad25de97e690ddfa54f2c4a.log) | 🟩 |
 | justincohen | 2025-09-25 | [ios:  Re-enable PA-E ReadExecutePages test on iOS 1...](./output/release/9d3ee7c25f88e6e070308f0f80f2025646278355.log) | 🟩 |
@@ -417,6 +418,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| lpromero | 2025-09-29 | [Revert "[PA/BRP] Enable BRP-ASan on iOS"](./output/debug/e3fec0a6803f0228bad652b12645ab19574e8bc9.log) | 🟩 |
 | mikt | 2025-09-26 | [[base/PA] Add scheduler loop quarantine support to ...](./output/debug/cca2b369b2f8895cb14e24740e1f9bf91d5b371e.log) | 🟩 |
 | lizeb | 2025-09-26 | [[PartitionAlloc] Remove launched feature for "use f...](./output/debug/ee6c8d0716e9d10d1ad25de97e690ddfa54f2c4a.log) | 🟩 |
 | justincohen | 2025-09-25 | [ios:  Re-enable PA-E ReadExecutePages test on iOS 1...](./output/debug/9d3ee7c25f88e6e070308f0f80f2025646278355.log) | 🟩 |
