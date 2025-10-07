@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-10**: 🟩<br>
+**2025-10**: 🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
@@ -51,6 +51,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-10-06 | [Reland "[PA/BRP] Enable BRP-ASan on iOS"](./output/release/1fd5c75f3b3683a004d2494a184a15b6bcef463a.log) | 🟩 |
 | dloehr | 2025-10-01 | [Disable test until next clang roll](./output/release/7032e49a7847caf235a4d67459a0d417c1ebf251.log) | 🟩 |
 | lpromero | 2025-09-29 | [Revert "[PA/BRP] Enable BRP-ASan on iOS"](./output/release/e3fec0a6803f0228bad652b12645ab19574e8bc9.log) | 🟩 |
 | mikt | 2025-09-26 | [[base/PA] Add scheduler loop quarantine support to ...](./output/release/cca2b369b2f8895cb14e24740e1f9bf91d5b371e.log) | 🟩 |
@@ -420,6 +421,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-10-06 | [Reland "[PA/BRP] Enable BRP-ASan on iOS"](./output/debug/1fd5c75f3b3683a004d2494a184a15b6bcef463a.log) | 🟩 |
 | dloehr | 2025-10-01 | [Disable test until next clang roll](./output/debug/7032e49a7847caf235a4d67459a0d417c1ebf251.log) | 🟩 |
 | lpromero | 2025-09-29 | [Revert "[PA/BRP] Enable BRP-ASan on iOS"](./output/debug/e3fec0a6803f0228bad652b12645ab19574e8bc9.log) | 🟩 |
 | mikt | 2025-09-26 | [[base/PA] Add scheduler loop quarantine support to ...](./output/debug/cca2b369b2f8895cb14e24740e1f9bf91d5b371e.log) | 🟩 |
