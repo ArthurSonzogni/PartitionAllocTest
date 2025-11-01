@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-07**: 🟥🟥🟥🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩<br>
@@ -51,6 +51,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| dloehr | 2025-10-31 | [Revert "Disable test until next clang roll"](./output/release/fa63bd8319311b5c5f5a4e63678830c4a3655b04.log) | 🟩 |
+| yukishiino | 2025-10-31 | [PA: Add shim/HowToInterposeOrIntercept.md](./output/release/abae057a0b75d5cb4738606734d4f3492ad4e2bc.log) | 🟩 |
 | tasak | 2025-10-29 | [[PA] Ramp up External Metadata trial to 10% on canary](./output/release/a8bbea7ea2d6e41cd0a8687756e42c8b32a9b0c1.log) | 🟩 |
 | mikt | 2025-10-29 | [[PA] Mitigate shutdown hang from Scheduler-Loop Qua...](./output/release/2f4069fb8d7afbd9e3c078a14a5bab8280a68cf6.log) | 🟩 |
 | tasak | 2025-10-17 | [[PA] Make PartitionAllocExternalMetadata enabled at...](./output/release/db8446987dfff3cfc0c100b7d58e6a404ef639eb.log) | 🟩 |
@@ -429,6 +431,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| dloehr | 2025-10-31 | [Revert "Disable test until next clang roll"](./output/debug/fa63bd8319311b5c5f5a4e63678830c4a3655b04.log) | 🟩 |
+| yukishiino | 2025-10-31 | [PA: Add shim/HowToInterposeOrIntercept.md](./output/debug/abae057a0b75d5cb4738606734d4f3492ad4e2bc.log) | 🟩 |
 | tasak | 2025-10-29 | [[PA] Ramp up External Metadata trial to 10% on canary](./output/debug/a8bbea7ea2d6e41cd0a8687756e42c8b32a9b0c1.log) | 🟩 |
 | mikt | 2025-10-29 | [[PA] Mitigate shutdown hang from Scheduler-Loop Qua...](./output/debug/2f4069fb8d7afbd9e3c078a14a5bab8280a68cf6.log) | 🟩 |
 | tasak | 2025-10-17 | [[PA] Make PartitionAllocExternalMetadata enabled at...](./output/debug/db8446987dfff3cfc0c100b7d58e6a404ef639eb.log) | 🟩 |
