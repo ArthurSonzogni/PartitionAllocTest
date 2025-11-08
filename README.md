@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-11**: 🟩🟩🟩<br>
+**2025-11**: 🟩🟩🟩🟥<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -48,10 +48,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 **2024-05**: 🟥🟥🟥🟥<br>
 
 <details>
-<summary>🟩 Configuration: `release`</summary>
+<summary>🟥 Configuration: `release`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2025-11-06 | [PA: remove if PA_BUILDFLAG(ASSESRT_CPP_20)](./output/release/3c92a87d2c9f9319118e951e64bd6f9c1e0306d2.log) | 🟥 |
 | mikt | 2025-11-04 | [[PA/AC] Implement size-based filtering](./output/release/f228d5a6170573dba10189f5a8d32623954c39c4.log) | 🟩 |
 | kaiyilin | 2025-11-02 | [Revert "Track SchedulerLoopQuarantine zap/purge tim...](./output/release/fd571058170087fff09fcac020c9e32c36032387.log) | 🟩 |
 | nuskos | 2025-11-02 | [Track SchedulerLoopQuarantine zap/purge timings](./output/release/300767b01ec7f3260d09820c564dc47219691061.log) | 🟩 |
@@ -431,10 +432,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 </details>
 
 <details>
-<summary>🟩 Configuration: `debug`</summary>
+<summary>🟥 Configuration: `debug`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2025-11-06 | [PA: remove if PA_BUILDFLAG(ASSESRT_CPP_20)](./output/debug/3c92a87d2c9f9319118e951e64bd6f9c1e0306d2.log) | 🟥 |
 | mikt | 2025-11-04 | [[PA/AC] Implement size-based filtering](./output/debug/f228d5a6170573dba10189f5a8d32623954c39c4.log) | 🟩 |
 | kaiyilin | 2025-11-02 | [Revert "Track SchedulerLoopQuarantine zap/purge tim...](./output/debug/fd571058170087fff09fcac020c9e32c36032387.log) | 🟩 |
 | nuskos | 2025-11-02 | [Track SchedulerLoopQuarantine zap/purge timings](./output/debug/300767b01ec7f3260d09820c564dc47219691061.log) | 🟩 |
