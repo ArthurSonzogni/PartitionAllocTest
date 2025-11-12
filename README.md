@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-11**: 🟩🟩🟩🟥<br>
+**2025-11**: 🟩🟩🟩🟥🟥🟥<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -52,6 +52,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| jood | 2025-11-11 | [Revert "[PA] Refactor to use a typed SlotStart to r...](./output/release/a9912a4b18c048484e96aa3ce106da21930ed8b6.log) | 🟥 |
+| mikt | 2025-11-11 | [[PA] Refactor to use a typed SlotStart to replace u...](./output/release/495c1417ff2f7ce3a4a37f2d54d57712a4379ef2.log) | 🟥 |
 | ayumiohno | 2025-11-06 | [PA: remove if PA_BUILDFLAG(ASSESRT_CPP_20)](./output/release/3c92a87d2c9f9319118e951e64bd6f9c1e0306d2.log) | 🟥 |
 | mikt | 2025-11-04 | [[PA/AC] Implement size-based filtering](./output/release/f228d5a6170573dba10189f5a8d32623954c39c4.log) | 🟩 |
 | kaiyilin | 2025-11-02 | [Revert "Track SchedulerLoopQuarantine zap/purge tim...](./output/release/fd571058170087fff09fcac020c9e32c36032387.log) | 🟩 |
@@ -436,6 +438,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| jood | 2025-11-11 | [Revert "[PA] Refactor to use a typed SlotStart to r...](./output/debug/a9912a4b18c048484e96aa3ce106da21930ed8b6.log) | 🟥 |
+| mikt | 2025-11-11 | [[PA] Refactor to use a typed SlotStart to replace u...](./output/debug/495c1417ff2f7ce3a4a37f2d54d57712a4379ef2.log) | 🟥 |
 | ayumiohno | 2025-11-06 | [PA: remove if PA_BUILDFLAG(ASSESRT_CPP_20)](./output/debug/3c92a87d2c9f9319118e951e64bd6f9c1e0306d2.log) | 🟥 |
 | mikt | 2025-11-04 | [[PA/AC] Implement size-based filtering](./output/debug/f228d5a6170573dba10189f5a8d32623954c39c4.log) | 🟩 |
 | kaiyilin | 2025-11-02 | [Revert "Track SchedulerLoopQuarantine zap/purge tim...](./output/debug/fd571058170087fff09fcac020c9e32c36032387.log) | 🟩 |
