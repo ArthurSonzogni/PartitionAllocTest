@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-11**: 🟩🟩🟩🟥🟥🟥<br>
+**2025-11**: 🟩🟩🟩🟥🟥🟥🟥<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -52,6 +52,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-11-11 | [[PA] Ramp up External Metadata trial to 25% on canary](./output/release/37d717b2583271f64d41d2e09e560bd7baae4c5e.log) | 🟥 |
 | jood | 2025-11-11 | [Revert "[PA] Refactor to use a typed SlotStart to r...](./output/release/a9912a4b18c048484e96aa3ce106da21930ed8b6.log) | 🟥 |
 | mikt | 2025-11-11 | [[PA] Refactor to use a typed SlotStart to replace u...](./output/release/495c1417ff2f7ce3a4a37f2d54d57712a4379ef2.log) | 🟥 |
 | ayumiohno | 2025-11-06 | [PA: remove if PA_BUILDFLAG(ASSESRT_CPP_20)](./output/release/3c92a87d2c9f9319118e951e64bd6f9c1e0306d2.log) | 🟥 |
@@ -438,6 +439,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-11-11 | [[PA] Ramp up External Metadata trial to 25% on canary](./output/debug/37d717b2583271f64d41d2e09e560bd7baae4c5e.log) | 🟥 |
 | jood | 2025-11-11 | [Revert "[PA] Refactor to use a typed SlotStart to r...](./output/debug/a9912a4b18c048484e96aa3ce106da21930ed8b6.log) | 🟥 |
 | mikt | 2025-11-11 | [[PA] Refactor to use a typed SlotStart to replace u...](./output/debug/495c1417ff2f7ce3a4a37f2d54d57712a4379ef2.log) | 🟥 |
 | ayumiohno | 2025-11-06 | [PA: remove if PA_BUILDFLAG(ASSESRT_CPP_20)](./output/debug/3c92a87d2c9f9319118e951e64bd6f9c1e0306d2.log) | 🟥 |
