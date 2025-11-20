@@ -1,0 +1,124 @@
+Note: switching to '21d8011dfea14a95cc2baaa3d76f6d25c2bbcc9d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 21d8011d [PA] Make PartitionAllocExternalMetadata 100%-enabled on canary.
+WARNING at the command-line "--args":1:250: Build argument has no effect.
+is_debug=false use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
+                                                                                                                                                                                                                                                         ^---
+The variable "enable_ios_corruption_hardening" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/release'
+[1/78] ACTION //src/partition_alloc:buildflags(//gn/toolchain:clang)
+[2/78] CXX ../../src/partition_alloc/partition_alloc_base/debug/alias.cc
+[3/78] CXX ../../src/partition_alloc/partition_alloc_base/check.cc
+[4/78] CXX ../../src/partition_alloc/partition_alloc_base/logging.cc
+[5/78] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
+[6/78] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
+[7/78] CXX ../../src/partition_alloc/partition_alloc_base/strings/string_util.cc
+[8/78] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
+[9/78] CXX ../../src/partition_alloc/partition_alloc_base/memory/ref_counted.cc
+[10/78] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace.cc
+[11/78] CXX ../../src/partition_alloc/partition_alloc_base/strings/cstring_builder.cc
+[12/78] CXX ../../src/partition_alloc/partition_alloc_base/strings/safe_sprintf.cc
+[13/78] CXX ../../src/partition_alloc/partition_alloc_base/strings/stringprintf.cc
+[14/78] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+[15/78] CXX ../../src/partition_alloc/partition_alloc_base/memory/page_size_posix.cc
+[16/78] CXX ../../src/partition_alloc/partition_alloc_base/process/process_handle_posix.cc
+[17/78] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_posix.cc
+[18/78] CXX ../../src/partition_alloc/partition_alloc_base/time/time_override.cc
+[19/78] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread.cc
+[20/78] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
+[21/78] CXX ../../src/partition_alloc/partition_alloc_base/debug/stack_trace_linux.cc
+[22/78] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
+[23/78] CXX ../../src/partition_alloc/partition_alloc_base/time/time.cc
+[24/78] CXX ../../src/partition_alloc/partition_alloc_base/time/time_conversion_posix.cc
+[25/78] CXX ../../src/partition_alloc/address_space_randomization.cc
+[26/78] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix.cc
+[27/78] CXX ../../src/partition_alloc/partition_alloc_base/time/time_now_posix.cc
+[28/78] CXX ../../src/partition_alloc/allocation_guard.cc
+FAILED: [code=1] obj/src/partition_alloc/liballocator_core.allocation_guard.o 
+clang++ -MD -MF obj/src/partition_alloc/liballocator_core.allocation_guard.o.d -DNDEBUG -DIS_PARTITION_ALLOC_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -O3 -Wexit-time-destructors -std=c++17 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/allocation_guard.cc -o obj/src/partition_alloc/liballocator_core.allocation_guard.o
+In file included from ../../src/partition_alloc/allocation_guard.cc:10:
+In file included from ../../src/partition_alloc/allocation_guard.h:15:
+../../src/partition_alloc/partition_alloc_config.h:268:15: error: static assertion failed due to requirement '201703L >= 202002L': PartitionAlloc targets C++20 or higher.
+  268 | static_assert(__cplusplus >= 202002L,
+      |               ^~~~~~~~~~~~~~~~~~~~~~
+<built-in>:439:21: note: expanded from macro '__cplusplus'
+  439 | #define __cplusplus 201703L
+      |                     ^
+1 error generated.
+[29/78] CXX ../../src/partition_alloc/allocator_config.cc
+FAILED: [code=1] obj/src/partition_alloc/liballocator_core.allocator_config.o 
+clang++ -MD -MF obj/src/partition_alloc/liballocator_core.allocator_config.o.d -DNDEBUG -DIS_PARTITION_ALLOC_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -O3 -Wexit-time-destructors -std=c++17 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/allocator_config.cc -o obj/src/partition_alloc/liballocator_core.allocator_config.o
+In file included from ../../src/partition_alloc/allocator_config.cc:5:
+In file included from ../../src/partition_alloc/allocator_config.h:11:
+../../src/partition_alloc/partition_alloc_config.h:268:15: error: static assertion failed due to requirement '201703L >= 202002L': PartitionAlloc targets C++20 or higher.
+  268 | static_assert(__cplusplus >= 202002L,
+      |               ^~~~~~~~~~~~~~~~~~~~~~
+<built-in>:439:21: note: expanded from macro '__cplusplus'
+  439 | #define __cplusplus 201703L
+      |                     ^
+1 error generated.
+[30/78] LINK (static) liballocator_base.a
+[31/78] CXX ../../src/partition_alloc/compressed_pointer.cc
+FAILED: [code=1] obj/src/partition_alloc/liballocator_core.compressed_pointer.o 
+clang++ -MD -MF obj/src/partition_alloc/liballocator_core.compressed_pointer.o.d -DNDEBUG -DIS_PARTITION_ALLOC_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -O3 -Wexit-time-destructors -std=c++17 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/compressed_pointer.cc -o obj/src/partition_alloc/liballocator_core.compressed_pointer.o
+In file included from ../../src/partition_alloc/compressed_pointer.cc:10:
+In file included from ../../src/partition_alloc/compressed_pointer.h:17:
+In file included from ../../src/partition_alloc/partition_address_space.h:25:
+../../src/partition_alloc/partition_alloc_config.h:268:15: error: static assertion failed due to requirement '201703L >= 202002L': PartitionAlloc targets C++20 or higher.
+  268 | static_assert(__cplusplus >= 202002L,
+      |               ^~~~~~~~~~~~~~~~~~~~~~
+<built-in>:439:21: note: expanded from macro '__cplusplus'
+  439 | #define __cplusplus 201703L
+      |                     ^
+1 error generated.
+[32/78] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+FAILED: [code=1] obj/src/partition_alloc/liballocator_core.address_pool_manager_bitmap.o 
+clang++ -MD -MF obj/src/partition_alloc/liballocator_core.address_pool_manager_bitmap.o.d -DNDEBUG -DIS_PARTITION_ALLOC_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -O3 -Wexit-time-destructors -std=c++17 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/address_pool_manager_bitmap.cc -o obj/src/partition_alloc/liballocator_core.address_pool_manager_bitmap.o
+In file included from ../../src/partition_alloc/address_pool_manager_bitmap.cc:10:
+In file included from ../../src/partition_alloc/address_pool_manager_bitmap.h:23:
+In file included from ../../src/partition_alloc/partition_alloc_constants.h:19:
+In file included from ../../src/partition_alloc/bucket_lookup.h:23:
+In file included from ../../src/partition_alloc/partition_alloc_forward.h:23:
+../../src/partition_alloc/partition_alloc_config.h:268:15: error: static assertion failed due to requirement '201703L >= 202002L': PartitionAlloc targets C++20 or higher.
+  268 | static_assert(__cplusplus >= 202002L,
+      |               ^~~~~~~~~~~~~~~~~~~~~~
+<built-in>:439:21: note: expanded from macro '__cplusplus'
+  439 | #define __cplusplus 201703L
+      |                     ^
+1 error generated.
+[33/78] CXX ../../src/partition_alloc/address_pool_manager.cc
+FAILED: [code=1] obj/src/partition_alloc/liballocator_core.address_pool_manager.o 
+clang++ -MD -MF obj/src/partition_alloc/liballocator_core.address_pool_manager.o.d -DNDEBUG -DIS_PARTITION_ALLOC_IMPL -I../../src -Igen/src -Wno-return-type -Wno-invalid-offsetof -fstrict-aliasing -fPIC -fvisibility=hidden -O3 -Wexit-time-destructors -std=c++17 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -c ../../src/partition_alloc/address_pool_manager.cc -o obj/src/partition_alloc/liballocator_core.address_pool_manager.o
+In file included from ../../src/partition_alloc/address_pool_manager.cc:10:
+In file included from ../../src/partition_alloc/address_pool_manager.h:19:
+In file included from ../../src/partition_alloc/partition_address_space.h:25:
+../../src/partition_alloc/partition_alloc_config.h:268:15: error: static assertion failed due to requirement '201703L >= 202002L': PartitionAlloc targets C++20 or higher.
+  268 | static_assert(__cplusplus >= 202002L,
+      |               ^~~~~~~~~~~~~~~~~~~~~~
+<built-in>:439:21: note: expanded from macro '__cplusplus'
+  439 | #define __cplusplus 201703L
+      |                     ^
+1 error generated.
+ninja: build stopped: subcommand failed.

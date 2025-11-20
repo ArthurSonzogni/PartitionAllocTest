@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥<br>
+**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -52,6 +52,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-11-18 | [[PA] Make PartitionAllocExternalMetadata 100%-enabl...](./output/release/21d8011dfea14a95cc2baaa3d76f6d25c2bbcc9d.log) | 🟥 |
 | tarcisio.fischer | 2025-11-18 | [Enable and improve Death Tests for Partition Alloca...](./output/release/ac53ec3334499e9ee36eb2623f1344b8e5afeef3.log) | 🟥 |
 | mikt | 2025-11-13 | [Reland "[PA] Refactor to use a typed SlotStart to r...](./output/release/1551e3ebf56ad234661c79a5e9d2dbe94988e744.log) | 🟥 |
 | tasak | 2025-11-11 | [[PA] Ramp up External Metadata trial to 25% on canary](./output/release/37d717b2583271f64d41d2e09e560bd7baae4c5e.log) | 🟥 |
@@ -441,6 +442,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2025-11-18 | [[PA] Make PartitionAllocExternalMetadata 100%-enabl...](./output/debug/21d8011dfea14a95cc2baaa3d76f6d25c2bbcc9d.log) | 🟥 |
 | tarcisio.fischer | 2025-11-18 | [Enable and improve Death Tests for Partition Alloca...](./output/debug/ac53ec3334499e9ee36eb2623f1344b8e5afeef3.log) | 🟥 |
 | mikt | 2025-11-13 | [Reland "[PA] Refactor to use a typed SlotStart to r...](./output/debug/1551e3ebf56ad234661c79a5e9d2dbe94988e744.log) | 🟥 |
 | tasak | 2025-11-11 | [[PA] Ramp up External Metadata trial to 25% on canary](./output/debug/37d717b2583271f64d41d2e09e560bd7baae4c5e.log) | 🟥 |
