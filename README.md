@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥<br>
+**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -48,10 +48,14 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 **2024-05**: 🟥🟥🟥🟥<br>
 
 <details>
-<summary>🟥 Configuration: `release`</summary>
+<summary>🟩 Configuration: `release`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| thestig | 2025-11-20 | [Include <features.h> directly in build_config.h on ...](./output/release/4b1c1547ba19d65c3900cf790b1dc493997a80b4.log) | 🟩 |
+| rgod | 2025-11-20 | [Revert "Convert to UNSAFE_TODO in partition_alloc"](./output/release/86291accf55223eec529e421f57e126e3e663963.log) | 🟩 |
+| arthursonzogni | 2025-11-20 | [Convert to UNSAFE_TODO in partition_alloc](./output/release/a5480754481fa0e6ea26242701345819fc391d98.log) | 🟩 |
+| arthursonzogni | 2025-11-20 | [partition_alloc: Move to C++20](./output/release/a626491f4bc59f8bfd6c77db93dabebc4cd30466.log) | 🟩 |
 | tasak | 2025-11-18 | [[PA] Make PartitionAllocExternalMetadata 100%-enabl...](./output/release/21d8011dfea14a95cc2baaa3d76f6d25c2bbcc9d.log) | 🟥 |
 | tarcisio.fischer | 2025-11-18 | [Enable and improve Death Tests for Partition Alloca...](./output/release/ac53ec3334499e9ee36eb2623f1344b8e5afeef3.log) | 🟥 |
 | mikt | 2025-11-13 | [Reland "[PA] Refactor to use a typed SlotStart to r...](./output/release/1551e3ebf56ad234661c79a5e9d2dbe94988e744.log) | 🟥 |
@@ -438,10 +442,14 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 </details>
 
 <details>
-<summary>🟥 Configuration: `debug`</summary>
+<summary>🟩 Configuration: `debug`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| thestig | 2025-11-20 | [Include <features.h> directly in build_config.h on ...](./output/debug/4b1c1547ba19d65c3900cf790b1dc493997a80b4.log) | 🟩 |
+| rgod | 2025-11-20 | [Revert "Convert to UNSAFE_TODO in partition_alloc"](./output/debug/86291accf55223eec529e421f57e126e3e663963.log) | 🟩 |
+| arthursonzogni | 2025-11-20 | [Convert to UNSAFE_TODO in partition_alloc](./output/debug/a5480754481fa0e6ea26242701345819fc391d98.log) | 🟩 |
+| arthursonzogni | 2025-11-20 | [partition_alloc: Move to C++20](./output/debug/a626491f4bc59f8bfd6c77db93dabebc4cd30466.log) | 🟩 |
 | tasak | 2025-11-18 | [[PA] Make PartitionAllocExternalMetadata 100%-enabl...](./output/debug/21d8011dfea14a95cc2baaa3d76f6d25c2bbcc9d.log) | 🟥 |
 | tarcisio.fischer | 2025-11-18 | [Enable and improve Death Tests for Partition Alloca...](./output/debug/ac53ec3334499e9ee36eb2623f1344b8e5afeef3.log) | 🟥 |
 | mikt | 2025-11-13 | [Reland "[PA] Refactor to use a typed SlotStart to r...](./output/debug/1551e3ebf56ad234661c79a5e9d2dbe94988e744.log) | 🟥 |
