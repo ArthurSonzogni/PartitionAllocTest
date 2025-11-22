@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩<br>
+**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -52,6 +52,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-11-20 | [[PA/AC] Batch-free quarantined entries](./output/release/c0a91c99639bc5e15f420ae8a6c764f3bcd0bccf.log) | 🟩 |
 | thestig | 2025-11-20 | [Include <features.h> directly in build_config.h on ...](./output/release/4b1c1547ba19d65c3900cf790b1dc493997a80b4.log) | 🟩 |
 | rgod | 2025-11-20 | [Revert "Convert to UNSAFE_TODO in partition_alloc"](./output/release/86291accf55223eec529e421f57e126e3e663963.log) | 🟩 |
 | arthursonzogni | 2025-11-20 | [Convert to UNSAFE_TODO in partition_alloc](./output/release/a5480754481fa0e6ea26242701345819fc391d98.log) | 🟩 |
@@ -446,6 +447,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-11-20 | [[PA/AC] Batch-free quarantined entries](./output/debug/c0a91c99639bc5e15f420ae8a6c764f3bcd0bccf.log) | 🟩 |
 | thestig | 2025-11-20 | [Include <features.h> directly in build_config.h on ...](./output/debug/4b1c1547ba19d65c3900cf790b1dc493997a80b4.log) | 🟩 |
 | rgod | 2025-11-20 | [Revert "Convert to UNSAFE_TODO in partition_alloc"](./output/debug/86291accf55223eec529e421f57e126e3e663963.log) | 🟩 |
 | arthursonzogni | 2025-11-20 | [Convert to UNSAFE_TODO in partition_alloc](./output/debug/a5480754481fa0e6ea26242701345819fc391d98.log) | 🟩 |
