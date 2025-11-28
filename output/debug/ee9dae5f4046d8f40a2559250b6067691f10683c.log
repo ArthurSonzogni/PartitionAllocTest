@@ -1,0 +1,38 @@
+HEAD is now at ee9dae5f PA: Add finch feature flag to enable/disable FreeWithSize
+WARNING at the command-line "--args":1:249: Build argument has no effect.
+is_debug=true use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
+                                                                                                                                                                                                                                                        ^---
+The variable "enable_ios_corruption_hardening" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/debug'
+[1/25] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[2/25] CXX ../../src/partition_alloc/partition_alloc.cc
+[3/25] CXX ../../src/partition_alloc/internal_allocator.cc
+[4/25] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[5/25] CXX ../../src/partition_alloc/gwp_asan_support.cc
+[6/25] CXX ../../src/partition_alloc/partition_bucket.cc
+[7/25] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[8/25] CXX ../../src/partition_alloc/partition_page.cc
+[9/25] CXX ../../src/partition_alloc/scheduler_loop_quarantine_support.cc
+[10/25] CXX ../../src/partition_alloc/slot_start.cc
+[11/25] CXX ../../src/partition_alloc/partition_root.cc
+[12/25] CXX ../../src/partition_alloc/scheduler_loop_quarantine.cc
+[13/25] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+[14/25] CXX ../../src/partition_alloc/thread_cache.cc
+[15/25] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[16/25] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_with_advanced_checks.cc
+[17/25] CXX ../../src/partition_alloc/stack/stack.cc
+[18/25] LINK (static) liballocator_core.a
+[19/25] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.cc
+[20/25] LINK (static) liballocator_shim.a
+[21/25] CXX ../../src/partition_alloc/extended_api.cc
+[22/25] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[23/25] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+[24/25] LINK (static) libraw_ptr.a
+[25/25] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
