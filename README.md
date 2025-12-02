@@ -27,7 +27,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-12**: 🟩<br>
+**2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-08**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -52,6 +53,14 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| thestig | 2025-12-01 | [PartitionAlloc: Remove RawPtrTraits::kDisableBRP](./output/release/39d55c5da2324729af9e76abc3c293bdeda48a06.log) | 🟩 |
+| luci-bisection | 2025-11-30 | [Revert "Convert to UNSAFE_TODO in partition_alloc i...](./output/release/ebda611438a5eb6b3e3a2b6c67ddc49fa2b29ac1.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in mac_li...](./output/release/5793f657f4dd960addd95a2d6022c4f785e46c2e.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in partit...](./output/release/9f17d115d835fc782f48648cea5bc7b4fe83ae4f.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in windows](./output/release/cf2789c6634d68aa9acafc91d34a27462c54743d.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in fuchsia](./output/release/dc1590b9fe1c12e4746a6d7c7a903f2ea6af19a5.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in partit...](./output/release/3c6388b2fcda07db5e6753c2309030de942747a7.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in shim](./output/release/d2c2747ffe3d648338366e9df117b3984a43509a.log) | 🟩 |
 | thestig | 2025-11-28 | [Forward declare PartitionRoot in scheduler_loop_qua...](./output/release/af595168d6ebc1aa751159affaf0d7f8c1b6e520.log) | 🟩 |
 | ayumiohno | 2025-11-26 | [PA: Add finch feature flag to enable/disable FreeWi...](./output/release/ee9dae5f4046d8f40a2559250b6067691f10683c.log) | 🟩 |
 | ayumiohno | 2025-11-26 | [PA: Optimize FreeWithSize in simple path.](./output/release/db3681ad5c220f81f5189e3f0bd616a4b2df6365.log) | 🟩 |
@@ -450,6 +459,14 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| thestig | 2025-12-01 | [PartitionAlloc: Remove RawPtrTraits::kDisableBRP](./output/debug/39d55c5da2324729af9e76abc3c293bdeda48a06.log) | 🟩 |
+| luci-bisection | 2025-11-30 | [Revert "Convert to UNSAFE_TODO in partition_alloc i...](./output/debug/ebda611438a5eb6b3e3a2b6c67ddc49fa2b29ac1.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in mac_li...](./output/debug/5793f657f4dd960addd95a2d6022c4f785e46c2e.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in partit...](./output/debug/9f17d115d835fc782f48648cea5bc7b4fe83ae4f.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in windows](./output/debug/cf2789c6634d68aa9acafc91d34a27462c54743d.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in fuchsia](./output/debug/dc1590b9fe1c12e4746a6d7c7a903f2ea6af19a5.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in partit...](./output/debug/3c6388b2fcda07db5e6753c2309030de942747a7.log) | 🟩 |
+| arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in shim](./output/debug/d2c2747ffe3d648338366e9df117b3984a43509a.log) | 🟩 |
 | thestig | 2025-11-28 | [Forward declare PartitionRoot in scheduler_loop_qua...](./output/debug/af595168d6ebc1aa751159affaf0d7f8c1b6e520.log) | 🟩 |
 | ayumiohno | 2025-11-26 | [PA: Add finch feature flag to enable/disable FreeWi...](./output/debug/ee9dae5f4046d8f40a2559250b6067691f10683c.log) | 🟩 |
 | ayumiohno | 2025-11-26 | [PA: Optimize FreeWithSize in simple path.](./output/debug/db3681ad5c220f81f5189e3f0bd616a4b2df6365.log) | 🟩 |
