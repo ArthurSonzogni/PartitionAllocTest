@@ -1,0 +1,65 @@
+Note: switching to 'd0ab85f4a6da9905487bb0301251102c03625c56'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d0ab85f4 [partition_alloc] Increase amount of spinning in locks on ARM
+WARNING at the command-line "--args":1:250: Build argument has no effect.
+is_debug=false use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
+                                                                                                                                                                                                                                                         ^---
+The variable "enable_ios_corruption_hardening" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 15 targets from 8 files in 3ms
+ninja: Entering directory `out/release'
+[1/35] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[2/35] CXX ../../src/partition_alloc/address_pool_manager.cc
+[3/35] CXX ../../src/partition_alloc/gwp_asan_support.cc
+[4/35] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[5/35] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[6/35] CXX ../../src/partition_alloc/internal_allocator.cc
+[7/35] CXX ../../src/partition_alloc/page_allocator.cc
+[8/35] CXX ../../src/partition_alloc/partition_address_space.cc
+[9/35] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
+[10/35] CXX ../../src/partition_alloc/partition_alloc.cc
+[11/35] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+[12/35] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[13/35] CXX ../../src/partition_alloc/partition_bucket.cc
+[14/35] CXX ../../src/partition_alloc/random.cc
+[15/35] CXX ../../src/partition_alloc/partition_page.cc
+[16/35] CXX ../../src/partition_alloc/reservation_offset_table.cc
+[17/35] CXX ../../src/partition_alloc/spinning_mutex.cc
+[18/35] CXX ../../src/partition_alloc/scheduler_loop_quarantine_support.cc
+[19/35] CXX ../../src/partition_alloc/slot_start.cc
+[20/35] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
+[21/35] CXX ../../src/partition_alloc/partition_root.cc
+[22/35] CXX ../../src/partition_alloc/stack/stack.cc
+[23/35] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+[24/35] CXX ../../src/partition_alloc/thread_cache.cc
+[25/35] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[26/35] CXX ../../src/partition_alloc/scheduler_loop_quarantine.cc
+[27/35] LINK (static) liballocator_core.a
+[28/35] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc_with_advanced_checks.cc
+[29/35] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[30/35] CXX ../../src/partition_alloc/extended_api.cc
+[31/35] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[32/35] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+[33/35] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.cc
+[34/35] LINK (static) liballocator_shim.a
+[35/35] LINK (static) libraw_ptr.a

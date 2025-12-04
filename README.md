@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-12**: 🟩<br>
+**2025-12**: 🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -53,6 +53,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| anandrv | 2025-12-03 | [[partition_alloc] Increase amount of spinning in lo...](./output/release/d0ab85f4a6da9905487bb0301251102c03625c56.log) | 🟩 |
+| arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_2](./output/release/b231448a17e4c078154f29a28e2f9e9bbe210fac.log) | 🟩 |
+| arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_1](./output/release/2a811452fe4f79a9f8910ccb8df1f348a92a6236.log) | 🟩 |
+| arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in posix](./output/release/aa7166796bb04ae800c7b0e59abbf5e0816689c3.log) | 🟩 |
 | thestig | 2025-12-01 | [PartitionAlloc: Remove RawPtrTraits::kDisableBRP](./output/release/39d55c5da2324729af9e76abc3c293bdeda48a06.log) | 🟩 |
 | luci-bisection | 2025-11-30 | [Revert "Convert to UNSAFE_TODO in partition_alloc i...](./output/release/ebda611438a5eb6b3e3a2b6c67ddc49fa2b29ac1.log) | 🟩 |
 | arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in mac_li...](./output/release/5793f657f4dd960addd95a2d6022c4f785e46c2e.log) | 🟩 |
@@ -459,6 +463,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| anandrv | 2025-12-03 | [[partition_alloc] Increase amount of spinning in lo...](./output/debug/d0ab85f4a6da9905487bb0301251102c03625c56.log) | 🟩 |
+| arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_2](./output/debug/b231448a17e4c078154f29a28e2f9e9bbe210fac.log) | 🟩 |
+| arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_1](./output/debug/2a811452fe4f79a9f8910ccb8df1f348a92a6236.log) | 🟩 |
+| arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in posix](./output/debug/aa7166796bb04ae800c7b0e59abbf5e0816689c3.log) | 🟩 |
 | thestig | 2025-12-01 | [PartitionAlloc: Remove RawPtrTraits::kDisableBRP](./output/debug/39d55c5da2324729af9e76abc3c293bdeda48a06.log) | 🟩 |
 | luci-bisection | 2025-11-30 | [Revert "Convert to UNSAFE_TODO in partition_alloc i...](./output/debug/ebda611438a5eb6b3e3a2b6c67ddc49fa2b29ac1.log) | 🟩 |
 | arthursonzogni | 2025-11-30 | [Convert to UNSAFE_TODO in partition_alloc in mac_li...](./output/debug/5793f657f4dd960addd95a2d6022c4f785e46c2e.log) | 🟩 |
