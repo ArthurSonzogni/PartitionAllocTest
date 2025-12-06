@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-12**: 🟩🟩🟩🟩🟩<br>
+**2025-12**: 🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -53,6 +53,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| yukishiino | 2025-12-04 | [PA: Share allocator_shim::IsAlreadyRegistered betwe...](./output/release/090a06003985436a6e146838dbb3a5ec71c958b7.log) | 🟩 |
 | anandrv | 2025-12-03 | [[partition_alloc] Increase amount of spinning in lo...](./output/release/d0ab85f4a6da9905487bb0301251102c03625c56.log) | 🟩 |
 | arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_2](./output/release/b231448a17e4c078154f29a28e2f9e9bbe210fac.log) | 🟩 |
 | arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_1](./output/release/2a811452fe4f79a9f8910ccb8df1f348a92a6236.log) | 🟩 |
@@ -463,6 +464,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| yukishiino | 2025-12-04 | [PA: Share allocator_shim::IsAlreadyRegistered betwe...](./output/debug/090a06003985436a6e146838dbb3a5ec71c958b7.log) | 🟩 |
 | anandrv | 2025-12-03 | [[partition_alloc] Increase amount of spinning in lo...](./output/debug/d0ab85f4a6da9905487bb0301251102c03625c56.log) | 🟩 |
 | arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_2](./output/debug/b231448a17e4c078154f29a28e2f9e9bbe210fac.log) | 🟩 |
 | arthursonzogni | 2025-12-03 | [Convert to UNSAFE_TODO in partition_alloc in base_1](./output/debug/2a811452fe4f79a9f8910ccb8df1f348a92a6236.log) | 🟩 |
