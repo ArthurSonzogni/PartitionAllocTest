@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -53,6 +53,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2025-12-09 | [PA: Upgrade DCHECKs to CHECKs in FreeWithSize, guar...](./output/release/e711e98faec702084c26a43a411eb4bd3747bcbb.log) | 🟩 |
 | mikt | 2025-12-08 | [[PA] Narrow down locked section](./output/release/d2b46c259f0bd47fcc5d20c2cca97043ca5c71fe.log) | 🟩 |
 | arthursonzogni | 2025-12-07 | [Reapply "Convert to UNSAFE_TODO in partition_alloc ...](./output/release/fe0329b346753191011b073535fc9f2fe64da141.log) | 🟩 |
 | yukishiino | 2025-12-04 | [PA: Share allocator_shim::IsAlreadyRegistered betwe...](./output/release/090a06003985436a6e146838dbb3a5ec71c958b7.log) | 🟩 |
@@ -466,6 +467,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2025-12-09 | [PA: Upgrade DCHECKs to CHECKs in FreeWithSize, guar...](./output/debug/e711e98faec702084c26a43a411eb4bd3747bcbb.log) | 🟩 |
 | mikt | 2025-12-08 | [[PA] Narrow down locked section](./output/debug/d2b46c259f0bd47fcc5d20c2cca97043ca5c71fe.log) | 🟩 |
 | arthursonzogni | 2025-12-07 | [Reapply "Convert to UNSAFE_TODO in partition_alloc ...](./output/debug/fe0329b346753191011b073535fc9f2fe64da141.log) | 🟩 |
 | yukishiino | 2025-12-04 | [PA: Share allocator_shim::IsAlreadyRegistered betwe...](./output/debug/090a06003985436a6e146838dbb3a5ec71c958b7.log) | 🟩 |
