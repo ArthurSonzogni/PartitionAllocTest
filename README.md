@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-09**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -53,6 +53,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-12-25 | [[PA] Persist MemoryReclaimer data on caller side](./output/release/8bfdd5d9316a1883935190b61280c4765bfa14c4.log) | 🟩 |
 | hans | 2025-12-12 | [Fixes for nodiscard std::optional, std::set operations](./output/release/c6560eb97899b82a2869b7af638cab5063b48b79.log) | 🟩 |
 | ayumiohno | 2025-12-09 | [PA: Upgrade DCHECKs to CHECKs in FreeWithSize, guar...](./output/release/e711e98faec702084c26a43a411eb4bd3747bcbb.log) | 🟩 |
 | mikt | 2025-12-08 | [[PA] Narrow down locked section](./output/release/d2b46c259f0bd47fcc5d20c2cca97043ca5c71fe.log) | 🟩 |
@@ -468,6 +469,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2025-12-25 | [[PA] Persist MemoryReclaimer data on caller side](./output/debug/8bfdd5d9316a1883935190b61280c4765bfa14c4.log) | 🟩 |
 | hans | 2025-12-12 | [Fixes for nodiscard std::optional, std::set operations](./output/debug/c6560eb97899b82a2869b7af638cab5063b48b79.log) | 🟩 |
 | ayumiohno | 2025-12-09 | [PA: Upgrade DCHECKs to CHECKs in FreeWithSize, guar...](./output/debug/e711e98faec702084c26a43a411eb4bd3747bcbb.log) | 🟩 |
 | mikt | 2025-12-08 | [[PA] Narrow down locked section](./output/debug/d2b46c259f0bd47fcc5d20c2cca97043ca5c71fe.log) | 🟩 |
