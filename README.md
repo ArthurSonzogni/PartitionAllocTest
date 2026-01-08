@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-01**: 🟩🟩<br>
+**2026-01**: 🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -54,6 +54,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| pmonette | 2026-01-07 | [Migrate off legacy MOCK_METHODn macros](./output/release/9cce6259aef60f8dbea52f421bb0234eb7cdadd5.log) | 🟩 |
 | glaubitz | 2026-01-06 | [base/{allocator,numerics}: Fix incorrect ARM prepro...](./output/release/ca88a350fcbf85c268d741cf8acd248d7f5529a0.log) | 🟩 |
 | mikt | 2026-01-05 | [[PA] Parametrize Empty Slot Span Ring Buffer size](./output/release/4b623f0c69ff979206bc7788fedbb27ddffbdcb3.log) | 🟩 |
 | mikt | 2025-12-25 | [[PA] Persist MemoryReclaimer data on caller side](./output/release/8bfdd5d9316a1883935190b61280c4765bfa14c4.log) | 🟩 |
@@ -472,6 +473,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| pmonette | 2026-01-07 | [Migrate off legacy MOCK_METHODn macros](./output/debug/9cce6259aef60f8dbea52f421bb0234eb7cdadd5.log) | 🟩 |
 | glaubitz | 2026-01-06 | [base/{allocator,numerics}: Fix incorrect ARM prepro...](./output/debug/ca88a350fcbf85c268d741cf8acd248d7f5529a0.log) | 🟩 |
 | mikt | 2026-01-05 | [[PA] Parametrize Empty Slot Span Ring Buffer size](./output/debug/4b623f0c69ff979206bc7788fedbb27ddffbdcb3.log) | 🟩 |
 | mikt | 2025-12-25 | [[PA] Persist MemoryReclaimer data on caller side](./output/debug/8bfdd5d9316a1883935190b61280c4765bfa14c4.log) | 🟩 |
