@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-01**: 🟩🟩🟩<br>
+**2026-01**: 🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -54,6 +54,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2026-01-09 | [PA: Consistently pass BucketSizeDetails to free/qua...](./output/release/b2155fca494c5b6266d42f9129ae3a7b85482c95.log) | 🟩 |
+| ayumiohno | 2026-01-09 | [PA: Optimize FreeWithSizeAndAlignment in simple path](./output/release/b809160344d7900a2e0ddd735f187ffe48576649.log) | 🟩 |
 | pmonette | 2026-01-07 | [Migrate off legacy MOCK_METHODn macros](./output/release/9cce6259aef60f8dbea52f421bb0234eb7cdadd5.log) | 🟩 |
 | glaubitz | 2026-01-06 | [base/{allocator,numerics}: Fix incorrect ARM prepro...](./output/release/ca88a350fcbf85c268d741cf8acd248d7f5529a0.log) | 🟩 |
 | mikt | 2026-01-05 | [[PA] Parametrize Empty Slot Span Ring Buffer size](./output/release/4b623f0c69ff979206bc7788fedbb27ddffbdcb3.log) | 🟩 |
@@ -473,6 +475,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2026-01-09 | [PA: Consistently pass BucketSizeDetails to free/qua...](./output/debug/b2155fca494c5b6266d42f9129ae3a7b85482c95.log) | 🟩 |
+| ayumiohno | 2026-01-09 | [PA: Optimize FreeWithSizeAndAlignment in simple path](./output/debug/b809160344d7900a2e0ddd735f187ffe48576649.log) | 🟩 |
 | pmonette | 2026-01-07 | [Migrate off legacy MOCK_METHODn macros](./output/debug/9cce6259aef60f8dbea52f421bb0234eb7cdadd5.log) | 🟩 |
 | glaubitz | 2026-01-06 | [base/{allocator,numerics}: Fix incorrect ARM prepro...](./output/debug/ca88a350fcbf85c268d741cf8acd248d7f5529a0.log) | 🟩 |
 | mikt | 2026-01-05 | [[PA] Parametrize Empty Slot Span Ring Buffer size](./output/debug/4b623f0c69ff979206bc7788fedbb27ddffbdcb3.log) | 🟩 |
