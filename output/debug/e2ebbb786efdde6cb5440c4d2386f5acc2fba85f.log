@@ -1,0 +1,89 @@
+HEAD is now at e2ebbb78 [styleguide] Allow if consteval
+WARNING at the command-line "--args":1:249: Build argument has no effect.
+is_debug=true use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
+                                                                                                                                                                                                                                                        ^---
+The variable "enable_ios_corruption_hardening" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/debug'
+[1/4] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+In file included from ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc:7:
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:150:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  150 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:185:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  185 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:211:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  211 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:234:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  234 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:260:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  260 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:342:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  342 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:372:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  372 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:394:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  394 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:425:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  425 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:441:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  441 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:451:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  451 |     if consteval {
+      |        ^
+11 warnings generated.
+[2/4] CXX ../../src/partition_alloc/pointers/raw_ptr_counting_impl_for_test.cc
+In file included from ../../src/partition_alloc/pointers/raw_ptr_counting_impl_for_test.cc:5:
+In file included from ../../src/partition_alloc/pointers/raw_ptr_counting_impl_for_test.h:10:
+In file included from ../../src/partition_alloc/pointers/raw_ptr.h:57:
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:150:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  150 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:185:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  185 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:211:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  211 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:234:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  234 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:260:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  260 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:342:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  342 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:372:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  372 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:394:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  394 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:425:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  425 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:441:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  441 |     if consteval {
+      |        ^
+../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.h:451:8: warning: consteval if is a C++23 extension [-Wc++23-extensions]
+  451 |     if consteval {
+      |        ^
+11 warnings generated.
+[3/4] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[4/4] LINK (static) libraw_ptr.a

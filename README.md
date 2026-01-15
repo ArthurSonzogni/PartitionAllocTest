@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-01**: 🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -54,6 +54,12 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| victorvianna | 2026-01-14 | [[styleguide] Allow if consteval](./output/release/e2ebbb786efdde6cb5440c4d2386f5acc2fba85f.log) | 🟩 |
+| ayumiohno | 2026-01-14 | [Reland "PA: Support multiple ThreadCache instances ...](./output/release/46fd97ba8656535accce5e53ab59c23a6f12f9f0.log) | 🟩 |
+| koerber | 2026-01-14 | [Revert "[PA] Make PartitionRoot a class"](./output/release/9f81c694ae53d37f01e11bd015dcb9dfebba55ea.log) | 🟩 |
+| mikt | 2026-01-14 | [[PA] Make PartitionRoot a class](./output/release/0388f4caa3d4e5809f741bd1c0c8642d20a98fd4.log) | 🟩 |
+| elkurin | 2026-01-13 | [Revert "PA: Support multiple ThreadCache instances ...](./output/release/b2283b2f8a113742a70daa64a861a85b933e6733.log) | 🟩 |
+| ayumiohno | 2026-01-13 | [PA: Support multiple ThreadCache instances per thread.](./output/release/a759a7b189d64e43a04d4179103d0f00b8fd4ee8.log) | 🟩 |
 | hans | 2026-01-12 | [Fix/suppress -Wunsafe-buffer-usage for printf-style...](./output/release/9149542aa89480668d5d044f50706dbe2d74b0a8.log) | 🟩 |
 | victorvianna | 2026-01-12 | [Promote #warnings to #error](./output/release/245dbb7bebfba6e48599342e3aa4f17f32f8b7bc.log) | 🟩 |
 | ayumiohno | 2026-01-09 | [PA: Consistently pass BucketSizeDetails to free/qua...](./output/release/b2155fca494c5b6266d42f9129ae3a7b85482c95.log) | 🟩 |
@@ -477,6 +483,12 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| victorvianna | 2026-01-14 | [[styleguide] Allow if consteval](./output/debug/e2ebbb786efdde6cb5440c4d2386f5acc2fba85f.log) | 🟩 |
+| ayumiohno | 2026-01-14 | [Reland "PA: Support multiple ThreadCache instances ...](./output/debug/46fd97ba8656535accce5e53ab59c23a6f12f9f0.log) | 🟩 |
+| koerber | 2026-01-14 | [Revert "[PA] Make PartitionRoot a class"](./output/debug/9f81c694ae53d37f01e11bd015dcb9dfebba55ea.log) | 🟩 |
+| mikt | 2026-01-14 | [[PA] Make PartitionRoot a class](./output/debug/0388f4caa3d4e5809f741bd1c0c8642d20a98fd4.log) | 🟩 |
+| elkurin | 2026-01-13 | [Revert "PA: Support multiple ThreadCache instances ...](./output/debug/b2283b2f8a113742a70daa64a861a85b933e6733.log) | 🟩 |
+| ayumiohno | 2026-01-13 | [PA: Support multiple ThreadCache instances per thread.](./output/debug/a759a7b189d64e43a04d4179103d0f00b8fd4ee8.log) | 🟩 |
 | hans | 2026-01-12 | [Fix/suppress -Wunsafe-buffer-usage for printf-style...](./output/debug/9149542aa89480668d5d044f50706dbe2d74b0a8.log) | 🟩 |
 | victorvianna | 2026-01-12 | [Promote #warnings to #error](./output/debug/245dbb7bebfba6e48599342e3aa4f17f32f8b7bc.log) | 🟩 |
 | ayumiohno | 2026-01-09 | [PA: Consistently pass BucketSizeDetails to free/qua...](./output/debug/b2155fca494c5b6266d42f9129ae3a7b85482c95.log) | 🟩 |
