@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -54,6 +54,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tsepez | 2026-01-20 | [Remove base::MakeClampedNum()](./output/release/329ff99d5d81aca88c066dce706136846abd5553.log) | 🟩 |
+| ayumiohno | 2026-01-19 | [PA: Use system allocator in ASan even when kNoHooks.](./output/release/cb11b9bc34c2183fa5049a69cd1ea09511289235.log) | 🟩 |
 | arthursonzogni | 2026-01-19 | [PartitionAlloc: Additional C++23 presubmit.](./output/release/a663ade348e34ae02e7db69a51e0a5ab92770372.log) | 🟩 |
 | victorvianna | 2026-01-15 | [Improve PRESUBMIT against C++23 features in partiti...](./output/release/5b70baa1fd02c684fb68f7dc6fad54decabbcaee.log) | 🟩 |
 | tsepez | 2026-01-15 | [Remove base::MakeCheckedNum<>().](./output/release/24446349a7656b671465493504dfdcf3f638419a.log) | 🟩 |
@@ -487,6 +489,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tsepez | 2026-01-20 | [Remove base::MakeClampedNum()](./output/debug/329ff99d5d81aca88c066dce706136846abd5553.log) | 🟩 |
+| ayumiohno | 2026-01-19 | [PA: Use system allocator in ASan even when kNoHooks.](./output/debug/cb11b9bc34c2183fa5049a69cd1ea09511289235.log) | 🟩 |
 | arthursonzogni | 2026-01-19 | [PartitionAlloc: Additional C++23 presubmit.](./output/debug/a663ade348e34ae02e7db69a51e0a5ab92770372.log) | 🟩 |
 | victorvianna | 2026-01-15 | [Improve PRESUBMIT against C++23 features in partiti...](./output/debug/5b70baa1fd02c684fb68f7dc6fad54decabbcaee.log) | 🟩 |
 | tsepez | 2026-01-15 | [Remove base::MakeCheckedNum<>().](./output/debug/24446349a7656b671465493504dfdcf3f638419a.log) | 🟩 |
