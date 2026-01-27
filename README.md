@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -54,6 +54,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2026-01-26 | [PA: Remove __throw_out_of_range in address_pool_man...](./output/release/1e050ef1abfc2d85451625b1f257eba703670a65.log) | 🟩 |
 | ayumiohno | 2026-01-20 | [PA: Remove thread_local in parition_alloc_base Plat...](./output/release/6ad9a9a880baebe89850beec18ebd506419b18af.log) | 🟩 |
 | tsepez | 2026-01-20 | [Remove base::MakeClampedNum()](./output/release/329ff99d5d81aca88c066dce706136846abd5553.log) | 🟩 |
 | ayumiohno | 2026-01-19 | [PA: Use system allocator in ASan even when kNoHooks.](./output/release/cb11b9bc34c2183fa5049a69cd1ea09511289235.log) | 🟩 |
@@ -490,6 +491,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| ayumiohno | 2026-01-26 | [PA: Remove __throw_out_of_range in address_pool_man...](./output/debug/1e050ef1abfc2d85451625b1f257eba703670a65.log) | 🟩 |
 | ayumiohno | 2026-01-20 | [PA: Remove thread_local in parition_alloc_base Plat...](./output/debug/6ad9a9a880baebe89850beec18ebd506419b18af.log) | 🟩 |
 | tsepez | 2026-01-20 | [Remove base::MakeClampedNum()](./output/debug/329ff99d5d81aca88c066dce706136846abd5553.log) | 🟩 |
 | ayumiohno | 2026-01-19 | [PA: Use system allocator in ASan even when kNoHooks.](./output/debug/cb11b9bc34c2183fa5049a69cd1ea09511289235.log) | 🟩 |
