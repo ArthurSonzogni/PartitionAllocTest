@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-10**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -54,6 +54,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-01-29 | [PartitionAlloc: Do not assert C++20.](./output/release/4344806135c21081ac9c2551b9d8e26fd1894280.log) | 🟩 |
 | ayumiohno | 2026-01-27 | [PA: Implement AllocToken support in PartitionAlloc](./output/release/936619c71ecb17c0e2482cf86be3f3f417b2f683.log) | 🟩 |
 | mcnee | 2026-01-27 | [Prepare for making BindOnce and BindRepeating nodis...](./output/release/492f8c119a98911c17bdfc1559b10b6431ea419d.log) | 🟩 |
 | sdefresne | 2026-01-27 | [Add transparent version of std::equal_to<> and std:...](./output/release/e1b3bee8ba37d08bb642265ccb78e54cedd00a77.log) | 🟩 |
@@ -495,6 +496,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-01-29 | [PartitionAlloc: Do not assert C++20.](./output/debug/4344806135c21081ac9c2551b9d8e26fd1894280.log) | 🟩 |
 | ayumiohno | 2026-01-27 | [PA: Implement AllocToken support in PartitionAlloc](./output/debug/936619c71ecb17c0e2482cf86be3f3f417b2f683.log) | 🟩 |
 | mcnee | 2026-01-27 | [Prepare for making BindOnce and BindRepeating nodis...](./output/debug/492f8c119a98911c17bdfc1559b10b6431ea419d.log) | 🟩 |
 | sdefresne | 2026-01-27 | [Add transparent version of std::equal_to<> and std:...](./output/debug/e1b3bee8ba37d08bb642265ccb78e54cedd00a77.log) | 🟩 |
