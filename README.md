@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-02**: 🟩🟩<br>
+**2026-02**: 🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -55,6 +55,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| nuskos | 2026-02-05 | [Add nuskos@ to PartitionAlloc OWNERS.](./output/release/7289d97695f40ba6a8ae56618d45786eadffdc7b.log) | 🟩 |
+| hellofroser | 2026-02-05 | [Fix some PA_UNSAFE_TODOs in //base/allocator/partit...](./output/release/bb5a3e33f5ea17a2e27059d99b12273b1b1c3604.log) | 🟩 |
 | tasak | 2026-02-03 | [[3/4] Implement AsanRawPtrService V2](./output/release/24e411a428ae1128d44850dc0b98376da84bddd5.log) | 🟩 |
 | mikt | 2026-02-02 | [[PA] Refactor and merge PA/AC shim logic](./output/release/f9fe9152fca91e24bfc495f91b42a36800b952a0.log) | 🟩 |
 | awillia | 2026-01-30 | [Fix comment references to "_unittests.cc" files (ba...](./output/release/baaa6670c23c19485d0a5a538bc43d3332def328.log) | 🟩 |
@@ -500,6 +502,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| nuskos | 2026-02-05 | [Add nuskos@ to PartitionAlloc OWNERS.](./output/debug/7289d97695f40ba6a8ae56618d45786eadffdc7b.log) | 🟩 |
+| hellofroser | 2026-02-05 | [Fix some PA_UNSAFE_TODOs in //base/allocator/partit...](./output/debug/bb5a3e33f5ea17a2e27059d99b12273b1b1c3604.log) | 🟩 |
 | tasak | 2026-02-03 | [[3/4] Implement AsanRawPtrService V2](./output/debug/24e411a428ae1128d44850dc0b98376da84bddd5.log) | 🟩 |
 | mikt | 2026-02-02 | [[PA] Refactor and merge PA/AC shim logic](./output/debug/f9fe9152fca91e24bfc495f91b42a36800b952a0.log) | 🟩 |
 | awillia | 2026-01-30 | [Fix comment references to "_unittests.cc" files (ba...](./output/debug/baaa6670c23c19485d0a5a538bc43d3332def328.log) | 🟩 |
