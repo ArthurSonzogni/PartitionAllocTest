@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-02**: 🟩🟩🟩🟩<br>
+**2026-02**: 🟩🟩🟩🟩🟩🟥🟥<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -51,10 +51,13 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 **2024-05**: 🟥🟥🟥🟥<br>
 
 <details>
-<summary>🟩 Configuration: `release`</summary>
+<summary>🟥 Configuration: `release`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2026-02-08 | [[PA/MO] Allow ScopedSchedulerLoopQuarantine* utilit...](./output/release/008e4fdd7e31d9133d028659348e054d350ccc3e.log) | 🟥 |
+| nuskos | 2026-02-08 | [Launch MiraclePtr on Renderer for IS_DESKTOP_ANDROID.](./output/release/51b41d1d8503d591014d98df29bdd94db18279a9.log) | 🟥 |
+| arthursonzogni | 2026-02-08 | [PartitionAlloc: Improve compatibility with Skia.](./output/release/b8c0688f577c1bbce6c2c1ce4753cd685ca0f634.log) | 🟩 |
 | nuskos | 2026-02-05 | [Add nuskos@ to PartitionAlloc OWNERS.](./output/release/7289d97695f40ba6a8ae56618d45786eadffdc7b.log) | 🟩 |
 | hellofroser | 2026-02-05 | [Fix some PA_UNSAFE_TODOs in //base/allocator/partit...](./output/release/bb5a3e33f5ea17a2e27059d99b12273b1b1c3604.log) | 🟩 |
 | tasak | 2026-02-03 | [[3/4] Implement AsanRawPtrService V2](./output/release/24e411a428ae1128d44850dc0b98376da84bddd5.log) | 🟩 |
@@ -498,10 +501,13 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 </details>
 
 <details>
-<summary>🟩 Configuration: `debug`</summary>
+<summary>🟥 Configuration: `debug`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2026-02-08 | [[PA/MO] Allow ScopedSchedulerLoopQuarantine* utilit...](./output/debug/008e4fdd7e31d9133d028659348e054d350ccc3e.log) | 🟥 |
+| nuskos | 2026-02-08 | [Launch MiraclePtr on Renderer for IS_DESKTOP_ANDROID.](./output/debug/51b41d1d8503d591014d98df29bdd94db18279a9.log) | 🟥 |
+| arthursonzogni | 2026-02-08 | [PartitionAlloc: Improve compatibility with Skia.](./output/debug/b8c0688f577c1bbce6c2c1ce4753cd685ca0f634.log) | 🟩 |
 | nuskos | 2026-02-05 | [Add nuskos@ to PartitionAlloc OWNERS.](./output/debug/7289d97695f40ba6a8ae56618d45786eadffdc7b.log) | 🟩 |
 | hellofroser | 2026-02-05 | [Fix some PA_UNSAFE_TODOs in //base/allocator/partit...](./output/debug/bb5a3e33f5ea17a2e27059d99b12273b1b1c3604.log) | 🟩 |
 | tasak | 2026-02-03 | [[3/4] Implement AsanRawPtrService V2](./output/debug/24e411a428ae1128d44850dc0b98376da84bddd5.log) | 🟩 |
