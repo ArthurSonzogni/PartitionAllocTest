@@ -1,0 +1,8 @@
+HEAD is now at fa33ce3e Drive-by: Reorganize `stack_scan_supported`
+ERROR at //src/partition_alloc/BUILD.gn:172:26: Undefined identifier in string expansion.
+    "IS_DESKTOP_ANDROID=$is_desktop_android",
+                         ^-----------------
+"is_desktop_android" is not currently in scope.
+See //BUILD.gn:7:19: which caused the file to be included.
+  public_deps = [ "src/partition_alloc:raw_ptr" ]
+                  ^----------------------------

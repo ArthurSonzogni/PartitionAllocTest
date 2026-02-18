@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥<br>
+**2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -55,6 +55,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-02-16 | [Drive-by: Reorganize `stack_scan_supported`](./output/release/fa33ce3e7acb5ed1a48e9a7fd579c498a828f4a6.log) | 🟥 |
 | ajgo | 2026-02-15 | [Tidy empty #if sections in base/allocator/partition...](./output/release/b9d4176d40f2f7cabb8fd561546be6255e442fda.log) | 🟥 |
 | mikt | 2026-02-08 | [[PA/MO] Allow ScopedSchedulerLoopQuarantine* utilit...](./output/release/008e4fdd7e31d9133d028659348e054d350ccc3e.log) | 🟥 |
 | nuskos | 2026-02-08 | [Launch MiraclePtr on Renderer for IS_DESKTOP_ANDROID.](./output/release/51b41d1d8503d591014d98df29bdd94db18279a9.log) | 🟥 |
@@ -506,6 +507,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-02-16 | [Drive-by: Reorganize `stack_scan_supported`](./output/debug/fa33ce3e7acb5ed1a48e9a7fd579c498a828f4a6.log) | 🟥 |
 | ajgo | 2026-02-15 | [Tidy empty #if sections in base/allocator/partition...](./output/debug/b9d4176d40f2f7cabb8fd561546be6255e442fda.log) | 🟥 |
 | mikt | 2026-02-08 | [[PA/MO] Allow ScopedSchedulerLoopQuarantine* utilit...](./output/debug/008e4fdd7e31d9133d028659348e054d350ccc3e.log) | 🟥 |
 | nuskos | 2026-02-08 | [Launch MiraclePtr on Renderer for IS_DESKTOP_ANDROID.](./output/debug/51b41d1d8503d591014d98df29bdd94db18279a9.log) | 🟥 |
