@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩<br>
+**2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-11**: 🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -55,6 +55,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| justincohen | 2026-02-23 | [PartitionAlloc: Clamp ASLR mask to 35 bits on iOS](./output/release/edddede6485c1d7247e7e4e1bb4ea2cb6232409d.log) | 🟩 |
 | hans | 2026-02-20 | [Enable MSan to catch use-after-destruct of raw_ptr's](./output/release/6f23011714656aef37c992c50b0fe86bd1b7473d.log) | 🟩 |
 | arthursonzogni | 2026-02-19 | [Revert "Launch MiraclePtr on Renderer for IS_DESKTO...](./output/release/3e4a61857bc46764ca1fca6fd955128ae31211e3.log) | 🟩 |
 | kdlee | 2026-02-16 | [Drive-by: Reorganize `stack_scan_supported`](./output/release/fa33ce3e7acb5ed1a48e9a7fd579c498a828f4a6.log) | 🟥 |
@@ -509,6 +510,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| justincohen | 2026-02-23 | [PartitionAlloc: Clamp ASLR mask to 35 bits on iOS](./output/debug/edddede6485c1d7247e7e4e1bb4ea2cb6232409d.log) | 🟩 |
 | hans | 2026-02-20 | [Enable MSan to catch use-after-destruct of raw_ptr's](./output/debug/6f23011714656aef37c992c50b0fe86bd1b7473d.log) | 🟩 |
 | arthursonzogni | 2026-02-19 | [Revert "Launch MiraclePtr on Renderer for IS_DESKTO...](./output/debug/3e4a61857bc46764ca1fca6fd955128ae31211e3.log) | 🟩 |
 | kdlee | 2026-02-16 | [Drive-by: Reorganize `stack_scan_supported`](./output/debug/fa33ce3e7acb5ed1a48e9a7fd579c498a828f4a6.log) | 🟥 |
