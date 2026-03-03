@@ -27,6 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
+**2026-03**: 🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -55,6 +56,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2026-03-01 | [[PA] Fix ThreadCache IsInitialized logic](./output/release/5fc2a1301040fdaa2638b18854184b784389dd50.log) | 🟩 |
 | kdlee | 2026-02-27 | [PA: Remove `partition_alloc_buildflags`](./output/release/0874488b363d90e0d99fe14d6837d6b9a1922143.log) | 🟩 |
 | justincohen | 2026-02-23 | [PartitionAlloc: Clamp ASLR mask to 35 bits on iOS](./output/release/edddede6485c1d7247e7e4e1bb4ea2cb6232409d.log) | 🟩 |
 | hans | 2026-02-20 | [Enable MSan to catch use-after-destruct of raw_ptr's](./output/release/6f23011714656aef37c992c50b0fe86bd1b7473d.log) | 🟩 |
@@ -511,6 +513,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2026-03-01 | [[PA] Fix ThreadCache IsInitialized logic](./output/debug/5fc2a1301040fdaa2638b18854184b784389dd50.log) | 🟩 |
 | kdlee | 2026-02-27 | [PA: Remove `partition_alloc_buildflags`](./output/debug/0874488b363d90e0d99fe14d6837d6b9a1922143.log) | 🟩 |
 | justincohen | 2026-02-23 | [PartitionAlloc: Clamp ASLR mask to 35 bits on iOS](./output/debug/edddede6485c1d7247e7e4e1bb4ea2cb6232409d.log) | 🟩 |
 | hans | 2026-02-20 | [Enable MSan to catch use-after-destruct of raw_ptr's](./output/debug/6f23011714656aef37c992c50b0fe86bd1b7473d.log) | 🟩 |
