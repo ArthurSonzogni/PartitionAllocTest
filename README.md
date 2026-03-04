@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-03**: 🟩<br>
+**2026-03**: 🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -56,6 +56,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kevinptt | 2026-03-02 | [Add [[maybe_unused]] to wrapped_ptr in RawPtrNoOpIm...](./output/release/33a4e899c010d19f5028095327b5873109d494a1.log) | 🟩 |
+| nuskos | 2026-03-02 | [[Code Health] Clean up PA_CONFIG checks into helper...](./output/release/75a7e547a973591d20fc17375d68b6af14d5424d.log) | 🟩 |
 | mikt | 2026-03-01 | [[PA] Fix ThreadCache IsInitialized logic](./output/release/5fc2a1301040fdaa2638b18854184b784389dd50.log) | 🟩 |
 | kdlee | 2026-02-27 | [PA: Remove `partition_alloc_buildflags`](./output/release/0874488b363d90e0d99fe14d6837d6b9a1922143.log) | 🟩 |
 | justincohen | 2026-02-23 | [PartitionAlloc: Clamp ASLR mask to 35 bits on iOS](./output/release/edddede6485c1d7247e7e4e1bb4ea2cb6232409d.log) | 🟩 |
@@ -513,6 +515,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kevinptt | 2026-03-02 | [Add [[maybe_unused]] to wrapped_ptr in RawPtrNoOpIm...](./output/debug/33a4e899c010d19f5028095327b5873109d494a1.log) | 🟩 |
+| nuskos | 2026-03-02 | [[Code Health] Clean up PA_CONFIG checks into helper...](./output/debug/75a7e547a973591d20fc17375d68b6af14d5424d.log) | 🟩 |
 | mikt | 2026-03-01 | [[PA] Fix ThreadCache IsInitialized logic](./output/debug/5fc2a1301040fdaa2638b18854184b784389dd50.log) | 🟩 |
 | kdlee | 2026-02-27 | [PA: Remove `partition_alloc_buildflags`](./output/debug/0874488b363d90e0d99fe14d6837d6b9a1922143.log) | 🟩 |
 | justincohen | 2026-02-23 | [PartitionAlloc: Clamp ASLR mask to 35 bits on iOS](./output/debug/edddede6485c1d7247e7e4e1bb4ea2cb6232409d.log) | 🟩 |
