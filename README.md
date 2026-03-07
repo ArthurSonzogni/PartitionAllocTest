@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-03**: 🟩🟩🟩🟩🟩<br>
+**2026-03**: 🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -56,6 +56,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-03-06 | [PA: Introduce `SlotAddressAndSize::From()`](./output/release/46efd4d0ef7727ead34d1ee15fb4e10eb1574a98.log) | 🟩 |
+| nuskos | 2026-03-06 | [Allow SchedulerLoopQuarantine::Configure to run whi...](./output/release/ea524bd226a413e443fc79d8a9e65d8025929a88.log) | 🟩 |
 | fdoray | 2026-03-05 | [Add features to avoid walking the free list in "bac...](./output/release/ba4f58649c1f04dd2ceca6a64b59c627771375ca.log) | 🟩 |
 | nuskos | 2026-03-04 | [[PA/AC] disable all work in-between tasks](./output/release/d8992aa4f0bd379f288fa2891a8b3b4bbb947d3d.log) | 🟩 |
 | kevinptt | 2026-03-02 | [Add [[maybe_unused]] to wrapped_ptr in RawPtrNoOpIm...](./output/release/33a4e899c010d19f5028095327b5873109d494a1.log) | 🟩 |
@@ -517,6 +519,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-03-06 | [PA: Introduce `SlotAddressAndSize::From()`](./output/debug/46efd4d0ef7727ead34d1ee15fb4e10eb1574a98.log) | 🟩 |
+| nuskos | 2026-03-06 | [Allow SchedulerLoopQuarantine::Configure to run whi...](./output/debug/ea524bd226a413e443fc79d8a9e65d8025929a88.log) | 🟩 |
 | fdoray | 2026-03-05 | [Add features to avoid walking the free list in "bac...](./output/debug/ba4f58649c1f04dd2ceca6a64b59c627771375ca.log) | 🟩 |
 | nuskos | 2026-03-04 | [[PA/AC] disable all work in-between tasks](./output/debug/d8992aa4f0bd379f288fa2891a8b3b4bbb947d3d.log) | 🟩 |
 | kevinptt | 2026-03-02 | [Add [[maybe_unused]] to wrapped_ptr in RawPtrNoOpIm...](./output/debug/33a4e899c010d19f5028095327b5873109d494a1.log) | 🟩 |
