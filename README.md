@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -56,6 +56,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [3...](./output/release/71cba75560ca34042791135b8d32eabe21f09ddb.log) | 🟩 |
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [1...](./output/release/e1e3fc2cf70bf2f61fbef853eafac477fd10be30.log) | 🟩 |
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [4...](./output/release/0453d0dbe40f9a4283304c9c106da4c605b59d89.log) | 🟩 |
 | nuskos | 2026-03-23 | [Remove #pragma allow_unsafe_buffers and add PA_UNSA...](./output/release/425ceae05822e0263d97830ef56f5af5ac364941.log) | 🟩 |
 | apaseltiner | 2026-03-19 | [[base] Use try_emplace for more efficient map inser...](./output/release/cc3844050c2d0de4cb03629749fc51590a645c46.log) | 🟩 |
 | kdlee | 2026-03-09 | [PA: Further split `bounds_checks`](./output/release/2157c84d9a0d075c1ca31cc120590a9743550647.log) | 🟩 |
@@ -523,6 +526,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [3...](./output/debug/71cba75560ca34042791135b8d32eabe21f09ddb.log) | 🟩 |
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [1...](./output/debug/e1e3fc2cf70bf2f61fbef853eafac477fd10be30.log) | 🟩 |
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [4...](./output/debug/0453d0dbe40f9a4283304c9c106da4c605b59d89.log) | 🟩 |
 | nuskos | 2026-03-23 | [Remove #pragma allow_unsafe_buffers and add PA_UNSA...](./output/debug/425ceae05822e0263d97830ef56f5af5ac364941.log) | 🟩 |
 | apaseltiner | 2026-03-19 | [[base] Use try_emplace for more efficient map inser...](./output/debug/cc3844050c2d0de4cb03629749fc51590a645c46.log) | 🟩 |
 | kdlee | 2026-03-09 | [PA: Further split `bounds_checks`](./output/debug/2157c84d9a0d075c1ca31cc120590a9743550647.log) | 🟩 |
