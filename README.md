@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -56,6 +56,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-03-24 | [Checked Span: Expose `IsExtentOutOfBounds()`](./output/release/ad516b327b0d4b30694bcb19ccaddcaf48da39ba.log) | 🟩 |
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [2...](./output/release/b7130e4a2bd11e4fd33bdc95c84384e37bee7e4d.log) | 🟩 |
 | arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [3...](./output/release/71cba75560ca34042791135b8d32eabe21f09ddb.log) | 🟩 |
 | arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [1...](./output/release/e1e3fc2cf70bf2f61fbef853eafac477fd10be30.log) | 🟩 |
 | arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [4...](./output/release/0453d0dbe40f9a4283304c9c106da4c605b59d89.log) | 🟩 |
@@ -526,6 +528,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-03-24 | [Checked Span: Expose `IsExtentOutOfBounds()`](./output/debug/ad516b327b0d4b30694bcb19ccaddcaf48da39ba.log) | 🟩 |
+| arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [2...](./output/debug/b7130e4a2bd11e4fd33bdc95c84384e37bee7e4d.log) | 🟩 |
 | arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [3...](./output/debug/71cba75560ca34042791135b8d32eabe21f09ddb.log) | 🟩 |
 | arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [1...](./output/debug/e1e3fc2cf70bf2f61fbef853eafac477fd10be30.log) | 🟩 |
 | arthursonzogni | 2026-03-24 | [Convert #pragma allow_unsafe_* to PA_UNSAFE_TODO [4...](./output/debug/0453d0dbe40f9a4283304c9c106da4c605b59d89.log) | 🟩 |
