@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2025-12**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -56,6 +56,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| sergiosolano | 2026-03-30 | [Reland "Making span.h available within partition_al...](./output/debug/b707a2ca5567b06f4b886fbcd888dfa7e8044718.log) | 🟩 |
 | kenoss | 2026-03-26 | [Revert "Making span.h available within partition_al...](./output/debug/3b21b53f577117db1fcbe80558f85e474e4f2f12.log) | 🟩 |
 | sergiosolano | 2026-03-26 | [Making span.h available within partition_alloc.](./output/debug/014a13780577e1cb5161d816543b5af4ce4b1fec.log) | 🟩 |
 | nuskos | 2026-03-26 | [Refactor aligned allocation/free for memory tools.](./output/debug/ce50faac4317e6786737bfabac855e8ae81577a1.log) | 🟩 |
@@ -532,6 +533,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| sergiosolano | 2026-03-30 | [Reland "Making span.h available within partition_al...](./output/release/b707a2ca5567b06f4b886fbcd888dfa7e8044718.log) | 🟩 |
 | kenoss | 2026-03-26 | [Revert "Making span.h available within partition_al...](./output/release/3b21b53f577117db1fcbe80558f85e474e4f2f12.log) | 🟩 |
 | sergiosolano | 2026-03-26 | [Making span.h available within partition_alloc.](./output/release/014a13780577e1cb5161d816543b5af4ce4b1fec.log) | 🟩 |
 | nuskos | 2026-03-26 | [Refactor aligned allocation/free for memory tools.](./output/release/ce50faac4317e6786737bfabac855e8ae81577a1.log) | 🟩 |
