@@ -27,6 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
+**2026-04**: 🟩<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -56,6 +57,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-04-02 | [[partition_alloc] Rename IS_CAST_ANDROID to ENABLE_...](./output/debug/b5258e200dc8fc3ea0a3c02730258fda7633a9e4.log) | 🟩 |
 | sergiosolano | 2026-03-30 | [Reland "Making span.h available within partition_al...](./output/debug/b707a2ca5567b06f4b886fbcd888dfa7e8044718.log) | 🟩 |
 | kenoss | 2026-03-26 | [Revert "Making span.h available within partition_al...](./output/debug/3b21b53f577117db1fcbe80558f85e474e4f2f12.log) | 🟩 |
 | sergiosolano | 2026-03-26 | [Making span.h available within partition_alloc.](./output/debug/014a13780577e1cb5161d816543b5af4ce4b1fec.log) | 🟩 |
@@ -533,6 +535,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-04-02 | [[partition_alloc] Rename IS_CAST_ANDROID to ENABLE_...](./output/release/b5258e200dc8fc3ea0a3c02730258fda7633a9e4.log) | 🟩 |
 | sergiosolano | 2026-03-30 | [Reland "Making span.h available within partition_al...](./output/release/b707a2ca5567b06f4b886fbcd888dfa7e8044718.log) | 🟩 |
 | kenoss | 2026-03-26 | [Revert "Making span.h available within partition_al...](./output/release/3b21b53f577117db1fcbe80558f85e474e4f2f12.log) | 🟩 |
 | sergiosolano | 2026-03-26 | [Making span.h available within partition_alloc.](./output/release/014a13780577e1cb5161d816543b5af4ce4b1fec.log) | 🟩 |
