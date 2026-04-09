@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-04**: 🟩🟩🟩🟩🟩<br>
+**2026-04**: 🟩🟩🟩🟩🟩🟩<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -57,6 +57,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2026-04-08 | [[PA] Hide AutoPartitioning behind its own flag](./output/release/8013b1e0ce431d1587f41b46ed7cdaa3c024575a.log) | 🟩 |
 | peilinwang | 2026-04-07 | [[Gardener] Revert "Fix incorrect logical operator i...](./output/release/95080735a9f5b8c39891f58aca3922e84b6f7de8.log) | 🟩 |
 | otara | 2026-04-07 | [Revert "Fix system_allocator toolchain on Windows"](./output/release/17b8b409bd3e4c2ee3357729f6dc6ea82d149d4a.log) | 🟩 |
 | wfh | 2026-04-07 | [Fix system_allocator toolchain on Windows](./output/release/cd966c22c85712de62166be249d2b6d3f7727eff.log) | 🟩 |
@@ -539,6 +540,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| mikt | 2026-04-08 | [[PA] Hide AutoPartitioning behind its own flag](./output/debug/8013b1e0ce431d1587f41b46ed7cdaa3c024575a.log) | 🟩 |
 | peilinwang | 2026-04-07 | [[Gardener] Revert "Fix incorrect logical operator i...](./output/debug/95080735a9f5b8c39891f58aca3922e84b6f7de8.log) | 🟩 |
 | otara | 2026-04-07 | [Revert "Fix system_allocator toolchain on Windows"](./output/debug/17b8b409bd3e4c2ee3357729f6dc6ea82d149d4a.log) | 🟩 |
 | wfh | 2026-04-07 | [Fix system_allocator toolchain on Windows](./output/debug/cd966c22c85712de62166be249d2b6d3f7727eff.log) | 🟩 |
