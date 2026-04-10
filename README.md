@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-04**: 🟩🟩🟩🟩🟩🟩<br>
+**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -57,6 +57,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| apaseltiner | 2026-04-09 | [[base] Optimize stringstream usage](./output/release/c6953320d41d503d7957b9fc3b9c26bee408165c.log) | 🟩 |
+| jonathanjlee | 2026-04-09 | [Revert "ios: Skip InaccessiblePages test on iOS whe...](./output/release/69f06829993fe56ba3e5454054d7787a852afa51.log) | 🟩 |
+| justincohen | 2026-04-09 | [ios: Skip InaccessiblePages test on iOS when debugg...](./output/release/f5002dab5ab2e87b5f98a9d9451a33f9bf9f797b.log) | 🟩 |
+| wfh | 2026-04-08 | [Remove 2GiB limit from the winheap system allocator.](./output/release/6dd8b3da35ede19687a96115189915f54462a2b0.log) | 🟩 |
+| wfh | 2026-04-08 | [Reland "Fix system_allocator toolchain on Windows"](./output/release/4f6607c5eff5789d34cdbdb460578a3ef93fbe33.log) | 🟩 |
 | mikt | 2026-04-08 | [[PA] Hide AutoPartitioning behind its own flag](./output/release/8013b1e0ce431d1587f41b46ed7cdaa3c024575a.log) | 🟩 |
 | peilinwang | 2026-04-07 | [[Gardener] Revert "Fix incorrect logical operator i...](./output/release/95080735a9f5b8c39891f58aca3922e84b6f7de8.log) | 🟩 |
 | otara | 2026-04-07 | [Revert "Fix system_allocator toolchain on Windows"](./output/release/17b8b409bd3e4c2ee3357729f6dc6ea82d149d4a.log) | 🟩 |
@@ -540,6 +545,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| apaseltiner | 2026-04-09 | [[base] Optimize stringstream usage](./output/debug/c6953320d41d503d7957b9fc3b9c26bee408165c.log) | 🟩 |
+| jonathanjlee | 2026-04-09 | [Revert "ios: Skip InaccessiblePages test on iOS whe...](./output/debug/69f06829993fe56ba3e5454054d7787a852afa51.log) | 🟩 |
+| justincohen | 2026-04-09 | [ios: Skip InaccessiblePages test on iOS when debugg...](./output/debug/f5002dab5ab2e87b5f98a9d9451a33f9bf9f797b.log) | 🟩 |
+| wfh | 2026-04-08 | [Remove 2GiB limit from the winheap system allocator.](./output/debug/6dd8b3da35ede19687a96115189915f54462a2b0.log) | 🟩 |
+| wfh | 2026-04-08 | [Reland "Fix system_allocator toolchain on Windows"](./output/debug/4f6607c5eff5789d34cdbdb460578a3ef93fbe33.log) | 🟩 |
 | mikt | 2026-04-08 | [[PA] Hide AutoPartitioning behind its own flag](./output/debug/8013b1e0ce431d1587f41b46ed7cdaa3c024575a.log) | 🟩 |
 | peilinwang | 2026-04-07 | [[Gardener] Revert "Fix incorrect logical operator i...](./output/debug/95080735a9f5b8c39891f58aca3922e84b6f7de8.log) | 🟩 |
 | otara | 2026-04-07 | [Revert "Fix system_allocator toolchain on Windows"](./output/debug/17b8b409bd3e4c2ee3357729f6dc6ea82d149d4a.log) | 🟩 |
