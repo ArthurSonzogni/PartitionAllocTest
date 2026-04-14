@@ -1,0 +1,24 @@
+Note: switching to '0fdd90c827f445be15c7a45448272515eb507700'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 0fdd90c8 [PartitionAlloc] Skip FutexMigration test without PI futex support
+ERROR at //partition_alloc.gni:583:33: Undefined identifier
+use_checked_span = !(is_asan || is_ubsan || is_tsan) && use_partition_alloc &&
+                                ^-------
+See //BUILD.gn:4:1: whence it was imported.
+import("partition_alloc.gni")
+^---------------------------

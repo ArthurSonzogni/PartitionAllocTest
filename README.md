@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
+**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -53,10 +53,14 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 **2024-05**: 🟥🟥🟥🟥<br>
 
 <details>
-<summary>🟩 Configuration: `release`</summary>
+<summary>🟥 Configuration: `release`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| dailenking | 2026-04-13 | [[PartitionAlloc] Skip FutexMigration test without P...](./output/release/0fdd90c827f445be15c7a45448272515eb507700.log) | 🟥 |
+| kdlee | 2026-04-13 | [Checked Span: Activate in `is_debug`](./output/release/d9e6ce10c27d1059b804e9d57d0d155f8dad798d.log) | 🟥 |
+| kdlee | 2026-04-12 | [Checked Span: Handle volatile pointers](./output/release/9e005cf3bb7d9514f416edb45363ee88c323d726.log) | 🟩 |
+| justincohen | 2026-04-12 | [Reland "ios: Skip InaccessiblePages test on iOS whe...](./output/release/7be1a61f68fd36d1c1c31ef87190a83ca1a64e92.log) | 🟩 |
 | apaseltiner | 2026-04-09 | [[base] Optimize stringstream usage](./output/release/c6953320d41d503d7957b9fc3b9c26bee408165c.log) | 🟩 |
 | jonathanjlee | 2026-04-09 | [Revert "ios: Skip InaccessiblePages test on iOS whe...](./output/release/69f06829993fe56ba3e5454054d7787a852afa51.log) | 🟩 |
 | justincohen | 2026-04-09 | [ios: Skip InaccessiblePages test on iOS when debugg...](./output/release/f5002dab5ab2e87b5f98a9d9451a33f9bf9f797b.log) | 🟩 |
@@ -541,10 +545,14 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 </details>
 
 <details>
-<summary>🟩 Configuration: `debug`</summary>
+<summary>🟥 Configuration: `debug`</summary>
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| dailenking | 2026-04-13 | [[PartitionAlloc] Skip FutexMigration test without P...](./output/debug/0fdd90c827f445be15c7a45448272515eb507700.log) | 🟥 |
+| kdlee | 2026-04-13 | [Checked Span: Activate in `is_debug`](./output/debug/d9e6ce10c27d1059b804e9d57d0d155f8dad798d.log) | 🟥 |
+| kdlee | 2026-04-12 | [Checked Span: Handle volatile pointers](./output/debug/9e005cf3bb7d9514f416edb45363ee88c323d726.log) | 🟩 |
+| justincohen | 2026-04-12 | [Reland "ios: Skip InaccessiblePages test on iOS whe...](./output/debug/7be1a61f68fd36d1c1c31ef87190a83ca1a64e92.log) | 🟩 |
 | apaseltiner | 2026-04-09 | [[base] Optimize stringstream usage](./output/debug/c6953320d41d503d7957b9fc3b9c26bee408165c.log) | 🟩 |
 | jonathanjlee | 2026-04-09 | [Revert "ios: Skip InaccessiblePages test on iOS whe...](./output/debug/69f06829993fe56ba3e5454054d7787a852afa51.log) | 🟩 |
 | justincohen | 2026-04-09 | [ios: Skip InaccessiblePages test on iOS when debugg...](./output/debug/f5002dab5ab2e87b5f98a9d9451a33f9bf9f797b.log) | 🟩 |
