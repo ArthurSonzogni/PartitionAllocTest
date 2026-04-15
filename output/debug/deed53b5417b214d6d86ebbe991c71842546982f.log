@@ -1,0 +1,7 @@
+HEAD is now at deed53b5 Make ReservationOffsetTable NotAllocated when DirectMap allocation with kReturnNull fails.
+ERROR at //partition_alloc.gni:583:33: Undefined identifier
+use_checked_span = !(is_asan || is_ubsan || is_tsan) && use_partition_alloc &&
+                                ^-------
+See //BUILD.gn:4:1: whence it was imported.
+import("partition_alloc.gni")
+^---------------------------

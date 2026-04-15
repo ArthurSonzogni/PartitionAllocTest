@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥<br>
+**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -57,6 +57,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-04-13 | [Make ReservationOffsetTable NotAllocated when Direc...](./output/release/deed53b5417b214d6d86ebbe991c71842546982f.log) | 🟥 |
 | dailenking | 2026-04-13 | [[PartitionAlloc] Skip FutexMigration test without P...](./output/release/0fdd90c827f445be15c7a45448272515eb507700.log) | 🟥 |
 | kdlee | 2026-04-13 | [Checked Span: Activate in `is_debug`](./output/release/d9e6ce10c27d1059b804e9d57d0d155f8dad798d.log) | 🟥 |
 | kdlee | 2026-04-12 | [Checked Span: Handle volatile pointers](./output/release/9e005cf3bb7d9514f416edb45363ee88c323d726.log) | 🟩 |
@@ -549,6 +550,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-04-13 | [Make ReservationOffsetTable NotAllocated when Direc...](./output/debug/deed53b5417b214d6d86ebbe991c71842546982f.log) | 🟥 |
 | dailenking | 2026-04-13 | [[PartitionAlloc] Skip FutexMigration test without P...](./output/debug/0fdd90c827f445be15c7a45448272515eb507700.log) | 🟥 |
 | kdlee | 2026-04-13 | [Checked Span: Activate in `is_debug`](./output/debug/d9e6ce10c27d1059b804e9d57d0d155f8dad798d.log) | 🟥 |
 | kdlee | 2026-04-12 | [Checked Span: Handle volatile pointers](./output/debug/9e005cf3bb7d9514f416edb45363ee88c323d726.log) | 🟩 |
