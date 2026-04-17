@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥<br>
+**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -57,6 +57,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-04-16 | [Checked Span: Move `IsExtentInBounds()` out](./output/release/dfb7f6351846b120b613765e4f13dc7f4233c4b7.log) | 🟥 |
 | tasak | 2026-04-13 | [Make ReservationOffsetTable NotAllocated when Direc...](./output/release/deed53b5417b214d6d86ebbe991c71842546982f.log) | 🟥 |
 | dailenking | 2026-04-13 | [[PartitionAlloc] Skip FutexMigration test without P...](./output/release/0fdd90c827f445be15c7a45448272515eb507700.log) | 🟥 |
 | kdlee | 2026-04-13 | [Checked Span: Activate in `is_debug`](./output/release/d9e6ce10c27d1059b804e9d57d0d155f8dad798d.log) | 🟥 |
@@ -550,6 +551,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| kdlee | 2026-04-16 | [Checked Span: Move `IsExtentInBounds()` out](./output/debug/dfb7f6351846b120b613765e4f13dc7f4233c4b7.log) | 🟥 |
 | tasak | 2026-04-13 | [Make ReservationOffsetTable NotAllocated when Direc...](./output/debug/deed53b5417b214d6d86ebbe991c71842546982f.log) | 🟥 |
 | dailenking | 2026-04-13 | [[PartitionAlloc] Skip FutexMigration test without P...](./output/debug/0fdd90c827f445be15c7a45448272515eb507700.log) | 🟥 |
 | kdlee | 2026-04-13 | [Checked Span: Activate in `is_debug`](./output/debug/d9e6ce10c27d1059b804e9d57d0d155f8dad798d.log) | 🟥 |
