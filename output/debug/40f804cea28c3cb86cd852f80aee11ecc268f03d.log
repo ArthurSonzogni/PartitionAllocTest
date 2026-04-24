@@ -1,0 +1,7 @@
+HEAD is now at 40f804ce Enable AsanRawPtrServiceV2 for LibFuzzer by decoupling build configs
+ERROR at //partition_alloc.gni:583:33: Undefined identifier
+use_checked_span = !(is_asan || is_ubsan || is_tsan) && use_partition_alloc &&
+                                ^-------
+See //BUILD.gn:4:1: whence it was imported.
+import("partition_alloc.gni")
+^---------------------------

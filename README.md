@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥<br>
+**2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
 **2026-01**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
@@ -57,6 +57,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-04-23 | [Enable AsanRawPtrServiceV2 for LibFuzzer by decoupl...](./output/release/40f804cea28c3cb86cd852f80aee11ecc268f03d.log) | 🟥 |
 | gkvjwa | 2026-04-20 | [Reland "Fix incorrect logical operator in spinning_...](./output/release/ff619bba16d15e0e46617bed9428d9e271629e83.log) | 🟥 |
 | luci-bisection | 2026-04-20 | [Revert "Checked Span: Enable in release"](./output/release/5fb10b3a3ed87a6127bfbc03526820ac664da7ec.log) | 🟥 |
 | kdlee | 2026-04-20 | [Checked Span: Enable in release](./output/release/dc52788873f7d48d712d18c47ee0ac0af6673778.log) | 🟥 |
@@ -554,6 +555,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-04-23 | [Enable AsanRawPtrServiceV2 for LibFuzzer by decoupl...](./output/debug/40f804cea28c3cb86cd852f80aee11ecc268f03d.log) | 🟥 |
 | gkvjwa | 2026-04-20 | [Reland "Fix incorrect logical operator in spinning_...](./output/debug/ff619bba16d15e0e46617bed9428d9e271629e83.log) | 🟥 |
 | luci-bisection | 2026-04-20 | [Revert "Checked Span: Enable in release"](./output/debug/5fb10b3a3ed87a6127bfbc03526820ac664da7ec.log) | 🟥 |
 | kdlee | 2026-04-20 | [Checked Span: Enable in release](./output/debug/dc52788873f7d48d712d18c47ee0ac0af6673778.log) | 🟥 |
