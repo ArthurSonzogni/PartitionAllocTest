@@ -27,6 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
+**2026-05**: 🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -57,6 +58,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-05-05 | [Add a new security macro to make AMCS object quaran...](./output/release/ad087221d72106dd91e72c2ed00e1a1954b955e8.log) | 🟥 |
 | mlippautz | 2026-04-24 | [PartitionAlloc: Adds a feature to acquire a zero se...](./output/release/fafdd4c9f559c6d0cfdf2ed3170ce370b59bfdbf.log) | 🟥 |
 | tasak | 2026-04-23 | [Enable AsanRawPtrServiceV2 for LibFuzzer by decoupl...](./output/release/40f804cea28c3cb86cd852f80aee11ecc268f03d.log) | 🟥 |
 | gkvjwa | 2026-04-20 | [Reland "Fix incorrect logical operator in spinning_...](./output/release/ff619bba16d15e0e46617bed9428d9e271629e83.log) | 🟥 |
@@ -556,6 +558,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-05-05 | [Add a new security macro to make AMCS object quaran...](./output/debug/ad087221d72106dd91e72c2ed00e1a1954b955e8.log) | 🟥 |
 | mlippautz | 2026-04-24 | [PartitionAlloc: Adds a feature to acquire a zero se...](./output/debug/fafdd4c9f559c6d0cfdf2ed3170ce370b59bfdbf.log) | 🟥 |
 | tasak | 2026-04-23 | [Enable AsanRawPtrServiceV2 for LibFuzzer by decoupl...](./output/debug/40f804cea28c3cb86cd852f80aee11ecc268f03d.log) | 🟥 |
 | gkvjwa | 2026-04-20 | [Reland "Fix incorrect logical operator in spinning_...](./output/debug/ff619bba16d15e0e46617bed9428d9e271629e83.log) | 🟥 |
