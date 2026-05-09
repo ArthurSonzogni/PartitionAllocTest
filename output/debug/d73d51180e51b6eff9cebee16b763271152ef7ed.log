@@ -1,0 +1,7 @@
+HEAD is now at d73d5118 Mark 2 calculations in raw_ptr_asan_unowned.cc as PA_UNSAFE_TODO
+ERROR at //partition_alloc.gni:605:33: Undefined identifier
+use_checked_span = !(is_asan || is_ubsan || is_tsan) && use_partition_alloc &&
+                                ^-------
+See //BUILD.gn:4:1: whence it was imported.
+import("partition_alloc.gni")
+^---------------------------

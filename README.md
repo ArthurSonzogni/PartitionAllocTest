@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥<br>
+**2026-05**: 🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| chunyanghuo | 2026-05-08 | [[PA][macOS] Fix SIGBUS in MallocZoneSize on freed s...](./output/release/eac4514f89ca7094b4575de7f40500775c7cb1bf.log) | 🟥 |
+| fergal | 2026-05-08 | [Mark 2 calculations in raw_ptr_asan_unowned.cc as P...](./output/release/d73d51180e51b6eff9cebee16b763271152ef7ed.log) | 🟥 |
 | tasak | 2026-05-05 | [Add a new security macro to make AMCS object quaran...](./output/release/ad087221d72106dd91e72c2ed00e1a1954b955e8.log) | 🟥 |
 | mlippautz | 2026-04-24 | [PartitionAlloc: Adds a feature to acquire a zero se...](./output/release/fafdd4c9f559c6d0cfdf2ed3170ce370b59bfdbf.log) | 🟥 |
 | tasak | 2026-04-23 | [Enable AsanRawPtrServiceV2 for LibFuzzer by decoupl...](./output/release/40f804cea28c3cb86cd852f80aee11ecc268f03d.log) | 🟥 |
@@ -558,6 +560,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| chunyanghuo | 2026-05-08 | [[PA][macOS] Fix SIGBUS in MallocZoneSize on freed s...](./output/debug/eac4514f89ca7094b4575de7f40500775c7cb1bf.log) | 🟥 |
+| fergal | 2026-05-08 | [Mark 2 calculations in raw_ptr_asan_unowned.cc as P...](./output/debug/d73d51180e51b6eff9cebee16b763271152ef7ed.log) | 🟥 |
 | tasak | 2026-05-05 | [Add a new security macro to make AMCS object quaran...](./output/debug/ad087221d72106dd91e72c2ed00e1a1954b955e8.log) | 🟥 |
 | mlippautz | 2026-04-24 | [PartitionAlloc: Adds a feature to acquire a zero se...](./output/debug/fafdd4c9f559c6d0cfdf2ed3170ce370b59bfdbf.log) | 🟥 |
 | tasak | 2026-04-23 | [Enable AsanRawPtrServiceV2 for LibFuzzer by decoupl...](./output/debug/40f804cea28c3cb86cd852f80aee11ecc268f03d.log) | 🟥 |
