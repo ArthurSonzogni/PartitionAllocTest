@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-05-12 | [[PartitionAlloc] Guard `no_default_deps` with `buil...](./output/release/a6fd7d15807e10a2c17e9854bc28e714ad43ce4b.log) | 🟥 |
+| nuskos | 2026-05-11 | [Expand DynamicPoolSize from IOS test only to also n...](./output/release/21720ad3649f963580a8f238e698740226252ad6.log) | 🟥 |
 | chunyanghuo | 2026-05-08 | [[PA][macOS] Fix SIGBUS in MallocZoneSize on freed s...](./output/release/eac4514f89ca7094b4575de7f40500775c7cb1bf.log) | 🟥 |
 | fergal | 2026-05-08 | [Mark 2 calculations in raw_ptr_asan_unowned.cc as P...](./output/release/d73d51180e51b6eff9cebee16b763271152ef7ed.log) | 🟥 |
 | tasak | 2026-05-05 | [Add a new security macro to make AMCS object quaran...](./output/release/ad087221d72106dd91e72c2ed00e1a1954b955e8.log) | 🟥 |
@@ -560,6 +562,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-05-12 | [[PartitionAlloc] Guard `no_default_deps` with `buil...](./output/debug/a6fd7d15807e10a2c17e9854bc28e714ad43ce4b.log) | 🟥 |
+| nuskos | 2026-05-11 | [Expand DynamicPoolSize from IOS test only to also n...](./output/debug/21720ad3649f963580a8f238e698740226252ad6.log) | 🟥 |
 | chunyanghuo | 2026-05-08 | [[PA][macOS] Fix SIGBUS in MallocZoneSize on freed s...](./output/debug/eac4514f89ca7094b4575de7f40500775c7cb1bf.log) | 🟥 |
 | fergal | 2026-05-08 | [Mark 2 calculations in raw_ptr_asan_unowned.cc as P...](./output/debug/d73d51180e51b6eff9cebee16b763271152ef7ed.log) | 🟥 |
 | tasak | 2026-05-05 | [Add a new security macro to make AMCS object quaran...](./output/debug/ad087221d72106dd91e72c2ed00e1a1954b955e8.log) | 🟥 |
