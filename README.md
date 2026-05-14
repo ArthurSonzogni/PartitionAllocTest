@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| andreaorru | 2026-05-13 | [Revert "Split PartitionAlloc headers into internal ...](./output/release/9c88596f443e535086fd3b69214864cf8f989f1b.log) | 🟥 |
+| tasak | 2026-05-13 | [Split PartitionAlloc headers into internal ones and...](./output/release/4e22396e1d7706f015d2bb2382222fc2235b8cd5.log) | 🟥 |
+| mikt | 2026-05-13 | [Launch PartitionAllocWithAdvancedChecks (MiracleObj...](./output/release/c0432b814840f5c1b65e823fea393a6f5ec1806f.log) | 🟥 |
+| emaxx | 2026-05-12 | [[gin] Pkey mprotect thread isolation data](./output/release/293042101801b11c6d1b209f39ebce192a692558.log) | 🟥 |
 | arthursonzogni | 2026-05-12 | [[PartitionAlloc] Guard `no_default_deps` with `buil...](./output/release/a6fd7d15807e10a2c17e9854bc28e714ad43ce4b.log) | 🟥 |
 | nuskos | 2026-05-11 | [Expand DynamicPoolSize from IOS test only to also n...](./output/release/21720ad3649f963580a8f238e698740226252ad6.log) | 🟥 |
 | chunyanghuo | 2026-05-08 | [[PA][macOS] Fix SIGBUS in MallocZoneSize on freed s...](./output/release/eac4514f89ca7094b4575de7f40500775c7cb1bf.log) | 🟥 |
@@ -562,6 +566,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| andreaorru | 2026-05-13 | [Revert "Split PartitionAlloc headers into internal ...](./output/debug/9c88596f443e535086fd3b69214864cf8f989f1b.log) | 🟥 |
+| tasak | 2026-05-13 | [Split PartitionAlloc headers into internal ones and...](./output/debug/4e22396e1d7706f015d2bb2382222fc2235b8cd5.log) | 🟥 |
+| mikt | 2026-05-13 | [Launch PartitionAllocWithAdvancedChecks (MiracleObj...](./output/debug/c0432b814840f5c1b65e823fea393a6f5ec1806f.log) | 🟥 |
+| emaxx | 2026-05-12 | [[gin] Pkey mprotect thread isolation data](./output/debug/293042101801b11c6d1b209f39ebce192a692558.log) | 🟥 |
 | arthursonzogni | 2026-05-12 | [[PartitionAlloc] Guard `no_default_deps` with `buil...](./output/debug/a6fd7d15807e10a2c17e9854bc28e714ad43ce4b.log) | 🟥 |
 | nuskos | 2026-05-11 | [Expand DynamicPoolSize from IOS test only to also n...](./output/debug/21720ad3649f963580a8f238e698740226252ad6.log) | 🟥 |
 | chunyanghuo | 2026-05-08 | [[PA][macOS] Fix SIGBUS in MallocZoneSize on freed s...](./output/debug/eac4514f89ca7094b4575de7f40500775c7cb1bf.log) | 🟥 |
