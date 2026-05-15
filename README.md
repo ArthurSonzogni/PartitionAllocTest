@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-05-14 | [Reland "Split PartitionAlloc headers into internal ...](./output/release/df574853c6d7c1c0e958af24ea0c235fc2bab31d.log) | 🟥 |
 | andreaorru | 2026-05-13 | [Revert "Split PartitionAlloc headers into internal ...](./output/release/9c88596f443e535086fd3b69214864cf8f989f1b.log) | 🟥 |
 | tasak | 2026-05-13 | [Split PartitionAlloc headers into internal ones and...](./output/release/4e22396e1d7706f015d2bb2382222fc2235b8cd5.log) | 🟥 |
 | mikt | 2026-05-13 | [Launch PartitionAllocWithAdvancedChecks (MiracleObj...](./output/release/c0432b814840f5c1b65e823fea393a6f5ec1806f.log) | 🟥 |
@@ -566,6 +567,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-05-14 | [Reland "Split PartitionAlloc headers into internal ...](./output/debug/df574853c6d7c1c0e958af24ea0c235fc2bab31d.log) | 🟥 |
 | andreaorru | 2026-05-13 | [Revert "Split PartitionAlloc headers into internal ...](./output/debug/9c88596f443e535086fd3b69214864cf8f989f1b.log) | 🟥 |
 | tasak | 2026-05-13 | [Split PartitionAlloc headers into internal ones and...](./output/debug/4e22396e1d7706f015d2bb2382222fc2235b8cd5.log) | 🟥 |
 | mikt | 2026-05-13 | [Launch PartitionAllocWithAdvancedChecks (MiracleObj...](./output/debug/c0432b814840f5c1b65e823fea393a6f5ec1806f.log) | 🟥 |
