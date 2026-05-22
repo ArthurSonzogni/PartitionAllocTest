@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| fionav | 2026-05-21 | [Clean up launch for PartitionAllocLockTuneSpin](./output/release/ff212a1d6a4ab28b7d66ca99dcc736aff2329f66.log) | 🟥 |
 | msta | 2026-05-19 | [Run `gn format` on all BUILD.gn files.](./output/release/b6aef8525a29639a92208d85993b6979cf2b0460.log) | 🟥 |
 | tasak | 2026-05-18 | [PA: Make GetZeroSegmentSize() public](./output/release/16682d173493ecf1d8541928138067e39f017058.log) | 🟥 |
 | tasak | 2026-05-14 | [Reland "Split PartitionAlloc headers into internal ...](./output/release/df574853c6d7c1c0e958af24ea0c235fc2bab31d.log) | 🟥 |
@@ -569,6 +570,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| fionav | 2026-05-21 | [Clean up launch for PartitionAllocLockTuneSpin](./output/debug/ff212a1d6a4ab28b7d66ca99dcc736aff2329f66.log) | 🟥 |
 | msta | 2026-05-19 | [Run `gn format` on all BUILD.gn files.](./output/debug/b6aef8525a29639a92208d85993b6979cf2b0460.log) | 🟥 |
 | tasak | 2026-05-18 | [PA: Make GetZeroSegmentSize() public](./output/debug/16682d173493ecf1d8541928138067e39f017058.log) | 🟥 |
 | tasak | 2026-05-14 | [Reland "Split PartitionAlloc headers into internal ...](./output/debug/df574853c6d7c1c0e958af24ea0c235fc2bab31d.log) | 🟥 |
