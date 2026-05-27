@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-05-26 | [partition_alloc: Use PA_BUILDFLAG(IS_COMPONENT_BUILD)](./output/release/3842bcc38cf3d73470ca8c223ac0db19d81e29fe.log) | 🟥 |
 | fionav | 2026-05-21 | [Clean up launch for PartitionAllocLockTuneSpin](./output/release/ff212a1d6a4ab28b7d66ca99dcc736aff2329f66.log) | 🟥 |
 | msta | 2026-05-19 | [Run `gn format` on all BUILD.gn files.](./output/release/b6aef8525a29639a92208d85993b6979cf2b0460.log) | 🟥 |
 | tasak | 2026-05-18 | [PA: Make GetZeroSegmentSize() public](./output/release/16682d173493ecf1d8541928138067e39f017058.log) | 🟥 |
@@ -570,6 +571,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| arthursonzogni | 2026-05-26 | [partition_alloc: Use PA_BUILDFLAG(IS_COMPONENT_BUILD)](./output/debug/3842bcc38cf3d73470ca8c223ac0db19d81e29fe.log) | 🟥 |
 | fionav | 2026-05-21 | [Clean up launch for PartitionAllocLockTuneSpin](./output/debug/ff212a1d6a4ab28b7d66ca99dcc736aff2329f66.log) | 🟥 |
 | msta | 2026-05-19 | [Run `gn format` on all BUILD.gn files.](./output/debug/b6aef8525a29639a92208d85993b6979cf2b0460.log) | 🟥 |
 | tasak | 2026-05-18 | [PA: Make GetZeroSegmentSize() public](./output/debug/16682d173493ecf1d8541928138067e39f017058.log) | 🟥 |
