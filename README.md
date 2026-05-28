@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-05-27 | [PA: Add public PartitionRoot::GetRootFromAddress() ...](./output/release/6be374aead819a4516bc0e4e9fcf4bbdfcd6d956.log) | 🟥 |
+| mikt | 2026-05-27 | [[PA/MO] Support flexible configuration of TaskAnnot...](./output/release/a39cb77b46d546764df8479920c9ee556bcfd750.log) | 🟥 |
+| tasak | 2026-05-26 | [PA: Replace FreeWithSize() with Free() with FreeFla...](./output/release/58bfcaec0f5ca337379e269dfe7a2400b650fbdc.log) | 🟥 |
 | arthursonzogni | 2026-05-26 | [partition_alloc: Use PA_BUILDFLAG(IS_COMPONENT_BUILD)](./output/release/3842bcc38cf3d73470ca8c223ac0db19d81e29fe.log) | 🟥 |
 | fionav | 2026-05-21 | [Clean up launch for PartitionAllocLockTuneSpin](./output/release/ff212a1d6a4ab28b7d66ca99dcc736aff2329f66.log) | 🟥 |
 | msta | 2026-05-19 | [Run `gn format` on all BUILD.gn files.](./output/release/b6aef8525a29639a92208d85993b6979cf2b0460.log) | 🟥 |
@@ -571,6 +574,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| tasak | 2026-05-27 | [PA: Add public PartitionRoot::GetRootFromAddress() ...](./output/debug/6be374aead819a4516bc0e4e9fcf4bbdfcd6d956.log) | 🟥 |
+| mikt | 2026-05-27 | [[PA/MO] Support flexible configuration of TaskAnnot...](./output/debug/a39cb77b46d546764df8479920c9ee556bcfd750.log) | 🟥 |
+| tasak | 2026-05-26 | [PA: Replace FreeWithSize() with Free() with FreeFla...](./output/debug/58bfcaec0f5ca337379e269dfe7a2400b650fbdc.log) | 🟥 |
 | arthursonzogni | 2026-05-26 | [partition_alloc: Use PA_BUILDFLAG(IS_COMPONENT_BUILD)](./output/debug/3842bcc38cf3d73470ca8c223ac0db19d81e29fe.log) | 🟥 |
 | fionav | 2026-05-21 | [Clean up launch for PartitionAllocLockTuneSpin](./output/debug/ff212a1d6a4ab28b7d66ca99dcc736aff2329f66.log) | 🟥 |
 | msta | 2026-05-19 | [Run `gn format` on all BUILD.gn files.](./output/debug/b6aef8525a29639a92208d85993b6979cf2b0460.log) | 🟥 |
