@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| keishi | 2026-05-28 | [base: Introduce ReallocProtectedIterator to mitigat...](./output/release/0059a764097188d89c60b6d4bebff3b0e0726e40.log) | 🟥 |
 | tasak | 2026-05-27 | [PA: Add public PartitionRoot::GetRootFromAddress() ...](./output/release/6be374aead819a4516bc0e4e9fcf4bbdfcd6d956.log) | 🟥 |
 | mikt | 2026-05-27 | [[PA/MO] Support flexible configuration of TaskAnnot...](./output/release/a39cb77b46d546764df8479920c9ee556bcfd750.log) | 🟥 |
 | tasak | 2026-05-26 | [PA: Replace FreeWithSize() with Free() with FreeFla...](./output/release/58bfcaec0f5ca337379e269dfe7a2400b650fbdc.log) | 🟥 |
@@ -574,6 +575,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| keishi | 2026-05-28 | [base: Introduce ReallocProtectedIterator to mitigat...](./output/debug/0059a764097188d89c60b6d4bebff3b0e0726e40.log) | 🟥 |
 | tasak | 2026-05-27 | [PA: Add public PartitionRoot::GetRootFromAddress() ...](./output/debug/6be374aead819a4516bc0e4e9fcf4bbdfcd6d956.log) | 🟥 |
 | mikt | 2026-05-27 | [[PA/MO] Support flexible configuration of TaskAnnot...](./output/debug/a39cb77b46d546764df8479920c9ee556bcfd750.log) | 🟥 |
 | tasak | 2026-05-26 | [PA: Replace FreeWithSize() with Free() with FreeFla...](./output/debug/58bfcaec0f5ca337379e269dfe7a2400b650fbdc.log) | 🟥 |
