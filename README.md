@@ -27,7 +27,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 ## Build Results
 
-**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
+**2026-05**: 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-04**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
 **2026-03**: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩<br>
 **2026-02**: 🟩🟩🟩🟩🟩🟥🟥🟥🟥🟩🟩🟩🟩<br>
@@ -58,6 +58,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| yoshiki | 2026-05-29 | [Clean up: Fix 11 wrong escapes in 5 DEPS files in base](./output/release/ff3b8b885b8374cbd3902642d94dc737bda93d5d.log) | 🟥 |
+| arthursonzogni | 2026-05-29 | [partition_alloc: Add missing <cstring> includes for...](./output/release/e6c4d08c9badb8cef65d11f7f9dc1924f4d70027.log) | 🟥 |
+| arthursonzogni | 2026-05-29 | [partition_alloc: presubmit against external define](./output/release/7c5bc8bed5343a287fe9a71ebc830df1ed2d7254.log) | 🟥 |
+| keishi | 2026-05-28 | [Introduce kUnprotectedInRelease raw_ptr trait](./output/release/76c74af3a92809278b20d6816865a296d4704ca6.log) | 🟥 |
 | keishi | 2026-05-28 | [base: Introduce ReallocProtectedIterator to mitigat...](./output/release/0059a764097188d89c60b6d4bebff3b0e0726e40.log) | 🟥 |
 | tasak | 2026-05-27 | [PA: Add public PartitionRoot::GetRootFromAddress() ...](./output/release/6be374aead819a4516bc0e4e9fcf4bbdfcd6d956.log) | 🟥 |
 | mikt | 2026-05-27 | [[PA/MO] Support flexible configuration of TaskAnnot...](./output/release/a39cb77b46d546764df8479920c9ee556bcfd750.log) | 🟥 |
@@ -575,6 +579,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | ? |
 |---|---|---|---|
+| yoshiki | 2026-05-29 | [Clean up: Fix 11 wrong escapes in 5 DEPS files in base](./output/debug/ff3b8b885b8374cbd3902642d94dc737bda93d5d.log) | 🟥 |
+| arthursonzogni | 2026-05-29 | [partition_alloc: Add missing <cstring> includes for...](./output/debug/e6c4d08c9badb8cef65d11f7f9dc1924f4d70027.log) | 🟥 |
+| arthursonzogni | 2026-05-29 | [partition_alloc: presubmit against external define](./output/debug/7c5bc8bed5343a287fe9a71ebc830df1ed2d7254.log) | 🟥 |
+| keishi | 2026-05-28 | [Introduce kUnprotectedInRelease raw_ptr trait](./output/debug/76c74af3a92809278b20d6816865a296d4704ca6.log) | 🟥 |
 | keishi | 2026-05-28 | [base: Introduce ReallocProtectedIterator to mitigat...](./output/debug/0059a764097188d89c60b6d4bebff3b0e0726e40.log) | 🟥 |
 | tasak | 2026-05-27 | [PA: Add public PartitionRoot::GetRootFromAddress() ...](./output/debug/6be374aead819a4516bc0e4e9fcf4bbdfcd6d956.log) | 🟥 |
 | mikt | 2026-05-27 | [[PA/MO] Support flexible configuration of TaskAnnot...](./output/debug/a39cb77b46d546764df8479920c9ee556bcfd750.log) | 🟥 |
