@@ -138,11 +138,56 @@ def close_github_issues(comment_body):
     except Exception as e:
         print(f"Failed to list/process issues for closure: {e}")
 
+def update_author_map(author_map, repo="ArthurSonzogni/PartitionAlloc"):
+    url = f"https://api.github.com/repos/{repo}/commits?per_page=100"
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        token = os.environ.get("GITHUB_TOKEN")
+        if token:
+            headers['Authorization'] = f"token {token}"
+            
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req) as response:
+            commits = json.loads(response.read().decode())
+            
+        new_entries = 0
+        for commit in commits:
+            author = commit.get('author')
+            if author:
+                github_user = author.get('login')
+                commit_author = commit.get('commit', {}).get('author', {})
+                email = commit_author.get('email')
+                
+                if github_user and email:
+                    email_prefix = email.split('@')[0]
+                    if "noreply" not in email:
+                        if email_prefix not in author_map or author_map[email_prefix] != github_user:
+                            author_map[email_prefix] = github_user
+                            new_entries += 1
+                            
+        author_map['arthursonzogni'] = 'ArthurSonzogni'
+        
+        if new_entries > 0:
+            with open("author_map.json", "w") as f:
+                json.dump(author_map, f, indent=2)
+            print(f"Updated author_map.json on demand. Added {new_entries} new entries.")
+        else:
+            print("Tried to update author map on demand, but no new entries found.")
+            
+    except Exception as e:
+        print(f"Warning: Failed to update author map from GitHub API: {e}")
+
 def get_mentions(author_email, author_map, always_notify):
     mentions = []
     email_prefix = author_email.split('@')[0]
     
     github_user = author_map.get(email_prefix)
+    
+    if not github_user:
+        print(f"Author {email_prefix} not found in map. Attempting to update map from GitHub...")
+        update_author_map(author_map)
+        github_user = author_map.get(email_prefix)
+        
     if github_user:
         mentions.append(f"@{github_user}")
     else:
@@ -160,13 +205,31 @@ def main():
     """
     build_gn()
     configurations = get_configurations()
-    commits = get_commits_after(START_COMMIT)
+    all_commits = get_commits_after(START_COMMIT)
     
     author_map = load_json_file("author_map.json", {})
     always_notify = load_json_file("always_notify.json", [])
     
     old_status = get_latest_commit_status_from_readme()
     print(f"Old latest status: {old_status}")
+    
+    # Filter to find new commits
+    new_commits = []
+    if old_status and old_status["hash"]:
+        old_hash = old_status["hash"]
+        found = False
+        for i, commit in enumerate(all_commits):
+            if commit[0] == old_hash:
+                new_commits = all_commits[i+1:]
+                found = True
+                break
+        if not found:
+            print(f"Warning: Old hash {old_hash} not found in history. Processing all commits.")
+            new_commits = all_commits
+    else:
+        new_commits = all_commits
+        
+    print(f"Found {len(new_commits)} new commits to process out of {len(all_commits)} total.")
     
     sorted_configurations = sorted(configurations, key=lambda x: x[0])
     
@@ -181,7 +244,7 @@ def main():
     
     transitions = []
     
-    for commit_hash, commit_email, commit_date, commit_title in commits:
+    for commit_hash, commit_email, commit_date, commit_title in new_commits:
         for config_name, config_path in sorted_configurations:
             check_commit_and_save_output(commit_hash, config_name, config_path)
         subprocess.run(["git", "checkout", "main"], cwd=REPO_DIR, check=True, capture_output=True)
@@ -208,7 +271,7 @@ def main():
         if commit_state != "UNKNOWN":
             current_state = commit_state
 
-    update_readme(commits, configurations)
+    update_readme(all_commits, configurations)
     
     if transitions:
         print(f"Detected {len(transitions)} transitions:")

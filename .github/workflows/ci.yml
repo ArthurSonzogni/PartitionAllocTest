@@ -40,11 +40,6 @@ jobs:
         # Verify that llvm-ar is now available
         which llvm-ar
 
-    - name: Update Author Map
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: python generate_author_map.py
-
     - name: Run the build script
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
