@@ -16,7 +16,7 @@ def _get_build_status_icon(log_file_path):
 
 def update_readme(commits, configurations):
     """
-    Updates README.md with tables of build results for each configuration.
+    Updates README.md with a single table of build results.
     """
     readme_path = "README.md"
     
@@ -35,53 +35,34 @@ def update_readme(commits, configurations):
     full_content = "## Build Results\n\n"
     reversed_commits = list(reversed(commits))
 
-    # Generate the summary line
-    summary_line = ""
-    monthly_summary = {}
-    for commit_hash, _, commit_date, _ in reversed_commits:
-        month = commit_date[:7]
-        if month not in monthly_summary:
-            monthly_summary[month] = []
-        
-        commit_statuses = []
-        for config_name, _ in configurations:
-            log_file = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
-            commit_statuses.append(_get_build_status_icon(log_file))
-        
-        if "🟥" in commit_statuses:
-            monthly_summary[month].append("🟥")
-        elif all(s == "🟩" for s in commit_statuses):
-            monthly_summary[month].append("🟩")
-        else:
-            monthly_summary[month].append("⬜")
+    # Sort configurations by name to ensure consistent column order
+    sorted_configurations = sorted(configurations, key=lambda x: x[0])
 
-    for month, statuses in reversed(sorted(monthly_summary.items())):
-        summary_line += f"**{month}**: {''.join(reversed(statuses))}<br>\n"
+    # Generate table header
+    config_names = [config_name for config_name, _ in sorted_configurations]
+    header = "| Email | Date | Title | " + " | ".join([name.capitalize() for name in config_names]) + " |\n"
+    separator = "|---|---|---|" + "---|" * len(config_names) + "\n"
     
-    full_content += summary_line + "\n"
+    full_content += header
+    full_content += separator
 
-    for config_name, _ in configurations:
-        latest_commit_hash = reversed_commits[0][0] if reversed_commits else None
-        icon = "⬜"
-        if latest_commit_hash:
-            log_file = os.path.join(OUTPUT_DIR, config_name, f"{latest_commit_hash}.log")
-            icon = _get_build_status_icon(log_file)
-
-        full_content += "<details>\n"
-        full_content += f"<summary>{icon} Configuration: `{config_name}`</summary>\n\n"
-        full_content += "| Email | Date | Title | ? |\n"
-        full_content += "|---|---|---|---|\n"
-
-        for commit_hash, commit_email, commit_date, commit_title in reversed_commits:
+    for commit_hash, commit_email, commit_date, commit_title in reversed_commits:
+        commit_title_short = (commit_title[:51] + "...") if len(commit_title) > 54 else commit_title
+        commit_email_user = commit_email.split('@')[0]
+        
+        row = f"| {commit_email_user} | {commit_date} | {commit_title_short} |"
+        
+        for config_name, _ in sorted_configurations:
             log_file = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
             status = _get_build_status_icon(log_file)
-            
-            commit_title_short = (commit_title[:51] + "...") if len(commit_title) > 54 else commit_title
-            commit_email_user = commit_email.split('@')[0]
             log_path = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
-
-            full_content += f"| {commit_email_user} | {commit_date} | [{commit_title_short}](./{log_path}) | {status} |\n"
-        full_content += "\n</details>\n\n"
+            
+            if status != "⬜":
+                row += f" [{status}](./{log_path}) |"
+            else:
+                row += f" {status} |"
+        
+        full_content += row + "\n"
 
     with open(readme_path, "w") as f:
         f.writelines(header_lines)
