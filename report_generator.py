@@ -1,7 +1,7 @@
 import os
 from settings import OUTPUT_DIR
 
-def _get_build_status_icon(log_file_path):
+def get_build_status_icon(log_file_path):
     """
     Determines the build status icon based on the content of the log file.
     """
@@ -54,7 +54,7 @@ def update_readme(commits, configurations):
         
         for config_name, _ in sorted_configurations:
             log_file = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
-            status = _get_build_status_icon(log_file)
+            status = get_build_status_icon(log_file)
             log_path = os.path.join(OUTPUT_DIR, config_name, f"{commit_hash}.log")
             
             if status != "⬜":
