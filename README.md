@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mlippautz | 2026-06-03 | partition_alloc: Enable user space zero segment on ... | [🟥](./output/debug/40389bc17e7b30dc69cc95648cba8a4685fcefd2.log) | [🟥](./output/release/40389bc17e7b30dc69cc95648cba8a4685fcefd2.log) |
+| battre | 2026-06-03 | Fix TSan data race in PartitionRoot::AdjustSlotSpan... | [🟥](./output/debug/8f376b39bef2d414e81e609fda2ea255d6ee1862.log) | [🟥](./output/release/8f376b39bef2d414e81e609fda2ea255d6ee1862.log) |
+| mlippautz | 2026-06-02 | partition_alloc: Rework userspace zero segment and ... | [🟥](./output/debug/7ba9392e9d8d2d9355a85d09c2df6f227768aa66.log) | [🟥](./output/release/7ba9392e9d8d2d9355a85d09c2df6f227768aa66.log) |
 | arthursonzogni | 2026-06-01 | partition_alloc: fix OFFICIAL_BUILD legacy macro | [🟥](./output/debug/390c4b91f769aad03ea13d2a479d7430406302f2.log) | [🟥](./output/release/390c4b91f769aad03ea13d2a479d7430406302f2.log) |
 | yoshiki | 2026-05-29 | Clean up: Fix 11 wrong escapes in 5 DEPS files in base | [🟥](./output/debug/ff3b8b885b8374cbd3902642d94dc737bda93d5d.log) | [🟥](./output/release/ff3b8b885b8374cbd3902642d94dc737bda93d5d.log) |
 | arthursonzogni | 2026-05-29 | partition_alloc: Add missing <cstring> includes for... | [🟥](./output/debug/e6c4d08c9badb8cef65d11f7f9dc1924f4d70027.log) | [🟥](./output/release/e6c4d08c9badb8cef65d11f7f9dc1924f4d70027.log) |
