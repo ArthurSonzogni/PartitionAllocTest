@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| arthursonzogni | 2026-06-04 | partition_alloc: Clean up warnings in standalone co... | [🟩](./output/debug/c8ffc7932a3d49c12346e14cf07fea5a1cf62396.log) | [🟩](./output/release/c8ffc7932a3d49c12346e14cf07fea5a1cf62396.log) |
+| arthursonzogni | 2026-06-04 | partition-alloc: Define is_ubsan and is_tsan for st... | [🟩](./output/debug/5bc15a79ea9d0cd0bd144d5f93a78e52b1e73a5a.log) | [🟩](./output/release/5bc15a79ea9d0cd0bd144d5f93a78e52b1e73a5a.log) |
+| mlippautz | 2026-06-03 | partition_alloc: Fix user space segment | [🟥](./output/debug/b8ae6c8036e4704170b4b0f872a4490f5b0e195a.log) | [🟥](./output/release/b8ae6c8036e4704170b4b0f872a4490f5b0e195a.log) |
 | mlippautz | 2026-06-03 | partition_alloc: Enable user space zero segment on ... | [🟥](./output/debug/40389bc17e7b30dc69cc95648cba8a4685fcefd2.log) | [🟥](./output/release/40389bc17e7b30dc69cc95648cba8a4685fcefd2.log) |
 | battre | 2026-06-03 | Fix TSan data race in PartitionRoot::AdjustSlotSpan... | [🟥](./output/debug/8f376b39bef2d414e81e609fda2ea255d6ee1862.log) | [🟥](./output/release/8f376b39bef2d414e81e609fda2ea255d6ee1862.log) |
 | mlippautz | 2026-06-02 | partition_alloc: Rework userspace zero segment and ... | [🟥](./output/debug/7ba9392e9d8d2d9355a85d09c2df6f227768aa66.log) | [🟥](./output/release/7ba9392e9d8d2d9355a85d09c2df6f227768aa66.log) |
