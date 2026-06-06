@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| arthursonzogni | 2026-06-05 | Use _WIN32 instead of WIN32 in component_export.h | [🟥](./output/debug/344fbfe3d90ce8fb763e6e0dfbf992313999e80c.log) | [🟥](./output/release/344fbfe3d90ce8fb763e6e0dfbf992313999e80c.log) |
+| arthursonzogni | 2026-06-05 | PA: Enforce -Wnontrivial-memaccess and -Wnontrivial... | [🟥](./output/debug/e142dc393de44c75da02af7a689edcd827b6ff36.log) | [🟥](./output/release/e142dc393de44c75da02af7a689edcd827b6ff36.log) |
+| arthursonzogni | 2026-06-04 | partition_alloc: fix outdated circular-dependency h... | [🟩](./output/debug/596194f25955e22ef520393e95e560b34c86d708.log) | [🟩](./output/release/596194f25955e22ef520393e95e560b34c86d708.log) |
 | arthursonzogni | 2026-06-04 | partition_alloc: Clean up warnings in standalone co... | [🟩](./output/debug/c8ffc7932a3d49c12346e14cf07fea5a1cf62396.log) | [🟩](./output/release/c8ffc7932a3d49c12346e14cf07fea5a1cf62396.log) |
 | arthursonzogni | 2026-06-04 | partition-alloc: Define is_ubsan and is_tsan for st... | [🟩](./output/debug/5bc15a79ea9d0cd0bd144d5f93a78e52b1e73a5a.log) | [🟩](./output/release/5bc15a79ea9d0cd0bd144d5f93a78e52b1e73a5a.log) |
 | mlippautz | 2026-06-03 | partition_alloc: Fix user space segment | [🟥](./output/debug/b8ae6c8036e4704170b4b0f872a4490f5b0e195a.log) | [🟥](./output/release/b8ae6c8036e4704170b4b0f872a4490f5b0e195a.log) |
