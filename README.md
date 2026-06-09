@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| arthursonzogni | 2026-06-08 | Fix C++20 compatibility in partition_alloc's span.h | [🟩](./output/debug/b1d0141bcecfda2bfd108882d818fc5df70ae5c7.log) | [🟩](./output/release/b1d0141bcecfda2bfd108882d818fc5df70ae5c7.log) |
+| tasak | 2026-06-08 | PA: Move PartitionAddressSpace::offsets_to_metadata... | [🟥](./output/debug/056ccbd473336dc4ef294f3a290678dbd32b96f2.log) | [🟥](./output/release/056ccbd473336dc4ef294f3a290678dbd32b96f2.log) |
 | arthursonzogni | 2026-06-05 | Use _WIN32 instead of WIN32 in component_export.h | [🟥](./output/debug/344fbfe3d90ce8fb763e6e0dfbf992313999e80c.log) | [🟥](./output/release/344fbfe3d90ce8fb763e6e0dfbf992313999e80c.log) |
 | arthursonzogni | 2026-06-05 | PA: Enforce -Wnontrivial-memaccess and -Wnontrivial... | [🟥](./output/debug/e142dc393de44c75da02af7a689edcd827b6ff36.log) | [🟥](./output/release/e142dc393de44c75da02af7a689edcd827b6ff36.log) |
 | arthursonzogni | 2026-06-04 | partition_alloc: fix outdated circular-dependency h... | [🟩](./output/debug/596194f25955e22ef520393e95e560b34c86d708.log) | [🟩](./output/release/596194f25955e22ef520393e95e560b34c86d708.log) |
