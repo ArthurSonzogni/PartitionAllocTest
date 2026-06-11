@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| avi | 2026-06-10 | Remove code supporting macOS 12 from base/ | [🟩](./output/debug/f1608363138557a80c2f35bf65127ae306f90cd3.log) | [🟩](./output/release/f1608363138557a80c2f35bf65127ae306f90cd3.log) |
+| mfarazma | 2026-06-10 | Add PPC64/S390x to the 64-bit pointers list | [🟩](./output/debug/1eccfab3fcf1ec7f8f0ec7e5a5dc23f7cdfd61f3.log) | [🟩](./output/release/1eccfab3fcf1ec7f8f0ec7e5a5dc23f7cdfd61f3.log) |
+| tasak | 2026-06-09 | PA zaps infinite-quarantined memory regions with ty... | [🟩](./output/debug/c31f5fa00b9ab50fdc6379649e01ddabc2defde0.log) | [🟩](./output/release/c31f5fa00b9ab50fdc6379649e01ddabc2defde0.log) |
 | arthursonzogni | 2026-06-08 | Fix C++20 compatibility in partition_alloc's span.h | [🟩](./output/debug/b1d0141bcecfda2bfd108882d818fc5df70ae5c7.log) | [🟩](./output/release/b1d0141bcecfda2bfd108882d818fc5df70ae5c7.log) |
 | tasak | 2026-06-08 | PA: Move PartitionAddressSpace::offsets_to_metadata... | [🟥](./output/debug/056ccbd473336dc4ef294f3a290678dbd32b96f2.log) | [🟥](./output/release/056ccbd473336dc4ef294f3a290678dbd32b96f2.log) |
 | arthursonzogni | 2026-06-05 | Use _WIN32 instead of WIN32 in component_export.h | [🟥](./output/debug/344fbfe3d90ce8fb763e6e0dfbf992313999e80c.log) | [🟥](./output/release/344fbfe3d90ce8fb763e6e0dfbf992313999e80c.log) |
