@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| tasak | 2026-06-14 | PA: Add `IntendedLeakSize` to `MallocMemoryDump` | [🟩](./output/debug/913b255cfd21fbaba5d2acf06c1c172d221139dc.log) | [🟩](./output/release/913b255cfd21fbaba5d2acf06c1c172d221139dc.log) |
 | peilinwang | 2026-06-12 | [codehealth] Fix some typos | [🟩](./output/debug/fcf3c97e0e29bed3c5224545a2a8da3a0d586aff.log) | [🟩](./output/release/fcf3c97e0e29bed3c5224545a2a8da3a0d586aff.log) |
 | andreydav | 2026-06-12 | Revert "Partially enable Checked Span" | [🟩](./output/debug/5103b00e9340382bf0a30fe577b199b2bd02c680.log) | [🟩](./output/release/5103b00e9340382bf0a30fe577b199b2bd02c680.log) |
 | kdlee | 2026-06-12 | Checked Span: Prevent wraparound spans | [🟩](./output/debug/f093cfa3aaaf8657664d723e4cdd436ee3ef79cd.log) | [🟩](./output/release/f093cfa3aaaf8657664d723e4cdd436ee3ef79cd.log) |
