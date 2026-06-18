@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mikt | 2026-06-17 | [PA] Fix ThreadCache corruption in ThreadCacheProce... | [🟩](./output/debug/f0ef8b98f936ad62194ec994e36fb36c81808212.log) | [🟩](./output/release/f0ef8b98f936ad62194ec994e36fb36c81808212.log) |
+| nuskos | 2026-06-17 | Handle nullptr buckets in SlotSpans | [🟩](./output/debug/94cee1e9f648f6c0a5e2d5cf68dece431c440725.log) | [🟩](./output/release/94cee1e9f648f6c0a5e2d5cf68dece431c440725.log) |
 | tasak | 2026-06-14 | PA: Add `IntendedLeakSize` to `MallocMemoryDump` | [🟩](./output/debug/913b255cfd21fbaba5d2acf06c1c172d221139dc.log) | [🟩](./output/release/913b255cfd21fbaba5d2acf06c1c172d221139dc.log) |
 | peilinwang | 2026-06-12 | [codehealth] Fix some typos | [🟩](./output/debug/fcf3c97e0e29bed3c5224545a2a8da3a0d586aff.log) | [🟩](./output/release/fcf3c97e0e29bed3c5224545a2a8da3a0d586aff.log) |
 | andreydav | 2026-06-12 | Revert "Partially enable Checked Span" | [🟩](./output/debug/5103b00e9340382bf0a30fe577b199b2bd02c680.log) | [🟩](./output/release/5103b00e9340382bf0a30fe577b199b2bd02c680.log) |
