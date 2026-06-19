@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| nuskos | 2026-06-18 | Enable use_checked_span on Linux. | [🟩](./output/debug/4e256afb47b4ed846f38e9653aada344613bf754.log) | [🟩](./output/release/4e256afb47b4ed846f38e9653aada344613bf754.log) |
 | mikt | 2026-06-17 | [PA] Fix ThreadCache corruption in ThreadCacheProce... | [🟩](./output/debug/f0ef8b98f936ad62194ec994e36fb36c81808212.log) | [🟩](./output/release/f0ef8b98f936ad62194ec994e36fb36c81808212.log) |
 | nuskos | 2026-06-17 | Handle nullptr buckets in SlotSpans | [🟩](./output/debug/94cee1e9f648f6c0a5e2d5cf68dece431c440725.log) | [🟩](./output/release/94cee1e9f648f6c0a5e2d5cf68dece431c440725.log) |
 | tasak | 2026-06-14 | PA: Add `IntendedLeakSize` to `MallocMemoryDump` | [🟩](./output/debug/913b255cfd21fbaba5d2acf06c1c172d221139dc.log) | [🟩](./output/release/913b255cfd21fbaba5d2acf06c1c172d221139dc.log) |
