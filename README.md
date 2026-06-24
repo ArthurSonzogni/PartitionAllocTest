@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| kmg | 2026-06-23 | Set kPartitionCachelineSize to 128B for Apple ARM | [🟩](./output/debug/64c90fe7e89e33404f23458edf813acee2d14b2b.log) | [🟩](./output/release/64c90fe7e89e33404f23458edf813acee2d14b2b.log) |
 | nuskos | 2026-06-18 | Enable use_checked_span on Linux. | [🟩](./output/debug/4e256afb47b4ed846f38e9653aada344613bf754.log) | [🟩](./output/release/4e256afb47b4ed846f38e9653aada344613bf754.log) |
 | mikt | 2026-06-17 | [PA] Fix ThreadCache corruption in ThreadCacheProce... | [🟩](./output/debug/f0ef8b98f936ad62194ec994e36fb36c81808212.log) | [🟩](./output/release/f0ef8b98f936ad62194ec994e36fb36c81808212.log) |
 | nuskos | 2026-06-17 | Handle nullptr buckets in SlotSpans | [🟩](./output/debug/94cee1e9f648f6c0a5e2d5cf68dece431c440725.log) | [🟩](./output/release/94cee1e9f648f6c0a5e2d5cf68dece431c440725.log) |
