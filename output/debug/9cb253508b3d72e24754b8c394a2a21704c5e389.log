@@ -1,0 +1,53 @@
+Note: switching to '9cb253508b3d72e24754b8c394a2a21704c5e389'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 9cb25350 [PA] Disallow ++refcount once the object is not held by allocator and its refcount is zero
+WARNING at the command-line "--args":1:249: Build argument has no effect.
+is_debug=true use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
+                                                                                                                                                                                                                                                        ^---
+The variable "enable_ios_corruption_hardening" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 15 targets from 8 files in 4ms
+ninja: Entering directory `out/debug'
+[1/23] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[2/23] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[3/23] CXX ../../src/partition_alloc/gwp_asan_support.cc
+[4/23] CXX ../../src/partition_alloc/internal_allocator.cc
+[5/23] CXX ../../src/partition_alloc/bounds_checks.cc
+[6/23] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+[7/23] CXX ../../src/partition_alloc/partition_alloc.cc
+[8/23] CXX ../../src/partition_alloc/partition_bucket.cc
+[9/23] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[10/23] CXX ../../src/partition_alloc/scheduler_loop_quarantine.cc
+[11/23] CXX ../../src/partition_alloc/scheduler_loop_quarantine_support.cc
+[12/23] CXX ../../src/partition_alloc/partition_page.cc
+[13/23] CXX ../../src/partition_alloc/slot_address_and_size.cc
+[14/23] CXX ../../src/partition_alloc/partition_root.cc
+[15/23] CXX ../../src/partition_alloc/slot_start.cc
+[16/23] CXX ../../src/partition_alloc/pointers/realloc_protected_iterator.cc
+[17/23] CXX ../../src/partition_alloc/thread_cache.cc
+[18/23] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[19/23] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+[20/23] CXX ../../src/partition_alloc/stack/stack.cc
+[21/23] LINK (static) liballocator_core.a
+[22/23] LINK (static) libraw_ptr.a
+[23/23] CXX ../../src/partition_alloc/extended_api.cc

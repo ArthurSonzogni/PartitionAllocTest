@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| tasak | 2026-06-24 | [PA] Disallow ++refcount once the object is not hel... | [🟩](./output/debug/9cb253508b3d72e24754b8c394a2a21704c5e389.log) | [🟩](./output/release/9cb253508b3d72e24754b8c394a2a21704c5e389.log) |
+| keishi | 2026-06-24 | Report unprotected-in-release raw_ptr correctly in ... | [🟩](./output/debug/17f0175f38a2f262e8da9e6da5bc64605d62266f.log) | [🟩](./output/release/17f0175f38a2f262e8da9e6da5bc64605d62266f.log) |
 | kmg | 2026-06-23 | Set kPartitionCachelineSize to 128B for Apple ARM | [🟩](./output/debug/64c90fe7e89e33404f23458edf813acee2d14b2b.log) | [🟩](./output/release/64c90fe7e89e33404f23458edf813acee2d14b2b.log) |
 | nuskos | 2026-06-18 | Enable use_checked_span on Linux. | [🟩](./output/debug/4e256afb47b4ed846f38e9653aada344613bf754.log) | [🟩](./output/release/4e256afb47b4ed846f38e9653aada344613bf754.log) |
 | mikt | 2026-06-17 | [PA] Fix ThreadCache corruption in ThreadCacheProce... | [🟩](./output/debug/f0ef8b98f936ad62194ec994e36fb36c81808212.log) | [🟩](./output/release/f0ef8b98f936ad62194ec994e36fb36c81808212.log) |
