@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| xiaobincui | 2026-06-24 | [ios blink] Use CCRandomGenerateBytes instead of /d... | [🟩](./output/debug/c55a8737c51a989eeef17683316a1cb29e92abde.log) | [🟩](./output/release/c55a8737c51a989eeef17683316a1cb29e92abde.log) |
+| rop | 2026-06-24 | Set 'License Android Compatible' for deps with reci... | [🟩](./output/debug/dbf94f594fe4ead61a89636efda80756693ea303.log) | [🟩](./output/release/dbf94f594fe4ead61a89636efda80756693ea303.log) |
+| tasak | 2026-06-24 | Make leaked security objects provide type-id at `de... | [🟩](./output/debug/d259883ed21e8b78c182b0b086ec16b28187e17d.log) | [🟩](./output/release/d259883ed21e8b78c182b0b086ec16b28187e17d.log) |
 | tasak | 2026-06-24 | [PA] Disallow ++refcount once the object is not hel... | [🟩](./output/debug/9cb253508b3d72e24754b8c394a2a21704c5e389.log) | [🟩](./output/release/9cb253508b3d72e24754b8c394a2a21704c5e389.log) |
 | keishi | 2026-06-24 | Report unprotected-in-release raw_ptr correctly in ... | [🟩](./output/debug/17f0175f38a2f262e8da9e6da5bc64605d62266f.log) | [🟩](./output/release/17f0175f38a2f262e8da9e6da5bc64605d62266f.log) |
 | kmg | 2026-06-23 | Set kPartitionCachelineSize to 128B for Apple ARM | [🟩](./output/debug/64c90fe7e89e33404f23458edf813acee2d14b2b.log) | [🟩](./output/release/64c90fe7e89e33404f23458edf813acee2d14b2b.log) |
