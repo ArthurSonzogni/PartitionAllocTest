@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| tasak | 2026-06-29 | PA: Record type_id and size at intended leak | [🟩](./output/debug/0e08e2939ca77100e918d4dcdb4b39bc51ca1d9f.log) | [🟩](./output/release/0e08e2939ca77100e918d4dcdb4b39bc51ca1d9f.log) |
 | nuskos | 2026-06-26 | Add alignment parameter to PartitionAllocHooks::All... | [🟩](./output/debug/009c3b60a1c149c0f4f241150c993b2032487829.log) | [🟩](./output/release/009c3b60a1c149c0f4f241150c993b2032487829.log) |
 | xiaobincui | 2026-06-24 | [ios blink] Use CCRandomGenerateBytes instead of /d... | [🟩](./output/debug/c55a8737c51a989eeef17683316a1cb29e92abde.log) | [🟩](./output/release/c55a8737c51a989eeef17683316a1cb29e92abde.log) |
 | rop | 2026-06-24 | Set 'License Android Compatible' for deps with reci... | [🟩](./output/debug/dbf94f594fe4ead61a89636efda80756693ea303.log) | [🟩](./output/release/dbf94f594fe4ead61a89636efda80756693ea303.log) |
