@@ -29,6 +29,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| pasko | 2026-07-06 | PartitionAlloc: Restore StackTopRegistry::GetCurren... | [🟩](./output/debug/20dce94c44effd193252ef25eae05efe4518c338.log) | [🟩](./output/release/20dce94c44effd193252ef25eae05efe4518c338.log) |
+| helmut | 2026-07-06 | Rename Time::kTimeTToMicrosecondsOffset to kMicrose... | [🟩](./output/debug/75037eb5a18977a738a53f7d4f28dce370d6034a.log) | [🟩](./output/release/75037eb5a18977a738a53f7d4f28dce370d6034a.log) |
+| pasko | 2026-07-06 | PartitionAlloc: Remove StackTopRegistry notification | [🟩](./output/debug/16ccc3966b226601d583688dce48a22fc404af88.log) | [🟩](./output/release/16ccc3966b226601d583688dce48a22fc404af88.log) |
+| pasko | 2026-07-06 | PartitionAlloc: Fix component (for bugs) in DIR_MET... | [🟩](./output/debug/ad3b6178788d980f25b77a9fed7d7a63c2e391e5.log) | [🟩](./output/release/ad3b6178788d980f25b77a9fed7d7a63c2e391e5.log) |
 | angdaniel | 2026-06-30 | Spanification of cc/metrics/scroll_jank_v4_tracing_... | [🟩](./output/debug/2723da2d1b2cc49feb9848a6e44fdf9681b8c123.log) | [🟩](./output/release/2723da2d1b2cc49feb9848a6e44fdf9681b8c123.log) |
 | tasak | 2026-06-29 | PA: Record type_id and size at intended leak | [🟩](./output/debug/0e08e2939ca77100e918d4dcdb4b39bc51ca1d9f.log) | [🟩](./output/release/0e08e2939ca77100e918d4dcdb4b39bc51ca1d9f.log) |
 | nuskos | 2026-06-26 | Add alignment parameter to PartitionAllocHooks::All... | [🟩](./output/debug/009c3b60a1c149c0f4f241150c993b2032487829.log) | [🟩](./output/release/009c3b60a1c149c0f4f241150c993b2032487829.log) |
