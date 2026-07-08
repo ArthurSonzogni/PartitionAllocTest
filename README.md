@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| angdaniel | 2026-07-07 | Automatic Arrayification for partition alloc | [🟩](./output/debug/4de29aa30a684141e803e786d1f511ed362b1165.log) | [🟩](./output/release/4de29aa30a684141e803e786d1f511ed362b1165.log) |
 | pasko | 2026-07-06 | PartitionAlloc: Restore StackTopRegistry::GetCurren... | [🟩](./output/debug/20dce94c44effd193252ef25eae05efe4518c338.log) | [🟩](./output/release/20dce94c44effd193252ef25eae05efe4518c338.log) |
 | helmut | 2026-07-06 | Rename Time::kTimeTToMicrosecondsOffset to kMicrose... | [🟩](./output/debug/75037eb5a18977a738a53f7d4f28dce370d6034a.log) | [🟩](./output/release/75037eb5a18977a738a53f7d4f28dce370d6034a.log) |
 | pasko | 2026-07-06 | PartitionAlloc: Remove StackTopRegistry notification | [🟩](./output/debug/16ccc3966b226601d583688dce48a22fc404af88.log) | [🟩](./output/release/16ccc3966b226601d583688dce48a22fc404af88.log) |
