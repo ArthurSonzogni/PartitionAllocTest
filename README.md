@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| angdaniel | 2026-07-14 | Remove unnecessary PA_UNSAFE_TODO in partition Alloc | [🟥](./output/debug/0a0c55be3ce3cdcd92ab6e790adee41031ae5530.log) | [🟥](./output/release/0a0c55be3ce3cdcd92ab6e790adee41031ae5530.log) |
+| kdlee | 2026-07-14 | Checked Span: Crash on nullptr bucket | [🟥](./output/debug/4b811f950d583d96f7bc7a605a9b28ddf790ae77.log) | [🟥](./output/release/4b811f950d583d96f7bc7a605a9b28ddf790ae77.log) |
 | kdlee | 2026-07-12 | PA: Remove `AllocInline()` | [🟥](./output/debug/1a5a7f590d6852a873a43b832046b89f868bb496.log) | [🟥](./output/release/1a5a7f590d6852a873a43b832046b89f868bb496.log) |
 | arthursonzogni | 2026-07-10 | partition_alloc: Migrate MEMORY_TOOL_REPLACES_ALLOC... | [🟥](./output/debug/407e9f8b2be6bf2e738c2a87806e10ca4e17e909.log) | [🟥](./output/release/407e9f8b2be6bf2e738c2a87806e10ca4e17e909.log) |
 | kdlee | 2026-07-08 | Checked Span: Annotate likeliness | [🟩](./output/debug/f36d5a2c8460f1c82885165601a942717a39c0f0.log) | [🟩](./output/release/f36d5a2c8460f1c82885165601a942717a39c0f0.log) |
