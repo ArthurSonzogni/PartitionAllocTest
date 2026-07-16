@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| nuskos | 2026-07-15 | Enable BackupRefPtr feature flag on CastOS. | [🟥](./output/debug/b4e94c050a87730a6ddadf915e40ec6d23353cde.log) | [🟥](./output/release/b4e94c050a87730a6ddadf915e40ec6d23353cde.log) |
+| nuskos | 2026-07-15 | Reduce calls to metadata offset and ReservationTabl... | [🟥](./output/debug/128709de4c1d46c6f0f79207a4e54a2ceb4bfc44.log) | [🟥](./output/release/128709de4c1d46c6f0f79207a4e54a2ceb4bfc44.log) |
 | angdaniel | 2026-07-14 | Remove unnecessary PA_UNSAFE_TODO in partition Alloc | [🟥](./output/debug/0a0c55be3ce3cdcd92ab6e790adee41031ae5530.log) | [🟥](./output/release/0a0c55be3ce3cdcd92ab6e790adee41031ae5530.log) |
 | kdlee | 2026-07-14 | Checked Span: Crash on nullptr bucket | [🟥](./output/debug/4b811f950d583d96f7bc7a605a9b28ddf790ae77.log) | [🟥](./output/release/4b811f950d583d96f7bc7a605a9b28ddf790ae77.log) |
 | kdlee | 2026-07-12 | PA: Remove `AllocInline()` | [🟥](./output/debug/1a5a7f590d6852a873a43b832046b89f868bb496.log) | [🟥](./output/release/1a5a7f590d6852a873a43b832046b89f868bb496.log) |
