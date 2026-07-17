@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| arthursonzogni | 2026-07-16 | partition_alloc: Define is_lsan and is_msan for sta... | [🟩](./output/debug/5d73585648db988687b6934f04dc03c22d4c0798.log) | [🟩](./output/release/5d73585648db988687b6934f04dc03c22d4c0798.log) |
 | nuskos | 2026-07-15 | Enable BackupRefPtr feature flag on CastOS. | [🟥](./output/debug/b4e94c050a87730a6ddadf915e40ec6d23353cde.log) | [🟥](./output/release/b4e94c050a87730a6ddadf915e40ec6d23353cde.log) |
 | nuskos | 2026-07-15 | Reduce calls to metadata offset and ReservationTabl... | [🟥](./output/debug/128709de4c1d46c6f0f79207a4e54a2ceb4bfc44.log) | [🟥](./output/release/128709de4c1d46c6f0f79207a4e54a2ceb4bfc44.log) |
 | angdaniel | 2026-07-14 | Remove unnecessary PA_UNSAFE_TODO in partition Alloc | [🟥](./output/debug/0a0c55be3ce3cdcd92ab6e790adee41031ae5530.log) | [🟥](./output/release/0a0c55be3ce3cdcd92ab6e790adee41031ae5530.log) |
