@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| qjw | 2026-07-20 | apple_apsl: mark malloc.h as Static | [🟩](./output/debug/02115967c809ba516e0a87e09afc99c05af042ad.log) | [🟩](./output/release/02115967c809ba516e0a87e09afc99c05af042ad.log) |
 | tsepez | 2026-07-17 | Introduce RawPtrIfPtrT type trait for conditional r... | [🟩](./output/debug/13a31553157fde520808c478474abbf393318391.log) | [🟩](./output/release/13a31553157fde520808c478474abbf393318391.log) |
 | tasak | 2026-07-17 | PA, EULD: EULD samples objects which SchedulerLoopQ... | [🟩](./output/debug/522f5c1c8507bbbcdee769a948f38994e3e8cd21.log) | [🟩](./output/release/522f5c1c8507bbbcdee769a948f38994e3e8cd21.log) |
 | arthursonzogni | 2026-07-16 | partition_alloc: Define is_lsan and is_msan for sta... | [🟩](./output/debug/5d73585648db988687b6934f04dc03c22d4c0798.log) | [🟩](./output/release/5d73585648db988687b6934f04dc03c22d4c0798.log) |
