@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| kdlee | 2026-07-22 | Checked Span: Don't check zero-sized spans | [🟩](./output/debug/f2439d98480eab8d5bb73f8c0555575c0a086f5f.log) | [🟩](./output/release/f2439d98480eab8d5bb73f8c0555575c0a086f5f.log) |
+| tsepez | 2026-07-21 | Drop k from public constant kUnprotectedInRelease. | [🟩](./output/debug/8454eacd11f112e53b702b6a0a6bb9a25d4896c2.log) | [🟩](./output/release/8454eacd11f112e53b702b6a0a6bb9a25d4896c2.log) |
 | qjw | 2026-07-20 | apple_apsl: mark malloc.h as Static | [🟩](./output/debug/02115967c809ba516e0a87e09afc99c05af042ad.log) | [🟩](./output/release/02115967c809ba516e0a87e09afc99c05af042ad.log) |
 | tsepez | 2026-07-17 | Introduce RawPtrIfPtrT type trait for conditional r... | [🟩](./output/debug/13a31553157fde520808c478474abbf393318391.log) | [🟩](./output/release/13a31553157fde520808c478474abbf393318391.log) |
 | tasak | 2026-07-17 | PA, EULD: EULD samples objects which SchedulerLoopQ... | [🟩](./output/debug/522f5c1c8507bbbcdee769a948f38994e3e8cd21.log) | [🟩](./output/release/522f5c1c8507bbbcdee769a948f38994e3e8cd21.log) |
