@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| tsepez | 2026-07-23 | Remove unused kUnprotectedInRelease constant. | [🟩](./output/debug/66df8ef636795eff70efc52a47d8f62612800054.log) | [🟩](./output/release/66df8ef636795eff70efc52a47d8f62612800054.log) |
+| kdlee | 2026-07-23 | Introduce `CHECKED_SPAN_HAS_METADATA_SUPPORT` | [🟩](./output/debug/bbd8b39daef60f2290a469378114ca546e2729f9.log) | [🟩](./output/release/bbd8b39daef60f2290a469378114ca546e2729f9.log) |
+| nuskos | 2026-07-22 | Improve ASLR hints in PartitionAlloc on Android. | [🟩](./output/debug/247cfd34b260469d17839c76636308ed414611f2.log) | [🟩](./output/release/247cfd34b260469d17839c76636308ed414611f2.log) |
 | kdlee | 2026-07-22 | Checked Span: Don't check zero-sized spans | [🟩](./output/debug/f2439d98480eab8d5bb73f8c0555575c0a086f5f.log) | [🟩](./output/release/f2439d98480eab8d5bb73f8c0555575c0a086f5f.log) |
 | tsepez | 2026-07-21 | Drop k from public constant kUnprotectedInRelease. | [🟩](./output/debug/8454eacd11f112e53b702b6a0a6bb9a25d4896c2.log) | [🟩](./output/release/8454eacd11f112e53b702b6a0a6bb9a25d4896c2.log) |
 | qjw | 2026-07-20 | apple_apsl: mark malloc.h as Static | [🟩](./output/debug/02115967c809ba516e0a87e09afc99c05af042ad.log) | [🟩](./output/release/02115967c809ba516e0a87e09afc99c05af042ad.log) |
