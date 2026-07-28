@@ -29,6 +29,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| thestig | 2026-07-27 | partition_alloc: Remove PA_HAVE_SPACESHIP_OPERATOR | [🟩](./output/debug/0f047f38aca8c1d8fcdb3dc2ff3899e5cd639d4a.log) | [🟩](./output/release/0f047f38aca8c1d8fcdb3dc2ff3899e5cd639d4a.log) |
+| thestig | 2026-07-27 | partition_alloc: Replace CountlZero() with std::cou... | [🟩](./output/debug/7eeface2375da12c01f93242635f100942739403.log) | [🟩](./output/release/7eeface2375da12c01f93242635f100942739403.log) |
+| thestig | 2026-07-27 | partition_alloc: Replace CountrZero() with std::cou... | [🟩](./output/debug/64a11a4440a2b930c95e8bece059c54a861b79dc.log) | [🟩](./output/release/64a11a4440a2b930c95e8bece059c54a861b79dc.log) |
+| thestig | 2026-07-27 | partition_alloc: Replace BitWidth() with std::bit_w... | [🟩](./output/debug/09f2979b22bf8beaabb4a3fd15f4d1df1d0ff42a.log) | [🟩](./output/release/09f2979b22bf8beaabb4a3fd15f4d1df1d0ff42a.log) |
+| thestig | 2026-07-27 | partition_alloc: Replace HasSingleBit() with std::h... | [🟩](./output/debug/d0d87ed6b9047672b4e156952f82f874c5660016.log) | [🟩](./output/release/d0d87ed6b9047672b4e156952f82f874c5660016.log) |
 | tsepez | 2026-07-23 | Remove unused kUnprotectedInRelease constant. | [🟩](./output/debug/66df8ef636795eff70efc52a47d8f62612800054.log) | [🟩](./output/release/66df8ef636795eff70efc52a47d8f62612800054.log) |
 | kdlee | 2026-07-23 | Introduce `CHECKED_SPAN_HAS_METADATA_SUPPORT` | [🟩](./output/debug/bbd8b39daef60f2290a469378114ca546e2729f9.log) | [🟩](./output/release/bbd8b39daef60f2290a469378114ca546e2729f9.log) |
 | nuskos | 2026-07-22 | Improve ASLR hints in PartitionAlloc on Android. | [🟩](./output/debug/247cfd34b260469d17839c76636308ed414611f2.log) | [🟩](./output/release/247cfd34b260469d17839c76636308ed414611f2.log) |
