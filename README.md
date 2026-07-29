@@ -29,6 +29,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| thestig | 2026-07-28 | partition_alloc: Cleanup pre-C++20 code in compiler... | [🟩](./output/debug/6abc77b2ec9f16df21a84f47c0bce6e7ab984036.log) | [🟩](./output/release/6abc77b2ec9f16df21a84f47c0bce6e7ab984036.log) |
+| thestig | 2026-07-28 | partition_alloc: Switch kSameAsAny to a C++20 concept | [🟩](./output/debug/a7fbe3ea781cd19875dc35e12ba99b52838d974f.log) | [🟩](./output/release/a7fbe3ea781cd19875dc35e12ba99b52838d974f.log) |
+| tasak | 2026-07-27 | PA: quarantine sanitized objects as miracle objects... | [🟩](./output/debug/43b48ec3cef9bf69564014648634d924bd65bc01.log) | [🟩](./output/release/43b48ec3cef9bf69564014648634d924bd65bc01.log) |
+| thestig | 2026-07-27 | partition_alloc: Simplify RotR() | [🟩](./output/debug/6fb47fe744962fed36cfeab597d38123d6065b8d.log) | [🟩](./output/release/6fb47fe744962fed36cfeab597d38123d6065b8d.log) |
 | thestig | 2026-07-27 | partition_alloc: Remove PA_HAVE_SPACESHIP_OPERATOR | [🟩](./output/debug/0f047f38aca8c1d8fcdb3dc2ff3899e5cd639d4a.log) | [🟩](./output/release/0f047f38aca8c1d8fcdb3dc2ff3899e5cd639d4a.log) |
 | thestig | 2026-07-27 | partition_alloc: Replace CountlZero() with std::cou... | [🟩](./output/debug/7eeface2375da12c01f93242635f100942739403.log) | [🟩](./output/release/7eeface2375da12c01f93242635f100942739403.log) |
 | thestig | 2026-07-27 | partition_alloc: Replace CountrZero() with std::cou... | [🟩](./output/debug/64a11a4440a2b930c95e8bece059c54a861b79dc.log) | [🟩](./output/release/64a11a4440a2b930c95e8bece059c54a861b79dc.log) |
