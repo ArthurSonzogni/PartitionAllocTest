@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| thestig | 2026-07-29 | partition_alloc: Expose less internal bits | [🟩](./output/debug/f5fbe01c81eb627bb3ab48c0d3d70df6722e0014.log) | [🟩](./output/release/f5fbe01c81eb627bb3ab48c0d3d70df6722e0014.log) |
 | thestig | 2026-07-28 | partition_alloc: Cleanup pre-C++20 code in compiler... | [🟩](./output/debug/6abc77b2ec9f16df21a84f47c0bce6e7ab984036.log) | [🟩](./output/release/6abc77b2ec9f16df21a84f47c0bce6e7ab984036.log) |
 | thestig | 2026-07-28 | partition_alloc: Switch kSameAsAny to a C++20 concept | [🟩](./output/debug/a7fbe3ea781cd19875dc35e12ba99b52838d974f.log) | [🟩](./output/release/a7fbe3ea781cd19875dc35e12ba99b52838d974f.log) |
 | tasak | 2026-07-27 | PA: quarantine sanitized objects as miracle objects... | [🟩](./output/debug/43b48ec3cef9bf69564014648634d924bd65bc01.log) | [🟩](./output/release/43b48ec3cef9bf69564014648634d924bd65bc01.log) |
