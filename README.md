@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| keishi | 2026-07-30 | [PartitionAlloc] Order SetQuarantineRequest() befor... | [🟩](./output/debug/ad56996fecb8731dec9d9137430b91b0906e8137.log) | [🟩](./output/release/ad56996fecb8731dec9d9137430b91b0906e8137.log) |
+| keishi | 2026-07-29 | MiraclePtr: Add ReportIfDangling stub to RawPtrNoOp... | [🟩](./output/debug/d7aeed15f395f59cf998dce0682e2b3a9ce938d3.log) | [🟩](./output/release/d7aeed15f395f59cf998dce0682e2b3a9ce938d3.log) |
+| kdlee | 2026-07-29 | Busybody: Don't depend on outside variables | [🟩](./output/debug/a134c160c51685329230b6323e4c8e3052cbf13d.log) | [🟩](./output/release/a134c160c51685329230b6323e4c8e3052cbf13d.log) |
 | thestig | 2026-07-29 | partition_alloc: Expose less internal bits | [🟩](./output/debug/f5fbe01c81eb627bb3ab48c0d3d70df6722e0014.log) | [🟩](./output/release/f5fbe01c81eb627bb3ab48c0d3d70df6722e0014.log) |
 | thestig | 2026-07-28 | partition_alloc: Cleanup pre-C++20 code in compiler... | [🟩](./output/debug/6abc77b2ec9f16df21a84f47c0bce6e7ab984036.log) | [🟩](./output/release/6abc77b2ec9f16df21a84f47c0bce6e7ab984036.log) |
 | thestig | 2026-07-28 | partition_alloc: Switch kSameAsAny to a C++20 concept | [🟩](./output/debug/a7fbe3ea781cd19875dc35e12ba99b52838d974f.log) | [🟩](./output/release/a7fbe3ea781cd19875dc35e12ba99b52838d974f.log) |
