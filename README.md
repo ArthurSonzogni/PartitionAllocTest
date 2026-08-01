@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| keishi | 2026-07-31 | [PartitionAlloc] Fix MTE retagging bypass in Schedu... | [🟩](./output/debug/29013c81d1fa46475bdf6608d71a10b5ebab3f48.log) | [🟩](./output/release/29013c81d1fa46475bdf6608d71a10b5ebab3f48.log) |
 | keishi | 2026-07-30 | [PartitionAlloc] Order SetQuarantineRequest() befor... | [🟩](./output/debug/ad56996fecb8731dec9d9137430b91b0906e8137.log) | [🟩](./output/release/ad56996fecb8731dec9d9137430b91b0906e8137.log) |
 | keishi | 2026-07-29 | MiraclePtr: Add ReportIfDangling stub to RawPtrNoOp... | [🟩](./output/debug/d7aeed15f395f59cf998dce0682e2b3a9ce938d3.log) | [🟩](./output/release/d7aeed15f395f59cf998dce0682e2b3a9ce938d3.log) |
 | kdlee | 2026-07-29 | Busybody: Don't depend on outside variables | [🟩](./output/debug/a134c160c51685329230b6323e4c8e3052cbf13d.log) | [🟩](./output/release/a134c160c51685329230b6323e4c8e3052cbf13d.log) |
