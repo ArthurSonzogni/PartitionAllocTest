@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| davidbienvenu | 2026-08-04 | Fix partition alloc test failures | [🟩](./output/debug/3a5c0cf1898cbfb3e33bf44a0a98c18002b00c7d.log) | [🟩](./output/release/3a5c0cf1898cbfb3e33bf44a0a98c18002b00c7d.log) |
+| kdlee | 2026-08-03 | PA: Update requested sizes on realloc | [🟩](./output/debug/a3f1f24ec82192c02d2a112cc5fc5529b54407a0.log) | [🟩](./output/release/a3f1f24ec82192c02d2a112cc5fc5529b54407a0.log) |
+| kdlee | 2026-08-03 | PA: No-op rework for normal-bucket realloc | [🟩](./output/debug/34ad87ad7db364e5a76da6027002f88fce249dc9.log) | [🟩](./output/release/34ad87ad7db364e5a76da6027002f88fce249dc9.log) |
 | keishi | 2026-07-31 | [PartitionAlloc] Fix MTE retagging bypass in Schedu... | [🟩](./output/debug/29013c81d1fa46475bdf6608d71a10b5ebab3f48.log) | [🟩](./output/release/29013c81d1fa46475bdf6608d71a10b5ebab3f48.log) |
 | keishi | 2026-07-30 | [PartitionAlloc] Order SetQuarantineRequest() befor... | [🟩](./output/debug/ad56996fecb8731dec9d9137430b91b0906e8137.log) | [🟩](./output/release/ad56996fecb8731dec9d9137430b91b0906e8137.log) |
 | keishi | 2026-07-29 | MiraclePtr: Add ReportIfDangling stub to RawPtrNoOp... | [🟩](./output/debug/d7aeed15f395f59cf998dce0682e2b3a9ce938d3.log) | [🟩](./output/release/d7aeed15f395f59cf998dce0682e2b3a9ce938d3.log) |
