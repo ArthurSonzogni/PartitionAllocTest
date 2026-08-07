@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| kdlee | 2026-08-05 | PA: Remove `Settings::in_slot_metadata_size` | [🟩](./output/debug/b5214a8a59875915c19701b4aa004f9034be7830.log) | [🟩](./output/release/b5214a8a59875915c19701b4aa004f9034be7830.log) |
+| kdlee | 2026-08-05 | PA: Add `MaxAllocationSize()` | [🟩](./output/debug/4e780d3a98a6a80604e16574b1e5eba37efcf1f5.log) | [🟩](./output/release/4e780d3a98a6a80604e16574b1e5eba37efcf1f5.log) |
 | chrdavis | 2026-08-05 | [PartitionAlloc] Adapt periodic reclaim interval to... | [🟩](./output/debug/41619fc880dd2b9da16d9af345b64bb6ffe87540.log) | [🟩](./output/release/41619fc880dd2b9da16d9af345b64bb6ffe87540.log) |
 | tasak | 2026-08-05 | PA: Check brp_enabled()-root or not before accessin... | [🟩](./output/debug/f13ab1ccec3822713e5f98f0aa056d7739e9213e.log) | [🟩](./output/release/f13ab1ccec3822713e5f98f0aa056d7739e9213e.log) |
 | davidbienvenu | 2026-08-04 | Fix partition alloc test failures | [🟩](./output/debug/3a5c0cf1898cbfb3e33bf44a0a98c18002b00c7d.log) | [🟩](./output/release/3a5c0cf1898cbfb3e33bf44a0a98c18002b00c7d.log) |
