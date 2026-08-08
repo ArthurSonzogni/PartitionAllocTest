@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| nuskos | 2026-08-07 | PartitionAlloc: Track wasted size from rounding for... | [🟩](./output/debug/f51f0758dbbcaaca9161bbe1f13ae0cf48130418.log) | [🟩](./output/release/f51f0758dbbcaaca9161bbe1f13ae0cf48130418.log) |
+| kdlee | 2026-08-06 | PA: Remove `MaxDirectMapped()` | [🟩](./output/debug/601b19e8a41fba2b7d63b1af108ffa6e6bc565c6.log) | [🟩](./output/release/601b19e8a41fba2b7d63b1af108ffa6e6bc565c6.log) |
 | kdlee | 2026-08-05 | PA: Remove `Settings::in_slot_metadata_size` | [🟩](./output/debug/b5214a8a59875915c19701b4aa004f9034be7830.log) | [🟩](./output/release/b5214a8a59875915c19701b4aa004f9034be7830.log) |
 | kdlee | 2026-08-05 | PA: Add `MaxAllocationSize()` | [🟩](./output/debug/4e780d3a98a6a80604e16574b1e5eba37efcf1f5.log) | [🟩](./output/release/4e780d3a98a6a80604e16574b1e5eba37efcf1f5.log) |
 | chrdavis | 2026-08-05 | [PartitionAlloc] Adapt periodic reclaim interval to... | [🟩](./output/debug/41619fc880dd2b9da16d9af345b64bb6ffe87540.log) | [🟩](./output/release/41619fc880dd2b9da16d9af345b64bb6ffe87540.log) |
