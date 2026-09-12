@@ -1,0 +1,21 @@
+Note: switching to '809402f54f558a0a41f3bfd0d2b62770f7273166'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 809402f5 Move shared partition_alloc test headers to test_support
+ERROR at //src/partition_alloc/BUILD.gn:1299:5: Unable to load "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/testing/gtest/BUILD.gn".
+    "//testing/gtest",
+    ^----------------

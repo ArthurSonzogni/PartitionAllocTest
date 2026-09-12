@@ -1,0 +1,70 @@
+HEAD is now at a1cd1335 [PA] Derive intended-leak behavior from the owning root
+WARNING at the command-line "--args":1:250: Build argument has no effect.
+is_debug=false use_partition_alloc_as_malloc=true use_allocator_shim=true shim_supports_sized_dealloc=true enable_backup_ref_ptr_support=true enable_backup_ref_ptr_slow_checks=true enable_dangling_raw_ptr_checks=true enable_ios_corruption_hardening=true raw_ptr_zero_on_construct=true raw_ptr_zero_on_move=true raw_ptr_zero_on_destruct=true
+                                                                                                                                                                                                                                                         ^---
+The variable "enable_ios_corruption_hardening" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 15 targets from 8 files in 3ms
+ninja: Entering directory `out/release'
+[1/57] CXX ../../src/partition_alloc/partition_alloc_base/files/file_util_posix.cc
+[2/57] CXX ../../src/partition_alloc/partition_alloc_base/rand_util_posix.cc
+[3/57] CXX ../../src/partition_alloc/partition_alloc_base/log_message.cc
+[4/57] CXX ../../src/partition_alloc/address_space_randomization.cc
+[5/57] CXX ../../src/partition_alloc/partition_alloc_base/rand_util.cc
+[6/57] CXX ../../src/partition_alloc/partition_alloc_base/posix/safe_strerror.cc
+[7/57] CXX ../../src/partition_alloc/allocation_guard.cc
+[8/57] CXX ../../src/partition_alloc/address_pool_manager.cc
+[9/57] CXX ../../src/partition_alloc/dangling_raw_ptr_checks.cc
+[10/57] CXX ../../src/partition_alloc/partition_alloc_base/cpu.cc
+[11/57] CXX ../../src/partition_alloc/compressed_pointer.cc
+[12/57] LINK (static) liballocator_base.a
+[13/57] CXX ../../src/partition_alloc/address_pool_manager_bitmap.cc
+[14/57] CXX ../../src/partition_alloc/bounds_checks.cc
+[15/57] CXX ../../src/partition_alloc/oom_callback.cc
+[16/57] CXX ../../src/partition_alloc/gwp_asan_support.cc
+[17/57] CXX ../../src/partition_alloc/internal_allocator.cc
+[18/57] CXX ../../src/partition_alloc/in_slot_metadata.cc
+[19/57] CXX ../../src/partition_alloc/memory_reclaimer.cc
+[20/57] CXX ../../src/partition_alloc/intended_leak.cc
+[21/57] CXX ../../src/partition_alloc/partition_cookie.cc
+[22/57] CXX ../../src/partition_alloc/page_allocator.cc
+[23/57] CXX ../../src/partition_alloc/partition_address_space.cc
+[24/57] CXX ../../src/partition_alloc/partition_freelist_entry.cc
+[25/57] CXX ../../src/partition_alloc/partition_alloc_hooks.cc
+[26/57] CXX ../../src/partition_alloc/partition_alloc.cc
+[27/57] CXX ../../src/partition_alloc/partition_bucket.cc
+[28/57] CXX ../../src/partition_alloc/partition_stats.cc
+[29/57] CXX ../../src/partition_alloc/partition_page.cc
+[30/57] CXX ../../src/partition_alloc/partition_dcheck_helper.cc
+[31/57] CXX ../../src/partition_alloc/random.cc
+[32/57] CXX ../../src/partition_alloc/reservation_offset_table.cc
+[33/57] CXX ../../src/partition_alloc/slot_start.cc
+[34/57] CXX ../../src/partition_alloc/scheduler_loop_quarantine_support.cc
+[35/57] CXX ../../src/partition_alloc/tagging.cc
+[36/57] CXX ../../src/partition_alloc/slot_address_and_size.cc
+[37/57] CXX ../../src/partition_alloc/spinning_mutex.cc
+[38/57] CXX ../../src/partition_alloc/thread_isolation/pkey.cc
+[39/57] CXX ../../src/partition_alloc/page_allocator_internals_posix.cc
+[40/57] CXX ../../src/partition_alloc/thread_isolation/thread_isolation.cc
+[41/57] CXX ../../src/partition_alloc/stack/stack.cc
+[42/57] CXX ../../src/partition_alloc/thread_cache.cc
+[43/57] CXX ../../src/partition_alloc/shim/allocator_shim.cc
+[44/57] CXX ../../src/partition_alloc/scheduler_loop_quarantine.cc
+[45/57] CXX ../../src/partition_alloc/partition_tls_posix.cc
+[46/57] CXX ../../src/partition_alloc/shim/allocator_shim_dispatch_to_noop_on_free.cc
+[47/57] CXX ../../src/partition_alloc/shim/allocator_shim_default_dispatch_to_partition_alloc.cc
+[48/57] CXX ../../src/partition_alloc/pointers/instance_tracer.cc
+[49/57] CXX ../../src/partition_alloc/pointers/raw_ptr_backup_ref_impl.cc
+[50/57] CXX ../../src/partition_alloc/pointers/realloc_protected_iterator.cc
+[51/57] CXX ../../src/partition_alloc/pointers/raw_ptr_counting_impl_for_test.cc
+[52/57] CXX ../../src/partition_alloc/extended_api.cc
+[53/57] CXX ../../src/partition_alloc/partition_alloc_base/threading/platform_thread_posix_for_testing.cc
+[54/57] CXX ../../src/partition_alloc/partition_root.cc
+[55/57] LINK (static) liballocator_core.a
+[56/57] LINK (static) liballocator_shim.a
+[57/57] LINK (static) libraw_ptr.a
