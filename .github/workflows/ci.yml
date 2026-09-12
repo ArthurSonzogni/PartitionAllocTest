@@ -40,10 +40,20 @@ jobs:
         # Verify that llvm-ar is now available
         which llvm-ar
 
+    - name: Install clang 21 for GN
+      run: |
+        # GN requires C++23 std::expected, which the runner's default clang
+        # (18) can't use with libstdc++. PartitionAlloc keeps the default clang.
+        wget -qO- https://apt.llvm.org/llvm.sh | sudo bash -s -- 21
+        clang++-21 --version
+
     - name: Run the build script
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ github.repository }}
+        # Read by GN's build/gen.py only; PartitionAlloc's toolchain hardcodes
+        # clang++.
+        CXX: clang++-21
       run: python main.py
 
     - name: Commit changes
