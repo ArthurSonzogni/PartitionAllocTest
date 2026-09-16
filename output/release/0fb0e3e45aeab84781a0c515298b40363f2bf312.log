@@ -1,0 +1,4 @@
+HEAD is now at 0fb0e3e4 PA: `const SlotSpanMetadata*` to `...BucketSizeDetails()`
+ERROR at //src/partition_alloc/BUILD.gn:1324:5: Unable to load "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/testing/gtest/BUILD.gn".
+    "//testing/gtest",
+    ^----------------

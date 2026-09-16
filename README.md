@@ -29,6 +29,15 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| koretadaniel | 2026-09-15 | Add orphan worker_thread_unittest.cc in it BUILD.gn | [🟥](./output/debug/f6c416cfa90ddf7dd582dc4c60e63c1d77ce2ebc.log) | [🟥](./output/release/f6c416cfa90ddf7dd582dc4c60e63c1d77ce2ebc.log) |
+| thestig | 2026-09-15 | partition_alloc: Move PartitionRootLock() forward d... | [🟥](./output/debug/fe164fa9be04918d0e090fad8e9ae2cb308fa1ac.log) | [🟥](./output/release/fe164fa9be04918d0e090fad8e9ae2cb308fa1ac.log) |
+| thestig | 2026-09-15 | Remove superfluous includes for PA's component_expo... | [🟥](./output/debug/068786910975b708c50d856874469092abcc774e.log) | [🟥](./output/release/068786910975b708c50d856874469092abcc774e.log) |
+| angdaniel | 2026-09-15 | Spanification of base/allocator/partition_allocator... | [🟥](./output/debug/1f6b7be2e356e04bbb108fa9edf727a80573db62.log) | [🟥](./output/release/1f6b7be2e356e04bbb108fa9edf727a80573db62.log) |
+| angdaniel | 2026-09-15 | Spanification of partition_alloc/pointers/raw_ptr_u... | [🟥](./output/debug/dd0036d9775c7103ff36a0f9fc8bfe8740c45e0f.log) | [🟥](./output/release/dd0036d9775c7103ff36a0f9fc8bfe8740c45e0f.log) |
+| alexmitra | 2026-09-15 | Revert "[PA] Consolidate PartitionAlloc TLS into a ... | [🟥](./output/debug/8e376eee0206c80c1f4bc52c1c4eb98c7fdb1240.log) | [🟥](./output/release/8e376eee0206c80c1f4bc52c1c4eb98c7fdb1240.log) |
+| alexmitra | 2026-09-15 | Revert "[PA] Replace largest_active_bucket_index_ w... | [🟥](./output/debug/b20227957a154343c5b10d3f4c4bb1e8527f559b.log) | [🟥](./output/release/b20227957a154343c5b10d3f4c4bb1e8527f559b.log) |
+| alexmitra | 2026-09-15 | Revert "[PA] Introduce PartitionTlsRegistry to trac... | [🟥](./output/debug/25a216913163b3a8a7c12980909ee0239064e78f.log) | [🟥](./output/release/25a216913163b3a8a7c12980909ee0239064e78f.log) |
+| kdlee | 2026-09-14 | PA: `const SlotSpanMetadata*` to `...BucketSizeDeta... | [🟥](./output/debug/0fb0e3e45aeab84781a0c515298b40363f2bf312.log) | [🟥](./output/release/0fb0e3e45aeab84781a0c515298b40363f2bf312.log) |
 | angdaniel | 2026-09-11 | Spanification of partition_alloc_base/cpu.cc, etc. | [🟥](./output/debug/59c8c4f88fe20470be030c106f361d719127d068.log) | [🟥](./output/release/59c8c4f88fe20470be030c106f361d719127d068.log) |
 | angdaniel | 2026-09-11 | Spanification of partition_alloc/pointers/raw_ptr_u... | [🟥](./output/debug/14f58fb57beeaa751d8b917ca66d42cdeb107da3.log) | [🟥](./output/release/14f58fb57beeaa751d8b917ca66d42cdeb107da3.log) |
 | angdaniel | 2026-09-10 | Spanification of partition_alloc/partition_alloc_ch... | [🟥](./output/debug/7a355f7f5176462be645b41bed68e25c7a59b0c2.log) | [🟥](./output/release/7a355f7f5176462be645b41bed68e25c7a59b0c2.log) |
