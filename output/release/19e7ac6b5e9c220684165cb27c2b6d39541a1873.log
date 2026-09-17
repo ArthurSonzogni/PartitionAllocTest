@@ -1,0 +1,7 @@
+HEAD is now at 19e7ac6b Allowlist any target which has a public header include a private header
+ERROR at //src/partition_alloc/BUILD.gn:292:27: Undefined identifier
+  check_includes_strict = CHECK_INCLUDES_STRICT_PUBLIC_INCLUDES_PRIVATE
+                          ^--------------------------------------------
+See //BUILD.gn:7:19: which caused the file to be included.
+  public_deps = [ "src/partition_alloc:raw_ptr" ]
+                  ^----------------------------

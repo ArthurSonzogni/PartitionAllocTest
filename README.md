@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| nuskos | 2026-09-16 | Make free a no-op during signal-driven shutdown on ... | [🟥](./output/debug/d9c413368b7c05399462a9a4aeb0a91c1c042429.log) | [🟥](./output/release/d9c413368b7c05399462a9a4aeb0a91c1c042429.log) |
+| msta | 2026-09-15 | Allowlist any target which has a public header incl... | [🟥](./output/debug/19e7ac6b5e9c220684165cb27c2b6d39541a1873.log) | [🟥](./output/release/19e7ac6b5e9c220684165cb27c2b6d39541a1873.log) |
 | koretadaniel | 2026-09-15 | Add orphan worker_thread_unittest.cc in it BUILD.gn | [🟥](./output/debug/f6c416cfa90ddf7dd582dc4c60e63c1d77ce2ebc.log) | [🟥](./output/release/f6c416cfa90ddf7dd582dc4c60e63c1d77ce2ebc.log) |
 | thestig | 2026-09-15 | partition_alloc: Move PartitionRootLock() forward d... | [🟥](./output/debug/fe164fa9be04918d0e090fad8e9ae2cb308fa1ac.log) | [🟥](./output/release/fe164fa9be04918d0e090fad8e9ae2cb308fa1ac.log) |
 | thestig | 2026-09-15 | Remove superfluous includes for PA's component_expo... | [🟥](./output/debug/068786910975b708c50d856874469092abcc774e.log) | [🟥](./output/release/068786910975b708c50d856874469092abcc774e.log) |
