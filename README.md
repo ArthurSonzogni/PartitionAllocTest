@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| arthursonzogni | 2026-09-17 | Add arthursonzogni@chromium.org to PartitionAlloc O... | [🟥](./output/debug/3fe238c9a355c2f872f745e48c649b652afe4348.log) | [🟥](./output/release/3fe238c9a355c2f872f745e48c649b652afe4348.log) |
 | nuskos | 2026-09-16 | Make free a no-op during signal-driven shutdown on ... | [🟥](./output/debug/d9c413368b7c05399462a9a4aeb0a91c1c042429.log) | [🟥](./output/release/d9c413368b7c05399462a9a4aeb0a91c1c042429.log) |
 | msta | 2026-09-15 | Allowlist any target which has a public header incl... | [🟥](./output/debug/19e7ac6b5e9c220684165cb27c2b6d39541a1873.log) | [🟥](./output/release/19e7ac6b5e9c220684165cb27c2b6d39541a1873.log) |
 | koretadaniel | 2026-09-15 | Add orphan worker_thread_unittest.cc in it BUILD.gn | [🟥](./output/debug/f6c416cfa90ddf7dd582dc4c60e63c1d77ce2ebc.log) | [🟥](./output/release/f6c416cfa90ddf7dd582dc4c60e63c1d77ce2ebc.log) |
