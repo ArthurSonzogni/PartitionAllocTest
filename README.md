@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| thestig | 2026-09-18 | partition_alloc: Remove unused code from partition_... | [🟥](./output/debug/a0f30e381c6e132215a0c8d809fd08ff4cdad244.log) | [🟥](./output/release/a0f30e381c6e132215a0c8d809fd08ff4cdad244.log) |
+| kdlee | 2026-09-17 | Checked Span: Smuggle requested size | [🟥](./output/debug/391865cb9a90a8bd7339adce2e1a1031eec0d0ab.log) | [🟥](./output/release/391865cb9a90a8bd7339adce2e1a1031eec0d0ab.log) |
 | arthursonzogni | 2026-09-17 | Add arthursonzogni@chromium.org to PartitionAlloc O... | [🟥](./output/debug/3fe238c9a355c2f872f745e48c649b652afe4348.log) | [🟥](./output/release/3fe238c9a355c2f872f745e48c649b652afe4348.log) |
 | nuskos | 2026-09-16 | Make free a no-op during signal-driven shutdown on ... | [🟥](./output/debug/d9c413368b7c05399462a9a4aeb0a91c1c042429.log) | [🟥](./output/release/d9c413368b7c05399462a9a4aeb0a91c1c042429.log) |
 | msta | 2026-09-15 | Allowlist any target which has a public header incl... | [🟥](./output/debug/19e7ac6b5e9c220684165cb27c2b6d39541a1873.log) | [🟥](./output/release/19e7ac6b5e9c220684165cb27c2b6d39541a1873.log) |
