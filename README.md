@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| thestig | 2026-09-21 | partition_alloc: Move PA_DEBUG_DATA_ON_STACK() to i... | [🟥](./output/debug/ef07e421fcfb2a0243a6e02f50764277eca205c1.log) | [🟥](./output/release/ef07e421fcfb2a0243a6e02f50764277eca205c1.log) |
 | thestig | 2026-09-18 | partition_alloc: Remove unused code from partition_... | [🟥](./output/debug/a0f30e381c6e132215a0c8d809fd08ff4cdad244.log) | [🟥](./output/release/a0f30e381c6e132215a0c8d809fd08ff4cdad244.log) |
 | kdlee | 2026-09-17 | Checked Span: Smuggle requested size | [🟥](./output/debug/391865cb9a90a8bd7339adce2e1a1031eec0d0ab.log) | [🟥](./output/release/391865cb9a90a8bd7339adce2e1a1031eec0d0ab.log) |
 | arthursonzogni | 2026-09-17 | Add arthursonzogni@chromium.org to PartitionAlloc O... | [🟥](./output/debug/3fe238c9a355c2f872f745e48c649b652afe4348.log) | [🟥](./output/release/3fe238c9a355c2f872f745e48c649b652afe4348.log) |
