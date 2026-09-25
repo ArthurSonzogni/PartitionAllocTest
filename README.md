@@ -29,6 +29,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| fangzhoug | 2026-09-24 | [Partition Alloc]Restrict ASLR mask for ARM64 ChromeOS | [🟥](./output/debug/58cd8b2e09c98334b2d3196742e2091253d64171.log) | [🟥](./output/release/58cd8b2e09c98334b2d3196742e2091253d64171.log) |
+| nuskos | 2026-09-24 | Promote pointer count underflow DCHECK to PA_CHECK ... | [🟥](./output/debug/7d32155483e455df1a39e81158160b7cdd68f098.log) | [🟥](./output/release/7d32155483e455df1a39e81158160b7cdd68f098.log) |
+| nuskos | 2026-09-24 | Zap usable size in scheduler loop quarantine | [🟥](./output/debug/cb2e081ed25370358a8cf53fb0382fc1b38adcc6.log) | [🟥](./output/release/cb2e081ed25370358a8cf53fb0382fc1b38adcc6.log) |
+| ahaas | 2026-09-23 | Allow larger JS ArrayBuffer allocations in Partitio... | [🟥](./output/debug/6e87f6fbb73607878dcbf66021a71f890adee1cd.log) | [🟥](./output/release/6e87f6fbb73607878dcbf66021a71f890adee1cd.log) |
 | thestig | 2026-09-21 | partition_alloc: Move PA_DEBUG_DATA_ON_STACK() to i... | [🟥](./output/debug/ef07e421fcfb2a0243a6e02f50764277eca205c1.log) | [🟥](./output/release/ef07e421fcfb2a0243a6e02f50764277eca205c1.log) |
 | thestig | 2026-09-18 | partition_alloc: Remove unused code from partition_... | [🟥](./output/debug/a0f30e381c6e132215a0c8d809fd08ff4cdad244.log) | [🟥](./output/release/a0f30e381c6e132215a0c8d809fd08ff4cdad244.log) |
 | kdlee | 2026-09-17 | Checked Span: Smuggle requested size | [🟥](./output/debug/391865cb9a90a8bd7339adce2e1a1031eec0d0ab.log) | [🟥](./output/release/391865cb9a90a8bd7339adce2e1a1031eec0d0ab.log) |
