@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| thestig | 2026-09-25 | partition_alloc: Split out constants from partition... | [🟥](./output/debug/79fd9e456294baf7c67c4853c0b290649d772932.log) | [🟥](./output/release/79fd9e456294baf7c67c4853c0b290649d772932.log) |
 | fangzhoug | 2026-09-24 | [Partition Alloc]Restrict ASLR mask for ARM64 ChromeOS | [🟥](./output/debug/58cd8b2e09c98334b2d3196742e2091253d64171.log) | [🟥](./output/release/58cd8b2e09c98334b2d3196742e2091253d64171.log) |
 | nuskos | 2026-09-24 | Promote pointer count underflow DCHECK to PA_CHECK ... | [🟥](./output/debug/7d32155483e455df1a39e81158160b7cdd68f098.log) | [🟥](./output/release/7d32155483e455df1a39e81158160b7cdd68f098.log) |
 | nuskos | 2026-09-24 | Zap usable size in scheduler loop quarantine | [🟥](./output/debug/cb2e081ed25370358a8cf53fb0382fc1b38adcc6.log) | [🟥](./output/release/cb2e081ed25370358a8cf53fb0382fc1b38adcc6.log) |
