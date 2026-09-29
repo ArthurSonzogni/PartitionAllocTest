@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| martinkong | 2026-09-28 | Store "pseudo stack top" in the StackTopRegistry on... | [🟥](./output/debug/9d9116ce65c66b30d4bb2fdc90bb1775d5e22cc6.log) | [🟥](./output/release/9d9116ce65c66b30d4bb2fdc90bb1775d5e22cc6.log) |
+| ahaas | 2026-09-28 | [partitionalloc] Delete dead code | [🟥](./output/debug/40ecc50518d3e23df99fdd6412f3cd3635da7573.log) | [🟥](./output/release/40ecc50518d3e23df99fdd6412f3cd3635da7573.log) |
 | thestig | 2026-09-27 | partition_alloc: Avoid <algorithm> in partition_all... | [🟥](./output/debug/17cdbbbabef0e41ed21badf3576d404cfe775a8a.log) | [🟥](./output/release/17cdbbbabef0e41ed21badf3576d404cfe775a8a.log) |
 | thestig | 2026-09-25 | partition_alloc: Split out constants from partition... | [🟥](./output/debug/79fd9e456294baf7c67c4853c0b290649d772932.log) | [🟥](./output/release/79fd9e456294baf7c67c4853c0b290649d772932.log) |
 | fangzhoug | 2026-09-24 | [Partition Alloc]Restrict ASLR mask for ARM64 ChromeOS | [🟥](./output/debug/58cd8b2e09c98334b2d3196742e2091253d64171.log) | [🟥](./output/release/58cd8b2e09c98334b2d3196742e2091253d64171.log) |
