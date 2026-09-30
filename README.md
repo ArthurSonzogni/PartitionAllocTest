@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| pasko | 2026-09-29 | cleanup: Maintain pointers to stack as uintptr_t fo... | [🟥](./output/debug/4f4b9e4df36d75a7f8b8773faff03ab298ff6703.log) | [🟥](./output/release/4f4b9e4df36d75a7f8b8773faff03ab298ff6703.log) |
+| tasak | 2026-09-29 | PA: Enable PattitionAllocHooks if MEMORY_TOOL_REPLA... | [🟥](./output/debug/e7ef85c263a6a70068983a3bd8011de63eb9b6a5.log) | [🟥](./output/release/e7ef85c263a6a70068983a3bd8011de63eb9b6a5.log) |
 | martinkong | 2026-09-28 | Store "pseudo stack top" in the StackTopRegistry on... | [🟥](./output/debug/9d9116ce65c66b30d4bb2fdc90bb1775d5e22cc6.log) | [🟥](./output/release/9d9116ce65c66b30d4bb2fdc90bb1775d5e22cc6.log) |
 | ahaas | 2026-09-28 | [partitionalloc] Delete dead code | [🟥](./output/debug/40ecc50518d3e23df99fdd6412f3cd3635da7573.log) | [🟥](./output/release/40ecc50518d3e23df99fdd6412f3cd3635da7573.log) |
 | thestig | 2026-09-27 | partition_alloc: Avoid <algorithm> in partition_all... | [🟥](./output/debug/17cdbbbabef0e41ed21badf3576d404cfe775a8a.log) | [🟥](./output/release/17cdbbbabef0e41ed21badf3576d404cfe775a8a.log) |
