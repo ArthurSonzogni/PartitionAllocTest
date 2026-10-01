@@ -29,6 +29,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mickaczmarczyk | 2026-09-30 | Disable use_checked_span under MSan. | [🟥](./output/debug/9aca3482ad9ef083c372d06dbf7b19e13333a097.log) | [🟥](./output/release/9aca3482ad9ef083c372d06dbf7b19e13333a097.log) |
+| mikt | 2026-09-30 | [PA] Reduce kMaxThreadCacheIndex to 1 when auto-par... | [🟥](./output/debug/60f68266052d3478e20cece9c770b7bda71fa80f.log) | [🟥](./output/release/60f68266052d3478e20cece9c770b7bda71fa80f.log) |
+| thestig | 2026-09-29 | partition_alloc: Use inline constexpr for more publ... | [🟥](./output/debug/4dd6a9f723c6ffdb44147b073ea23b6f9a0d5751.log) | [🟥](./output/release/4dd6a9f723c6ffdb44147b073ea23b6f9a0d5751.log) |
+| mikt | 2026-09-29 | [PA] Use `kNoOverrideHooks` explicitly for the inte... | [🟥](./output/debug/1cc29fac8004c1c29c18ce6d1eba12442fbeeac5.log) | [🟥](./output/release/1cc29fac8004c1c29c18ce6d1eba12442fbeeac5.log) |
+| mikt | 2026-09-29 | [PA] Pack BucketSizeDetails into one word and pass ... | [🟥](./output/debug/f92038806c2403118ea2a71955dad606ec53a48a.log) | [🟥](./output/release/f92038806c2403118ea2a71955dad606ec53a48a.log) |
 | pasko | 2026-09-29 | cleanup: Maintain pointers to stack as uintptr_t fo... | [🟥](./output/debug/4f4b9e4df36d75a7f8b8773faff03ab298ff6703.log) | [🟥](./output/release/4f4b9e4df36d75a7f8b8773faff03ab298ff6703.log) |
 | tasak | 2026-09-29 | PA: Enable PattitionAllocHooks if MEMORY_TOOL_REPLA... | [🟥](./output/debug/e7ef85c263a6a70068983a3bd8011de63eb9b6a5.log) | [🟥](./output/release/e7ef85c263a6a70068983a3bd8011de63eb9b6a5.log) |
 | martinkong | 2026-09-28 | Store "pseudo stack top" in the StackTopRegistry on... | [🟥](./output/debug/9d9116ce65c66b30d4bb2fdc90bb1775d5e22cc6.log) | [🟥](./output/release/9d9116ce65c66b30d4bb2fdc90bb1775d5e22cc6.log) |
