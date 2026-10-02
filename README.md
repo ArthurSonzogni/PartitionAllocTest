@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| marcobartoli | 2026-10-01 | [PA] Add UncheckedAlignedCalloc() for Rust's aligne... | [🟥](./output/debug/dcd4ebe1b0282c8f5c79ef8af7651642e179fc6b.log) | [🟥](./output/release/dcd4ebe1b0282c8f5c79ef8af7651642e179fc6b.log) |
+| marcobartoli | 2026-10-01 | [rust] Use UncheckedCalloc() for large alloc_zeroed... | [🟥](./output/debug/dc6144ac93b23232ea8d2b931f661a917ad7d4fd.log) | [🟥](./output/release/dc6144ac93b23232ea8d2b931f661a917ad7d4fd.log) |
 | mickaczmarczyk | 2026-09-30 | Disable use_checked_span under MSan. | [🟥](./output/debug/9aca3482ad9ef083c372d06dbf7b19e13333a097.log) | [🟥](./output/release/9aca3482ad9ef083c372d06dbf7b19e13333a097.log) |
 | mikt | 2026-09-30 | [PA] Reduce kMaxThreadCacheIndex to 1 when auto-par... | [🟥](./output/debug/60f68266052d3478e20cece9c770b7bda71fa80f.log) | [🟥](./output/release/60f68266052d3478e20cece9c770b7bda71fa80f.log) |
 | thestig | 2026-09-29 | partition_alloc: Use inline constexpr for more publ... | [🟥](./output/debug/4dd6a9f723c6ffdb44147b073ea23b6f9a0d5751.log) | [🟥](./output/release/4dd6a9f723c6ffdb44147b073ea23b6f9a0d5751.log) |
