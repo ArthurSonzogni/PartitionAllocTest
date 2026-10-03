@@ -29,6 +29,13 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| pabouchard | 2026-10-02 | Revert "Checked Span: Enable tightened checking" | [🟥](./output/debug/d79d2991fe0eb274c401d867841492cff69cdeb6.log) | [🟥](./output/release/d79d2991fe0eb274c401d867841492cff69cdeb6.log) |
+| ainozaki | 2026-10-02 | [PA] Check auto partitioning in PartitionIndexFromA... | [🟥](./output/debug/b21fbb490d360f14df9d95aaef6132d1741716ce.log) | [🟥](./output/release/b21fbb490d360f14df9d95aaef6132d1741716ce.log) |
+| mikt | 2026-10-02 | Reland "[PA] Consolidate PartitionAlloc TLS into a ... | [🟥](./output/debug/e149680670299a95a7a6084df62c3a6d9072f1b4.log) | [🟥](./output/release/e149680670299a95a7a6084df62c3a6d9072f1b4.log) |
+| thestig | 2026-10-02 | partition_alloc: Move Flags to partition_alloc_publ... | [🟥](./output/debug/9b3ecf73bcd609f490cc7c07689fe60cf7e645a8.log) | [🟥](./output/release/9b3ecf73bcd609f490cc7c07689fe60cf7e645a8.log) |
+| kdlee | 2026-10-01 | Checked Span: Enable tightened checking | [🟥](./output/debug/ee2c2f9afa25177e69ebfa0f3394fd6a4e01c289.log) | [🟥](./output/release/ee2c2f9afa25177e69ebfa0f3394fd6a4e01c289.log) |
+| kdlee | 2026-10-01 | Checked Span: Tighten bounds | [🟥](./output/debug/5e6ecff4b592f482c1683dd67b319cbf24191c5c.log) | [🟥](./output/release/5e6ecff4b592f482c1683dd67b319cbf24191c5c.log) |
+| ainozaki | 2026-10-01 | [PA] Fix kDefaultAllocToken in ShimCppAlignedNewNoT... | [🟥](./output/debug/69c064d353a116a6aac89fdd2170051f3b222f9f.log) | [🟥](./output/release/69c064d353a116a6aac89fdd2170051f3b222f9f.log) |
 | marcobartoli | 2026-10-01 | [PA] Add UncheckedAlignedCalloc() for Rust's aligne... | [🟥](./output/debug/dcd4ebe1b0282c8f5c79ef8af7651642e179fc6b.log) | [🟥](./output/release/dcd4ebe1b0282c8f5c79ef8af7651642e179fc6b.log) |
 | marcobartoli | 2026-10-01 | [rust] Use UncheckedCalloc() for large alloc_zeroed... | [🟥](./output/debug/dc6144ac93b23232ea8d2b931f661a917ad7d4fd.log) | [🟥](./output/release/dc6144ac93b23232ea8d2b931f661a917ad7d4fd.log) |
 | mickaczmarczyk | 2026-09-30 | Disable use_checked_span under MSan. | [🟥](./output/debug/9aca3482ad9ef083c372d06dbf7b19e13333a097.log) | [🟥](./output/release/9aca3482ad9ef083c372d06dbf7b19e13333a097.log) |
