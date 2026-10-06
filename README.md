@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mikt | 2026-10-04 | Rename ADVANCED_MEMORY_SAFETY_CHECKS to SANITIZED_O... | [🟥](./output/debug/1925f3553c0c8e5fb30edaa9f89436ec20a2e811.log) | [🟥](./output/release/1925f3553c0c8e5fb30edaa9f89436ec20a2e811.log) |
 | pabouchard | 2026-10-02 | Revert "Checked Span: Enable tightened checking" | [🟥](./output/debug/d79d2991fe0eb274c401d867841492cff69cdeb6.log) | [🟥](./output/release/d79d2991fe0eb274c401d867841492cff69cdeb6.log) |
 | ainozaki | 2026-10-02 | [PA] Check auto partitioning in PartitionIndexFromA... | [🟥](./output/debug/b21fbb490d360f14df9d95aaef6132d1741716ce.log) | [🟥](./output/release/b21fbb490d360f14df9d95aaef6132d1741716ce.log) |
 | mikt | 2026-10-02 | Reland "[PA] Consolidate PartitionAlloc TLS into a ... | [🟥](./output/debug/e149680670299a95a7a6084df62c3a6d9072f1b4.log) | [🟥](./output/release/e149680670299a95a7a6084df62c3a6d9072f1b4.log) |
