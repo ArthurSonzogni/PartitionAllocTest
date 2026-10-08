@@ -29,6 +29,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| keishi | 2026-10-07 | MiraclePtr: Introduce UnprotectedInReleaseForPerfor... | [🟥](./output/debug/1b65ca87736e9edb51911e15915573bf4cda7245.log) | [🟥](./output/release/1b65ca87736e9edb51911e15915573bf4cda7245.log) |
+| sergiosolano | 2026-10-07 | Replace TODO(sergiosolano) with bug references | [🟥](./output/debug/e99269c417c6d51a255188ca6557c2ad6815b48b.log) | [🟥](./output/release/e99269c417c6d51a255188ca6557c2ad6815b48b.log) |
+| mikt | 2026-10-07 | Reland "[PA] Introduce PartitionTlsRegistry to trac... | [🟥](./output/debug/97b6065b7a4a07324bf8b21e4542883ddf0a742a.log) | [🟥](./output/release/97b6065b7a4a07324bf8b21e4542883ddf0a742a.log) |
+| mikt | 2026-10-07 | [PA] Simplify BucketIndexLookup and PartitionRoot::... | [🟥](./output/debug/28bd627eb04ea8a8e7b03dc9b94ea2aea0034079.log) | [🟥](./output/release/28bd627eb04ea8a8e7b03dc9b94ea2aea0034079.log) |
+| mikt | 2026-10-06 | Reland "[PA] Replace largest_active_bucket_index_ w... | [🟥](./output/debug/15da91abd8ebe372f0d334f9c7a16211abbc5943.log) | [🟥](./output/release/15da91abd8ebe372f0d334f9c7a16211abbc5943.log) |
 | mikt | 2026-10-06 | [PA] Split PartitionRoot entry points after their p... | [🟥](./output/debug/4e138df493e7b8396c9fbabc1b97cab2d36b662b.log) | [🟥](./output/release/4e138df493e7b8396c9fbabc1b97cab2d36b662b.log) |
 | mikt | 2026-10-06 | [PA] Replace FreeFlags::kWith*Hint with typed FreeH... | [🟥](./output/debug/747e409971c9de24b21ca88bf890fff9bf2a7ad7.log) | [🟥](./output/release/747e409971c9de24b21ca88bf890fff9bf2a7ad7.log) |
 | mikt | 2026-10-04 | Rename ADVANCED_MEMORY_SAFETY_CHECKS to SANITIZED_O... | [🟥](./output/debug/1925f3553c0c8e5fb30edaa9f89436ec20a2e811.log) | [🟥](./output/release/1925f3553c0c8e5fb30edaa9f89436ec20a2e811.log) |
