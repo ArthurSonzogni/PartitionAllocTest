@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| lizeb | 2026-10-13 | [pa] Trigger a memory pressure event when GigaCage ... | [🟥](./output/debug/13ec88bc7e51b16cda72118c482198703aa20068.log) | [🟥](./output/release/13ec88bc7e51b16cda72118c482198703aa20068.log) |
 | keishi | 2026-10-07 | MiraclePtr: Introduce UnprotectedInReleaseForPerfor... | [🟥](./output/debug/1b65ca87736e9edb51911e15915573bf4cda7245.log) | [🟥](./output/release/1b65ca87736e9edb51911e15915573bf4cda7245.log) |
 | sergiosolano | 2026-10-07 | Replace TODO(sergiosolano) with bug references | [🟥](./output/debug/e99269c417c6d51a255188ca6557c2ad6815b48b.log) | [🟥](./output/release/e99269c417c6d51a255188ca6557c2ad6815b48b.log) |
 | mikt | 2026-10-07 | Reland "[PA] Introduce PartitionTlsRegistry to trac... | [🟥](./output/debug/97b6065b7a4a07324bf8b21e4542883ddf0a742a.log) | [🟥](./output/release/97b6065b7a4a07324bf8b21e4542883ddf0a742a.log) |
