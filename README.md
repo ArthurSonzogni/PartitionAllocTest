@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| tasak | 2026-10-15 | PA: make ReallocInline() invoke override and observ... | [🟥](./output/debug/37558a9b55844ad28666ddf44e44e78ef9442d65.log) | [🟥](./output/release/37558a9b55844ad28666ddf44e44e78ef9442d65.log) |
+| mikt | 2026-10-15 | [PA] Remove unused ref_counted / scoped_refptr / At... | [🟥](./output/debug/5e9105b9283aa4416e5bd267a2efc7d3fdea4d56.log) | [🟥](./output/release/5e9105b9283aa4416e5bd267a2efc7d3fdea4d56.log) |
+| lizeb | 2026-10-15 | [tools] Update PA tools to visualize GigaCage fragm... | [🟥](./output/debug/d90b3041f76f0a15976a4cb9337ae9075ab22bcd.log) | [🟥](./output/release/d90b3041f76f0a15976a4cb9337ae9075ab22bcd.log) |
 | lizeb | 2026-10-13 | [pa] Trigger a memory pressure event when GigaCage ... | [🟥](./output/debug/13ec88bc7e51b16cda72118c482198703aa20068.log) | [🟥](./output/release/13ec88bc7e51b16cda72118c482198703aa20068.log) |
 | keishi | 2026-10-07 | MiraclePtr: Introduce UnprotectedInReleaseForPerfor... | [🟥](./output/debug/1b65ca87736e9edb51911e15915573bf4cda7245.log) | [🟥](./output/release/1b65ca87736e9edb51911e15915573bf4cda7245.log) |
 | sergiosolano | 2026-10-07 | Replace TODO(sergiosolano) with bug references | [🟥](./output/debug/e99269c417c6d51a255188ca6557c2ad6815b48b.log) | [🟥](./output/release/e99269c417c6d51a255188ca6557c2ad6815b48b.log) |
