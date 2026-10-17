@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| erikchen | 2026-10-16 | [PA] Avoid 64-bit hardware division and duplicate c... | [🟥](./output/debug/31ae6a7f08daf9cfeb18d295a3c4e40a8640d97d.log) | [🟥](./output/release/31ae6a7f08daf9cfeb18d295a3c4e40a8640d97d.log) |
+| fdoray | 2026-10-16 | [PA] Add SchedulerLoopQuarantine perftests | [🟥](./output/debug/46f76ba3ebd67554e30823e9974a5baccb74789c.log) | [🟥](./output/release/46f76ba3ebd67554e30823e9974a5baccb74789c.log) |
+| lizeb | 2026-10-16 | [pa] Allocate direct-mapped superpages from the top... | [🟥](./output/debug/ac4bb0cb7b8d61c73b461af7cf733ec5d9a4d8b8.log) | [🟥](./output/release/ac4bb0cb7b8d61c73b461af7cf733ec5d9a4d8b8.log) |
 | tasak | 2026-10-15 | PA: make ReallocInline() invoke override and observ... | [🟥](./output/debug/37558a9b55844ad28666ddf44e44e78ef9442d65.log) | [🟥](./output/release/37558a9b55844ad28666ddf44e44e78ef9442d65.log) |
 | mikt | 2026-10-15 | [PA] Remove unused ref_counted / scoped_refptr / At... | [🟥](./output/debug/5e9105b9283aa4416e5bd267a2efc7d3fdea4d56.log) | [🟥](./output/release/5e9105b9283aa4416e5bd267a2efc7d3fdea4d56.log) |
 | lizeb | 2026-10-15 | [tools] Update PA tools to visualize GigaCage fragm... | [🟥](./output/debug/d90b3041f76f0a15976a4cb9337ae9075ab22bcd.log) | [🟥](./output/release/d90b3041f76f0a15976a4cb9337ae9075ab22bcd.log) |
