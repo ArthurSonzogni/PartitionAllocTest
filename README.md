@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| ainozaki | 2026-10-19 | Expand Clang's AllocToken coverage | [🟥](./output/debug/62b9bed2d702c6371f16e3b51dac2870a1be55c4.log) | [🟥](./output/release/62b9bed2d702c6371f16e3b51dac2870a1be55c4.log) |
+| kdlee | 2026-10-19 | Checked Span: Gate `InSlotMetadata` dereference | [🟥](./output/debug/5fd05e022fbc2914e64a4ced88d75bc661cf3087.log) | [🟥](./output/release/5fd05e022fbc2914e64a4ced88d75bc661cf3087.log) |
 | erikchen | 2026-10-16 | [PA] Avoid 64-bit hardware division and duplicate c... | [🟥](./output/debug/31ae6a7f08daf9cfeb18d295a3c4e40a8640d97d.log) | [🟥](./output/release/31ae6a7f08daf9cfeb18d295a3c4e40a8640d97d.log) |
 | fdoray | 2026-10-16 | [PA] Add SchedulerLoopQuarantine perftests | [🟥](./output/debug/46f76ba3ebd67554e30823e9974a5baccb74789c.log) | [🟥](./output/release/46f76ba3ebd67554e30823e9974a5baccb74789c.log) |
 | lizeb | 2026-10-16 | [pa] Allocate direct-mapped superpages from the top... | [🟥](./output/debug/ac4bb0cb7b8d61c73b461af7cf733ec5d9a4d8b8.log) | [🟥](./output/release/ac4bb0cb7b8d61c73b461af7cf733ec5d9a4d8b8.log) |
