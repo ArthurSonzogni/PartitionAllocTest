@@ -29,6 +29,12 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| dsanders11 | 2026-10-20 | Remove unused <utility> include in partition_addres... | [🟥](./output/debug/9c337d48f2539ee272417986ceabf9f51f4fcfb2.log) | [🟥](./output/release/9c337d48f2539ee272417986ceabf9f51f4fcfb2.log) |
+| fdoray | 2026-10-20 | [PA] Remove SchedulerLoopQuarantineBranch::config_f... | [🟥](./output/debug/f974591375e8dd149bab746537d3e13ee2dc00d2.log) | [🟥](./output/release/f974591375e8dd149bab746537d3e13ee2dc00d2.log) |
+| erikchen | 2026-10-20 | [PA] Gate RawPtrBackupRefImpl checks on EXPENSIVE_D... | [🟥](./output/debug/f4d088a34b6c589fee0a174c4b0af0e15ceca822.log) | [🟥](./output/release/f4d088a34b6c589fee0a174c4b0af0e15ceca822.log) |
+| erikchen | 2026-10-20 | [PA] Gate hot malloc/free metadata checks on EXPENS... | [🟥](./output/debug/b4c3272b9dd790e18758f1bd4dc88c39f054a62b.log) | [🟥](./output/release/b4c3272b9dd790e18758f1bd4dc88c39f054a62b.log) |
+| fdoray | 2026-10-20 | [PA] Avoid needless work in SchedulerLoopQuarantine... | [🟥](./output/debug/f9fb8535fbb8481189460ca0be2c51029d9f3527.log) | [🟥](./output/release/f9fb8535fbb8481189460ca0be2c51029d9f3527.log) |
+| kdlee | 2026-10-19 | Reland "Checked Span: Enable tightened checking" | [🟥](./output/debug/d2e96eaf4661f951d7b10fb04de67aa6f0aed9c7.log) | [🟥](./output/release/d2e96eaf4661f951d7b10fb04de67aa6f0aed9c7.log) |
 | ainozaki | 2026-10-19 | Expand Clang's AllocToken coverage | [🟥](./output/debug/62b9bed2d702c6371f16e3b51dac2870a1be55c4.log) | [🟥](./output/release/62b9bed2d702c6371f16e3b51dac2870a1be55c4.log) |
 | kdlee | 2026-10-19 | Checked Span: Gate `InSlotMetadata` dereference | [🟥](./output/debug/5fd05e022fbc2914e64a4ced88d75bc661cf3087.log) | [🟥](./output/release/5fd05e022fbc2914e64a4ced88d75bc661cf3087.log) |
 | erikchen | 2026-10-16 | [PA] Avoid 64-bit hardware division and duplicate c... | [🟥](./output/debug/31ae6a7f08daf9cfeb18d295a3c4e40a8640d97d.log) | [🟥](./output/release/31ae6a7f08daf9cfeb18d295a3c4e40a8640d97d.log) |
