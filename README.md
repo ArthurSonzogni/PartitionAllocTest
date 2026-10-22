@@ -29,6 +29,11 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| erikchen | 2026-10-21 | [PA][base] Gate Lock ownership tracking on EXPENSIV... | [🟥](./output/debug/bc1cfeaa9c14f6c1b5f0b022ac218471836ecc27.log) | [🟥](./output/release/bc1cfeaa9c14f6c1b5f0b022ac218471836ecc27.log) |
+| fdoray | 2026-10-21 | [PA] Mark LeakySingleton::GetSlowPath() with PA_NOI... | [🟥](./output/debug/5804984eed0939087be1f70208b06371750a5046.log) | [🟥](./output/release/5804984eed0939087be1f70208b06371750a5046.log) |
+| fdoray | 2026-10-21 | [PA] Add a purge headroom option to SchedulerLoopQu... | [🟥](./output/debug/91c2746f5d81777a0e633d300cf0f1da53fd9a95.log) | [🟥](./output/release/91c2746f5d81777a0e633d300cf0f1da53fd9a95.log) |
+| erikchen | 2026-10-21 | [PA] Gate use_partition_cookie on enable_expensive_... | [🟥](./output/debug/3f11a9bc6312d7203715e7b9e89b885dfef37acd.log) | [🟥](./output/release/3f11a9bc6312d7203715e7b9e89b885dfef37acd.log) |
+| gman | 2026-10-21 | [PA] Track and emit UMA for max InSlotMetadata ref ... | [🟥](./output/debug/4841d4b0a39b2ccdc192105ce5e1d2d423fadf51.log) | [🟥](./output/release/4841d4b0a39b2ccdc192105ce5e1d2d423fadf51.log) |
 | dsanders11 | 2026-10-20 | Remove unused <utility> include in partition_addres... | [🟥](./output/debug/9c337d48f2539ee272417986ceabf9f51f4fcfb2.log) | [🟥](./output/release/9c337d48f2539ee272417986ceabf9f51f4fcfb2.log) |
 | fdoray | 2026-10-20 | [PA] Remove SchedulerLoopQuarantineBranch::config_f... | [🟥](./output/debug/f974591375e8dd149bab746537d3e13ee2dc00d2.log) | [🟥](./output/release/f974591375e8dd149bab746537d3e13ee2dc00d2.log) |
 | erikchen | 2026-10-20 | [PA] Gate RawPtrBackupRefImpl checks on EXPENSIVE_D... | [🟥](./output/debug/f4d088a34b6c589fee0a174c4b0af0e15ceca822.log) | [🟥](./output/release/f4d088a34b6c589fee0a174c4b0af0e15ceca822.log) |
