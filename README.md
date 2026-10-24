@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| andysjlim | 2026-10-23 | [PA] Accept new Clang reference-binding diagnostic ... | [🟥](./output/debug/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) | [🟥](./output/release/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) |
+| fdoray | 2026-10-23 | [PA] Batch SchedulerLoopQuarantine stats updates | [🟥](./output/debug/0ad36ea8042f50b82eaae3f16a7ba82529e88c4d.log) | [🟥](./output/release/0ad36ea8042f50b82eaae3f16a7ba82529e88c4d.log) |
+| mlippautz | 2026-10-23 | partition_alloc: Enable user space zero segment on ... | [🟥](./output/debug/5f3eb5e59ce364af597d9a1c190a81ae1cdf6ae9.log) | [🟥](./output/release/5f3eb5e59ce364af597d9a1c190a81ae1cdf6ae9.log) |
 | nuskos | 2026-10-22 | Enable BackupRefPtr in PartitionAlloc default dispa... | [🟥](./output/debug/45c5f59e91f3041f23f4a6fec93ccab2900c8b7b.log) | [🟥](./output/release/45c5f59e91f3041f23f4a6fec93ccab2900c8b7b.log) |
 | mlippautz | 2026-10-22 | partition_alloc: Improve user space zero segment re... | [🟥](./output/debug/acc32948e41fdf95b5d1c39bffc4a24084460169.log) | [🟥](./output/release/acc32948e41fdf95b5d1c39bffc4a24084460169.log) |
 | tasak | 2026-10-21 | PA: Add `use_brp` to AllocationNotificationData | [🟥](./output/debug/ba6ccf800e4d1c1902fb41fd2a31e5a5616e1229.log) | [🟥](./output/release/ba6ccf800e4d1c1902fb41fd2a31e5a5616e1229.log) |
