@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| arthurmilchior | 2026-10-23 | [PartitionAlloc] Re-enable DynamicSizeThresholdPurge | [🟥](./output/debug/566ebad54d97777c36615883259a9f9d2c106d37.log) | [🟥](./output/release/566ebad54d97777c36615883259a9f9d2c106d37.log) |
 | andysjlim | 2026-10-23 | [PA] Accept new Clang reference-binding diagnostic ... | [🟥](./output/debug/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) | [🟥](./output/release/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) |
 | fdoray | 2026-10-23 | [PA] Batch SchedulerLoopQuarantine stats updates | [🟥](./output/debug/0ad36ea8042f50b82eaae3f16a7ba82529e88c4d.log) | [🟥](./output/release/0ad36ea8042f50b82eaae3f16a7ba82529e88c4d.log) |
 | mlippautz | 2026-10-23 | partition_alloc: Enable user space zero segment on ... | [🟥](./output/debug/5f3eb5e59ce364af597d9a1c190a81ae1cdf6ae9.log) | [🟥](./output/release/5f3eb5e59ce364af597d9a1c190a81ae1cdf6ae9.log) |
