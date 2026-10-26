@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| msta | 2026-10-25 | Switch to the new check_includes_strict_exceptions ... | [🟥](./output/debug/6a8bc3a6c553f2712a71f56e1957cc321ed4686a.log) | [🟥](./output/release/6a8bc3a6c553f2712a71f56e1957cc321ed4686a.log) |
 | arthurmilchior | 2026-10-23 | [PartitionAlloc] Re-enable DynamicSizeThresholdPurge | [🟥](./output/debug/566ebad54d97777c36615883259a9f9d2c106d37.log) | [🟥](./output/release/566ebad54d97777c36615883259a9f9d2c106d37.log) |
 | andysjlim | 2026-10-23 | [PA] Accept new Clang reference-binding diagnostic ... | [🟥](./output/debug/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) | [🟥](./output/release/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) |
 | fdoray | 2026-10-23 | [PA] Batch SchedulerLoopQuarantine stats updates | [🟥](./output/debug/0ad36ea8042f50b82eaae3f16a7ba82529e88c4d.log) | [🟥](./output/release/0ad36ea8042f50b82eaae3f16a7ba82529e88c4d.log) |
