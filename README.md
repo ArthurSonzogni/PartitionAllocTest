@@ -29,6 +29,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mikt | 2026-10-26 | [PA] Move ThreadCacheStats from ThreadCache to Part... | [🟥](./output/debug/cf8e694bdaa464559f11d2fc44fc0164a7871add.log) | [🟥](./output/release/cf8e694bdaa464559f11d2fc44fc0164a7871add.log) |
+| tasak | 2026-10-26 | AsanRawPtrV2: Implement reentrancy guard | [🟥](./output/debug/72cc1f7ea4f1034dd9ad334c7d245054ca575fc9.log) | [🟥](./output/release/72cc1f7ea4f1034dd9ad334c7d245054ca575fc9.log) |
+| omerkatz | 2026-10-26 | [PA] Support memory protection keys in Configurable... | [🟥](./output/debug/aa167f8248caf3a54aef67752b3a6f25b43ecfae.log) | [🟥](./output/release/aa167f8248caf3a54aef67752b3a6f25b43ecfae.log) |
+| kdlee | 2026-10-25 | Checked Span: Enable tightened checking for iOS | [🟥](./output/debug/313a7b9762f1abf72a53250841b71bf2d1f30ae0.log) | [🟥](./output/release/313a7b9762f1abf72a53250841b71bf2d1f30ae0.log) |
 | msta | 2026-10-25 | Switch to the new check_includes_strict_exceptions ... | [🟥](./output/debug/6a8bc3a6c553f2712a71f56e1957cc321ed4686a.log) | [🟥](./output/release/6a8bc3a6c553f2712a71f56e1957cc321ed4686a.log) |
 | arthurmilchior | 2026-10-23 | [PartitionAlloc] Re-enable DynamicSizeThresholdPurge | [🟥](./output/debug/566ebad54d97777c36615883259a9f9d2c106d37.log) | [🟥](./output/release/566ebad54d97777c36615883259a9f9d2c106d37.log) |
 | andysjlim | 2026-10-23 | [PA] Accept new Clang reference-binding diagnostic ... | [🟥](./output/debug/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) | [🟥](./output/release/9b01c14e4298a6234633ef2646d697c1c2d03b1c.log) |
