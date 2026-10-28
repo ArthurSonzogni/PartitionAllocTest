@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mikt | 2026-10-26 | [PA] Remove ThreadCacheRegistry | [🟥](./output/debug/0fe1ad7d1e9931dbe1714395a77606dc4f2b2c5d.log) | [🟥](./output/release/0fe1ad7d1e9931dbe1714395a77606dc4f2b2c5d.log) |
 | mikt | 2026-10-26 | [PA] Move ThreadCacheStats from ThreadCache to Part... | [🟥](./output/debug/cf8e694bdaa464559f11d2fc44fc0164a7871add.log) | [🟥](./output/release/cf8e694bdaa464559f11d2fc44fc0164a7871add.log) |
 | tasak | 2026-10-26 | AsanRawPtrV2: Implement reentrancy guard | [🟥](./output/debug/72cc1f7ea4f1034dd9ad334c7d245054ca575fc9.log) | [🟥](./output/release/72cc1f7ea4f1034dd9ad334c7d245054ca575fc9.log) |
 | omerkatz | 2026-10-26 | [PA] Support memory protection keys in Configurable... | [🟥](./output/debug/aa167f8248caf3a54aef67752b3a6f25b43ecfae.log) | [🟥](./output/release/aa167f8248caf3a54aef67752b3a6f25b43ecfae.log) |
