@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| ovsienko | 2026-10-29 | Ruff lint: format and fix lint in //base. | [🟥](./output/debug/0c290106ed35868e221b0d00d7805c29d7973b81.log) | [🟥](./output/release/0c290106ed35868e221b0d00d7805c29d7973b81.log) |
+| fdoray | 2026-10-29 | [PA] Add a feature to provision more slots at once | [🟥](./output/debug/2b864a17731ee7ae5a994ea308178da1e444ba29.log) | [🟥](./output/release/2b864a17731ee7ae5a994ea308178da1e444ba29.log) |
 | mikt | 2026-10-26 | [PA] Remove ThreadCacheRegistry | [🟥](./output/debug/0fe1ad7d1e9931dbe1714395a77606dc4f2b2c5d.log) | [🟥](./output/release/0fe1ad7d1e9931dbe1714395a77606dc4f2b2c5d.log) |
 | mikt | 2026-10-26 | [PA] Move ThreadCacheStats from ThreadCache to Part... | [🟥](./output/debug/cf8e694bdaa464559f11d2fc44fc0164a7871add.log) | [🟥](./output/release/cf8e694bdaa464559f11d2fc44fc0164a7871add.log) |
 | tasak | 2026-10-26 | AsanRawPtrV2: Implement reentrancy guard | [🟥](./output/debug/72cc1f7ea4f1034dd9ad334c7d245054ca575fc9.log) | [🟥](./output/release/72cc1f7ea4f1034dd9ad334c7d245054ca575fc9.log) |
