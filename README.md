@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| fdoray | 2026-10-30 | [PA] Skip ThreadCache poisoning for zapped Schedule... | [🟥](./output/debug/ef52fbb504e6ed04a47ef4f541c8b054dc596700.log) | [🟥](./output/release/ef52fbb504e6ed04a47ef4f541c8b054dc596700.log) |
+| mikt | 2026-10-30 | [PA] Avoid ThreadCache overflow churn during bulk S... | [🟥](./output/debug/0273c73594f28b8effd6f9d635618e70c6144c4d.log) | [🟥](./output/release/0273c73594f28b8effd6f9d635618e70c6144c4d.log) |
 | ovsienko | 2026-10-29 | Ruff lint: format and fix lint in //base. | [🟥](./output/debug/0c290106ed35868e221b0d00d7805c29d7973b81.log) | [🟥](./output/release/0c290106ed35868e221b0d00d7805c29d7973b81.log) |
 | fdoray | 2026-10-29 | [PA] Add a feature to provision more slots at once | [🟥](./output/debug/2b864a17731ee7ae5a994ea308178da1e444ba29.log) | [🟥](./output/release/2b864a17731ee7ae5a994ea308178da1e444ba29.log) |
 | mikt | 2026-10-26 | [PA] Remove ThreadCacheRegistry | [🟥](./output/debug/0fe1ad7d1e9931dbe1714395a77606dc4f2b2c5d.log) | [🟥](./output/release/0fe1ad7d1e9931dbe1714395a77606dc4f2b2c5d.log) |
