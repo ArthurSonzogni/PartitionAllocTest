@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| fdoray | 2026-11-02 | [PA] Always zap quarantined slots in SchedulerLoopQ... | [🟥](./output/debug/61304c1ec6c871980996f6064a94994c772d90b4.log) | [🟥](./output/release/61304c1ec6c871980996f6064a94994c772d90b4.log) |
 | fdoray | 2026-10-30 | [PA] Skip ThreadCache poisoning for zapped Schedule... | [🟥](./output/debug/ef52fbb504e6ed04a47ef4f541c8b054dc596700.log) | [🟥](./output/release/ef52fbb504e6ed04a47ef4f541c8b054dc596700.log) |
 | mikt | 2026-10-30 | [PA] Avoid ThreadCache overflow churn during bulk S... | [🟥](./output/debug/0273c73594f28b8effd6f9d635618e70c6144c4d.log) | [🟥](./output/release/0273c73594f28b8effd6f9d635618e70c6144c4d.log) |
 | ovsienko | 2026-10-29 | Ruff lint: format and fix lint in //base. | [🟥](./output/debug/0c290106ed35868e221b0d00d7805c29d7973b81.log) | [🟥](./output/release/0c290106ed35868e221b0d00d7805c29d7973b81.log) |
