@@ -1,0 +1,4 @@
+HEAD is now at 33a662ac [PA] Skip RepeatedAllocReturnNullDirect/0 under UBSan
+ERROR at //src/partition_alloc/BUILD.gn:1318:5: Unable to load "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/testing/gtest/BUILD.gn".
+    "//testing/gtest",
+    ^----------------

@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| yukishiino | 2026-11-03 | PA: Update shim/HowToInterposeOrIntercept.md | [🟥](./output/debug/ea6f892c93114e85cb9359a5b028d3a2e1e2a660.log) | [🟥](./output/release/ea6f892c93114e85cb9359a5b028d3a2e1e2a660.log) |
+| ainozaki | 2026-11-03 | [PA] Introduce Clang AllocToken's TypeFuncHash mode | [🟥](./output/debug/413e00dc7b84a409e004740219d36abcc1a57425.log) | [🟥](./output/release/413e00dc7b84a409e004740219d36abcc1a57425.log) |
+| awillia | 2026-11-03 | [PA] Skip RepeatedAllocReturnNullDirect/0 under UBSan | [🟥](./output/debug/33a662ac6f2d789a9f345c4a6a41ebb4a8968015.log) | [🟥](./output/release/33a662ac6f2d789a9f345c4a6a41ebb4a8968015.log) |
 | fdoray | 2026-11-02 | [PA] Always zap quarantined slots in SchedulerLoopQ... | [🟥](./output/debug/61304c1ec6c871980996f6064a94994c772d90b4.log) | [🟥](./output/release/61304c1ec6c871980996f6064a94994c772d90b4.log) |
 | fdoray | 2026-10-30 | [PA] Skip ThreadCache poisoning for zapped Schedule... | [🟥](./output/debug/ef52fbb504e6ed04a47ef4f541c8b054dc596700.log) | [🟥](./output/release/ef52fbb504e6ed04a47ef4f541c8b054dc596700.log) |
 | mikt | 2026-10-30 | [PA] Avoid ThreadCache overflow churn during bulk S... | [🟥](./output/debug/0273c73594f28b8effd6f9d635618e70c6144c4d.log) | [🟥](./output/release/0273c73594f28b8effd6f9d635618e70c6144c4d.log) |
