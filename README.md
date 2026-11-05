@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| nuskos | 2026-11-04 | Use std::ranges::fill and base::span in PartitionRoot | [🟥](./output/debug/5844e9360ea97a04415ef3913b214469f8bd49a8.log) | [🟥](./output/release/5844e9360ea97a04415ef3913b214469f8bd49a8.log) |
+| mikt | 2026-11-03 | [PA] Add zap-max option to SchedulerLoopQuarantine | [🟥](./output/debug/bd588517ffb7218d4ae07ecdbf30194a97c0db29.log) | [🟥](./output/release/bd588517ffb7218d4ae07ecdbf30194a97c0db29.log) |
 | yukishiino | 2026-11-03 | PA: Update shim/HowToInterposeOrIntercept.md | [🟥](./output/debug/ea6f892c93114e85cb9359a5b028d3a2e1e2a660.log) | [🟥](./output/release/ea6f892c93114e85cb9359a5b028d3a2e1e2a660.log) |
 | ainozaki | 2026-11-03 | [PA] Introduce Clang AllocToken's TypeFuncHash mode | [🟥](./output/debug/413e00dc7b84a409e004740219d36abcc1a57425.log) | [🟥](./output/release/413e00dc7b84a409e004740219d36abcc1a57425.log) |
 | awillia | 2026-11-03 | [PA] Skip RepeatedAllocReturnNullDirect/0 under UBSan | [🟥](./output/debug/33a662ac6f2d789a9f345c4a6a41ebb4a8968015.log) | [🟥](./output/release/33a662ac6f2d789a9f345c4a6a41ebb4a8968015.log) |
