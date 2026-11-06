@@ -1,0 +1,4 @@
+HEAD is now at f613c99e Check reference count upper bound in InSlotMetadata
+ERROR at //src/partition_alloc/BUILD.gn:1325:5: Unable to load "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/testing/gtest/BUILD.gn".
+    "//testing/gtest",
+    ^----------------

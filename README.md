@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| fdoray | 2026-11-05 | [PA] Optimize slot insertion and random swap in Sch... | [🟥](./output/debug/f7d4af97eb1cd0d700ac7b67ab1138d012ffce78.log) | [🟥](./output/release/f7d4af97eb1cd0d700ac7b67ab1138d012ffce78.log) |
+| yuje | 2026-11-05 | Reserve capacity for proc maps regions on Linux | [🟥](./output/debug/77b4e12a8b29bb445f9fad91eb2d6500097d025f.log) | [🟥](./output/release/77b4e12a8b29bb445f9fad91eb2d6500097d025f.log) |
+| keishi | 2026-11-05 | Check reference count upper bound in InSlotMetadata | [🟥](./output/debug/f613c99e934accc431d1c7c3752b38cc1f08f0bd.log) | [🟥](./output/release/f613c99e934accc431d1c7c3752b38cc1f08f0bd.log) |
 | nuskos | 2026-11-04 | Use std::ranges::fill and base::span in PartitionRoot | [🟥](./output/debug/5844e9360ea97a04415ef3913b214469f8bd49a8.log) | [🟥](./output/release/5844e9360ea97a04415ef3913b214469f8bd49a8.log) |
 | mikt | 2026-11-03 | [PA] Add zap-max option to SchedulerLoopQuarantine | [🟥](./output/debug/bd588517ffb7218d4ae07ecdbf30194a97c0db29.log) | [🟥](./output/release/bd588517ffb7218d4ae07ecdbf30194a97c0db29.log) |
 | yukishiino | 2026-11-03 | PA: Update shim/HowToInterposeOrIntercept.md | [🟥](./output/debug/ea6f892c93114e85cb9359a5b028d3a2e1e2a660.log) | [🟥](./output/release/ea6f892c93114e85cb9359a5b028d3a2e1e2a660.log) |
