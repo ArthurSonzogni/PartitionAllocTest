@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mikt | 2026-11-06 | [PA] Add capacity-unlimited option to SchedulerLoop... | [🟥](./output/debug/c1cc22f23b2aed3693933870278893fb88d34563.log) | [🟥](./output/release/c1cc22f23b2aed3693933870278893fb88d34563.log) |
 | nuskos | 2026-11-06 | Use base::span and std::ranges::fill in intended_le... | [🟥](./output/debug/adf067b03805fc1d2c15fd85dae56ff32e1b56dd.log) | [🟥](./output/release/adf067b03805fc1d2c15fd85dae56ff32e1b56dd.log) |
 | fdoray | 2026-11-05 | [PA] Optimize slot insertion and random swap in Sch... | [🟥](./output/debug/f7d4af97eb1cd0d700ac7b67ab1138d012ffce78.log) | [🟥](./output/release/f7d4af97eb1cd0d700ac7b67ab1138d012ffce78.log) |
 | yuje | 2026-11-05 | Reserve capacity for proc maps regions on Linux | [🟥](./output/debug/77b4e12a8b29bb445f9fad91eb2d6500097d025f.log) | [🟥](./output/release/77b4e12a8b29bb445f9fad91eb2d6500097d025f.log) |
