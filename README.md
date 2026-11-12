@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| alphonsea | 2026-11-11 | Revert "Roll libc++ from d816ed0274ed to 64f64c14ae... | [🟥](./output/debug/178ddb451035dd672f148c7c9704bd41c6bdb3cd.log) | [🟥](./output/release/178ddb451035dd672f148c7c9704bd41c6bdb3cd.log) |
+| liza | 2026-11-11 | Roll libc++ from d816ed0274ed to 64f64c14ae2f (284 ... | [🟥](./output/debug/eb7e2adc78c7ab73d94d5da259c380095e4a1059.log) | [🟥](./output/release/eb7e2adc78c7ab73d94d5da259c380095e4a1059.log) |
 | wez | 2026-11-09 | [fuchsia] Remove legacy CFv1/sysmem1 remnants and u... | [🟥](./output/debug/ed4dc364672b67eee2acf2618c72d73cb758ab2e.log) | [🟥](./output/release/ed4dc364672b67eee2acf2618c72d73cb758ab2e.log) |
 | tasak | 2026-11-08 | AsanBrp: support non-BRP PartitionRoot-s | [🟥](./output/debug/cf4e6581d2404fdd11b903ca1e7c3e04e679751b.log) | [🟥](./output/release/cf4e6581d2404fdd11b903ca1e7c3e04e679751b.log) |
 | mikt | 2026-11-06 | [PA] Add capacity-unlimited option to SchedulerLoop... | [🟥](./output/debug/c1cc22f23b2aed3693933870278893fb88d34563.log) | [🟥](./output/release/c1cc22f23b2aed3693933870278893fb88d34563.log) |
