@@ -29,6 +29,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| tsepez | 2026-11-12 | Prepare PA's span.h for unsafe container warnings. | [🟥](./output/debug/961b259d63fd9527e27b4c1aaf87294c3cb62d6d.log) | [🟥](./output/release/961b259d63fd9527e27b4c1aaf87294c3cb62d6d.log) |
+| liza | 2026-11-12 | Reland "Roll libc++ from d816ed0274ed to 64f64c14ae... | [🟥](./output/debug/715412a29b5666c4cb1ca48dd8d4e9eecdc0b30e.log) | [🟥](./output/release/715412a29b5666c4cb1ca48dd8d4e9eecdc0b30e.log) |
+| keishi | 2026-11-12 | MiraclePtr: Enable remove_unprotected_in_release_tr... | [🟥](./output/debug/2d63c19ec7b5583a28d72be5e73bfd3e7ef07ec6.log) | [🟥](./output/release/2d63c19ec7b5583a28d72be5e73bfd3e7ef07ec6.log) |
+| gman | 2026-11-11 | [PA] Launch ParticleAllocTighterAlignedAllocBound | [🟥](./output/debug/b3eaf4c68361021b4a44d4fa5b669a0f29fc017d.log) | [🟥](./output/release/b3eaf4c68361021b4a44d4fa5b669a0f29fc017d.log) |
 | alphonsea | 2026-11-11 | Revert "Roll libc++ from d816ed0274ed to 64f64c14ae... | [🟥](./output/debug/178ddb451035dd672f148c7c9704bd41c6bdb3cd.log) | [🟥](./output/release/178ddb451035dd672f148c7c9704bd41c6bdb3cd.log) |
 | liza | 2026-11-11 | Roll libc++ from d816ed0274ed to 64f64c14ae2f (284 ... | [🟥](./output/debug/eb7e2adc78c7ab73d94d5da259c380095e4a1059.log) | [🟥](./output/release/eb7e2adc78c7ab73d94d5da259c380095e4a1059.log) |
 | wez | 2026-11-09 | [fuchsia] Remove legacy CFv1/sysmem1 remnants and u... | [🟥](./output/debug/ed4dc364672b67eee2acf2618c72d73cb758ab2e.log) | [🟥](./output/release/ed4dc364672b67eee2acf2618c72d73cb758ab2e.log) |
