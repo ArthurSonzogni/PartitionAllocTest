@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| arthurmilchior | 2026-11-15 | [PartitionAlloc] Re-enable `PartitionAllocPreforkTe... | [🟥](./output/debug/bffcd73dfbc5251186296284bac00efd0d029736.log) | [🟥](./output/release/bffcd73dfbc5251186296284bac00efd0d029736.log) |
 | wez | 2026-11-13 | [fuchsia][pa] Support child VMAR for ConfigurablePo... | [🟥](./output/debug/d36f25c2bd0a2ba6a1180777baca2910974edd3c.log) | [🟥](./output/release/d36f25c2bd0a2ba6a1180777baca2910974edd3c.log) |
 | tsepez | 2026-11-12 | Prepare PA's span.h for unsafe container warnings. | [🟥](./output/debug/961b259d63fd9527e27b4c1aaf87294c3cb62d6d.log) | [🟥](./output/release/961b259d63fd9527e27b4c1aaf87294c3cb62d6d.log) |
 | liza | 2026-11-12 | Reland "Roll libc++ from d816ed0274ed to 64f64c14ae... | [🟥](./output/debug/715412a29b5666c4cb1ca48dd8d4e9eecdc0b30e.log) | [🟥](./output/release/715412a29b5666c4cb1ca48dd8d4e9eecdc0b30e.log) |
