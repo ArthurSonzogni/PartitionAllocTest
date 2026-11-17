@@ -29,6 +29,9 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| mikt | 2026-11-15 | [PA] Make SchedulerLoopQuarantine's dequarantine lo... | [🟥](./output/debug/01906ada20b59e7e9a690a75ae7830f4080b3a78.log) | [🟥](./output/release/01906ada20b59e7e9a690a75ae7830f4080b3a78.log) |
+| arthurmilchior | 2026-11-15 | [PartitionAlloc] Fix `hardening_unittest.cc` withou... | [🟥](./output/debug/f731f9a8afa63e17f4f7a3acd6f75eed92b5e2c8.log) | [🟥](./output/release/f731f9a8afa63e17f4f7a3acd6f75eed92b5e2c8.log) |
+| mikt | 2026-11-15 | [PA] Replace allow_clear_bucket with ThreadCache::C... | [🟥](./output/debug/bf7834d04c4852f21c212b55ee697a5920bbb0e7.log) | [🟥](./output/release/bf7834d04c4852f21c212b55ee697a5920bbb0e7.log) |
 | arthurmilchior | 2026-11-15 | [PartitionAlloc] Re-enable `PartitionAllocPreforkTe... | [🟥](./output/debug/bffcd73dfbc5251186296284bac00efd0d029736.log) | [🟥](./output/release/bffcd73dfbc5251186296284bac00efd0d029736.log) |
 | wez | 2026-11-13 | [fuchsia][pa] Support child VMAR for ConfigurablePo... | [🟥](./output/debug/d36f25c2bd0a2ba6a1180777baca2910974edd3c.log) | [🟥](./output/release/d36f25c2bd0a2ba6a1180777baca2910974edd3c.log) |
 | tsepez | 2026-11-12 | Prepare PA's span.h for unsafe container warnings. | [🟥](./output/debug/961b259d63fd9527e27b4c1aaf87294c3cb62d6d.log) | [🟥](./output/release/961b259d63fd9527e27b4c1aaf87294c3cb62d6d.log) |
