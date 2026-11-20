@@ -29,6 +29,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| keishi | 2026-11-19 | Use SlotStart::ToObject() in PartitionRoot::Zap() | [🟥](./output/debug/8037d9236b6993a9abf1dc4e7632c2a3b85f0df0.log) | [🟥](./output/release/8037d9236b6993a9abf1dc4e7632c2a3b85f0df0.log) |
+| keishi | 2026-11-19 | Untag pointer in InstanceTracer::GetStackTracesForA... | [🟥](./output/debug/fb62b05b82b108b29fdf32d5977b0b08cec5dfe0.log) | [🟥](./output/release/fb62b05b82b108b29fdf32d5977b0b08cec5dfe0.log) |
+| keishi | 2026-11-19 | Don't call TagAddr() on guard page in GetRootFromAd... | [🟥](./output/debug/e416d3020b191466c10d3b8b8309725823794021.log) | [🟥](./output/release/e416d3020b191466c10d3b8b8309725823794021.log) |
+| kimjae | 2026-11-18 | MiraclePtr: Mark wrapped_ptr [[maybe_unused]] in Ra... | [🟥](./output/debug/c7e65e0b8f44f763280d413fa0e963a6fb2b7aec.log) | [🟥](./output/release/c7e65e0b8f44f763280d413fa0e963a6fb2b7aec.log) |
 | gman | 2026-11-17 | [PA] Make Default MiracleObject match field trial | [🟥](./output/debug/637784d022e9e7c7107540d53b352ddc494dc347.log) | [🟥](./output/release/637784d022e9e7c7107540d53b352ddc494dc347.log) |
 | mikt | 2026-11-15 | [PA] Make SchedulerLoopQuarantine's dequarantine lo... | [🟥](./output/debug/01906ada20b59e7e9a690a75ae7830f4080b3a78.log) | [🟥](./output/release/01906ada20b59e7e9a690a75ae7830f4080b3a78.log) |
 | arthurmilchior | 2026-11-15 | [PartitionAlloc] Fix `hardening_unittest.cc` withou... | [🟥](./output/debug/f731f9a8afa63e17f4f7a3acd6f75eed92b5e2c8.log) | [🟥](./output/release/f731f9a8afa63e17f4f7a3acd6f75eed92b5e2c8.log) |
