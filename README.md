@@ -29,6 +29,7 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| keishi | 2026-11-24 | Don't reclaim a slot after a suppressed double-free... | [🟥](./output/debug/cd7802bab125c3b5bdfbf2e805abc1110edd2ec9.log) | [🟥](./output/release/cd7802bab125c3b5bdfbf2e805abc1110edd2ec9.log) |
 | keishi | 2026-11-19 | Use SlotStart::ToObject() in PartitionRoot::Zap() | [🟥](./output/debug/8037d9236b6993a9abf1dc4e7632c2a3b85f0df0.log) | [🟥](./output/release/8037d9236b6993a9abf1dc4e7632c2a3b85f0df0.log) |
 | keishi | 2026-11-19 | Untag pointer in InstanceTracer::GetStackTracesForA... | [🟥](./output/debug/fb62b05b82b108b29fdf32d5977b0b08cec5dfe0.log) | [🟥](./output/release/fb62b05b82b108b29fdf32d5977b0b08cec5dfe0.log) |
 | keishi | 2026-11-19 | Don't call TagAddr() on guard page in GetRootFromAd... | [🟥](./output/debug/e416d3020b191466c10d3b8b8309725823794021.log) | [🟥](./output/release/e416d3020b191466c10d3b8b8309725823794021.log) |
