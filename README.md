@@ -29,6 +29,10 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| keishi | 2026-11-26 | Enforce PartitionRootLock and atomic raw_size on Sl... | [🟥](./output/debug/d74c139ba315c5982905f3916d00c89e01eaec11.log) | [🟥](./output/release/d74c139ba315c5982905f3916d00c89e01eaec11.log) |
+| keishi | 2026-11-26 | Synchronize single-slot normal-bucket raw_size upda... | [🟥](./output/debug/1e71e88fa8786a8f8b647e43e8c49254ccb2db91.log) | [🟥](./output/release/1e71e88fa8786a8f8b647e43e8c49254ccb2db91.log) |
+| keishi | 2026-11-26 | Compute address hash before delete in AllocatorShim... | [🟥](./output/debug/a857509d029e1970f660151e54c972a543601e24.log) | [🟥](./output/release/a857509d029e1970f660151e54c972a543601e24.log) |
+| serein207533 | 2026-11-26 | [PA] Work around Win64 Intel D3D11/GMM VirtualFree ... | [🟥](./output/debug/5d7705e01bf850a2567aa9d7286d87bc4b45525f.log) | [🟥](./output/release/5d7705e01bf850a2567aa9d7286d87bc4b45525f.log) |
 | arthursonzogni | 2026-11-25 | Remove temporary raw_ptr container traits | [🟥](./output/debug/995cd4d846d874d387d2fa916f8b4a4834712e86.log) | [🟥](./output/release/995cd4d846d874d387d2fa916f8b4a4834712e86.log) |
 | keishi | 2026-11-24 | Don't reclaim a slot after a suppressed double-free... | [🟥](./output/debug/cd7802bab125c3b5bdfbf2e805abc1110edd2ec9.log) | [🟥](./output/release/cd7802bab125c3b5bdfbf2e805abc1110edd2ec9.log) |
 | keishi | 2026-11-19 | Use SlotStart::ToObject() in PartitionRoot::Zap() | [🟥](./output/debug/8037d9236b6993a9abf1dc4e7632c2a3b85f0df0.log) | [🟥](./output/release/8037d9236b6993a9abf1dc4e7632c2a3b85f0df0.log) |

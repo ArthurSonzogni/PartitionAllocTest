@@ -1,0 +1,4 @@
+HEAD is now at d74c139b Enforce PartitionRootLock and atomic raw_size on SlotSpanMetadata
+ERROR at //src/partition_alloc/BUILD.gn:1325:5: Unable to load "/home/runner/work/PartitionAllocTest/PartitionAllocTest/partition_alloc/testing/gtest/BUILD.gn".
+    "//testing/gtest",
+    ^----------------
