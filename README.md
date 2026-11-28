@@ -29,6 +29,8 @@ This project is fully generated using [`gemini-cli`](https://github.com/google-g
 
 | Email | Date | Title | Debug | Release |
 |---|---|---|---|---|
+| omerkatz | 2026-11-27 | [partition_alloc] Enable user space zero segment on... | [🟥](./output/debug/f8286b00b488509d0805dad98e8d0cacf83af009.log) | [🟥](./output/release/f8286b00b488509d0805dad98e8d0cacf83af009.log) |
+| fdoray | 2026-11-27 | [PA] Prefetch slots ahead of their release in SLQ f... | [🟥](./output/debug/2d3fbf09e395f8706451e05d2493919bbafc69e9.log) | [🟥](./output/release/2d3fbf09e395f8706451e05d2493919bbafc69e9.log) |
 | keishi | 2026-11-26 | Enforce PartitionRootLock and atomic raw_size on Sl... | [🟥](./output/debug/d74c139ba315c5982905f3916d00c89e01eaec11.log) | [🟥](./output/release/d74c139ba315c5982905f3916d00c89e01eaec11.log) |
 | keishi | 2026-11-26 | Synchronize single-slot normal-bucket raw_size upda... | [🟥](./output/debug/1e71e88fa8786a8f8b647e43e8c49254ccb2db91.log) | [🟥](./output/release/1e71e88fa8786a8f8b647e43e8c49254ccb2db91.log) |
 | keishi | 2026-11-26 | Compute address hash before delete in AllocatorShim... | [🟥](./output/debug/a857509d029e1970f660151e54c972a543601e24.log) | [🟥](./output/release/a857509d029e1970f660151e54c972a543601e24.log) |
